@@ -1,0 +1,13 @@
+services:
+  state-transition-cron:
+    build: .
+    environment:
+      - STARKNET_RPC=${STARKNET_RPC}
+      - STARKNET_PRIVATE_KEY=${STARKNET_PRIVATE_KEY}
+      - STARKNET_ACCOUNT_ADDRESS=${STARKNET_ACCOUNT_ADDRESS}
+      - VAULT_ADDRESS=${VAULT_ADDRESS}
+      - FOSSIL_API_KEY=${FOSSIL_API_KEY}
+      - FOSSIL_API_URL=${FOSSIL_API_URL}
+    volumes:
+      - ./logs:/var/log/cron
+    restart: always 
