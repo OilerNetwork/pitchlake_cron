@@ -1,6 +1,7 @@
 import 'dotenv/config';
-import { StateTransitionService } from "./transition";
-import { setupLogger } from "./logger";
+import { StateTransitionService } from "../transition";
+import { setupLogger } from "../logger";
+import { GasDataService } from './gasData';
 
 const logger = setupLogger();
 
@@ -20,17 +21,12 @@ if (!STARKNET_RPC || !STARKNET_PRIVATE_KEY || !STARKNET_ACCOUNT_ADDRESS || !VAUL
     process.exit(1);
 }
 
-const service = new StateTransitionService(
-    STARKNET_RPC,
-    STARKNET_PRIVATE_KEY,
-    STARKNET_ACCOUNT_ADDRESS,
-    VAULT_ADDRESS,
-    FOSSIL_API_KEY,
-    FOSSIL_API_URL
+const service = new GasDataService(
+    
 );
 
 // Run once and exit
-service.checkAndTransition()
+service.updateTWAP()
     .then(() => {
         logger.info("State transition check completed");
         process.exit(0);
@@ -38,4 +34,4 @@ service.checkAndTransition()
     .catch(error => {
         logger.error("Error in state transition check:", error);
         process.exit(1);
-    }); 
+    });

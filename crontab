@@ -1,2 +1,5 @@
 # Run every minute
 * * * * * node /app/dist/index.js >> /var/log/cron/state-transition.log 2>&1
+
+# Run every 5 minutes
+* * * * * node /app/dist/twap/index.js >> /var/log/cron/twap.log 2>&1

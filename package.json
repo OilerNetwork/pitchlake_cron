@@ -11,11 +11,14 @@
   "dependencies": {
     "axios": "^1.6.2",
     "dotenv": "^16.3.1",
+    "ethers": "^6.13.5",
+    "pg": "^8.13.1",
     "starknet": "^6.11.0",
     "winston": "^3.11.0"
   },
   "devDependencies": {
     "@types/node": "^20.17.17",
+    "@types/pg": "^8.11.11",
     "@types/winston": "^2.4.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
