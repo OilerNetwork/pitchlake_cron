@@ -517,22 +517,14 @@ export class GasDataService {
     console.log("REACHED HERE")
     if (process.env.USE_DEMO_DATA !== 'true') {
       this.fossilClient = new Client({
-        host: process.env.FOSSIL_DB_HOST,
-        port: Number(process.env.FOSSIL_DB_PORT),
-        database: process.env.FOSSIL_DB_NAME,
-        user: process.env.FOSSIL_DB_USER,
-        password: process.env.FOSSIL_DB_PASSWORD,
+        connectionString: process.env.FOSSIL_DB_CONNECTION_STRING,
         ssl: {
           rejectUnauthorized: false
         }
       });
       await this.fossilClient.connect();
       this.pitchlakeClient = new Client({
-        host: process.env.PITCHLAKE_DB_HOST,
-        port: Number(process.env.PITCHLAKE_DB_PORT),
-        database: process.env.PITCHLAKE_DB_NAME,
-        user: process.env.PITCHLAKE_DB_USER,
-        password: process.env.PITCHLAKE_DB_PASSWORD,
+        connectionString: process.env.PITCHLAKE_DB_CONNECTION_STRING,
         ssl: false
       });
       await this.pitchlakeClient.connect();
