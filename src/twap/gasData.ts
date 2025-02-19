@@ -1,4 +1,4 @@
-import { Client } from "pg";
+import { Client,Pool } from "pg";
 import { demoBlocks } from "./demoData";
 import {
   FormattedBlockData,
@@ -22,16 +22,7 @@ export class GasDataService {
   private pitchlakeClient?: Client;
 
   constructor() {
-    if (process.env.USE_DEMO_DATA !== 'true') {
-    this.fossilClient = new Client({
-      connectionString: process.env.FOSSIL_DATABASE_URL,
-    });
-    this.fossilClient.connect();
-    this.pitchlakeClient = new Client({
-      connectionString: process.env.PITCHLAKE_DATABASE_URL,
-    });
-    this.pitchlakeClient.connect();
-  }
+  
   }
 
   private readonly WINDOW_CONFIGS = [
@@ -307,11 +298,13 @@ export class GasDataService {
 
     await Promise.all(
       blocks.map((block) =>
+       { console.log("QUERY",block);
         this.pitchlakeClient?.query(query, [
           block.blockNumber,
           block.timestamp,
           block.basefee,
         ])
+      }
       )
     );
   }
@@ -491,43 +484,63 @@ export class GasDataService {
   }
 
   private async getNewBlocks(
-    lastProcessedTimestamp: number
+    lastProcessedBlock: number
   ): Promise<FormattedBlockData[]> {
+    console.log("TRIED")
     if (process.env.USE_DEMO_DATA === 'true') {
       // Filter demo blocks based on lastProcessedTimestamp
       return demoBlocks
-        .filter(block => block.timestamp > lastProcessedTimestamp)
+        .filter(block => block.blockNumber > lastProcessedBlock)
         .sort((a, b) => a.timestamp - b.timestamp);
     }
 
     const query = `
-      SELECT block_number, timestamp, base_fee_per_gas
+      SELECT number, timestamp, base_fee_per_gas
       FROM blockheaders 
-      WHERE timestamp > (
-        SELECT COALESCE(
-          (SELECT MAX(timestamp) 
-           FROM blocks 
-           WHERE is_confirmed = true),
-          $1
-        )
-      )
-      ORDER BY timestamp ASC
+      WHERE number > $1
+      AND base_fee_per_gas IS NOT NULL
+      ORDER BY number ASC
       LIMIT 300
     `;
 
-    const result = await this.fossilClient?.query(query, [lastProcessedTimestamp]);
+    const result = await this.fossilClient?.query(query, [lastProcessedBlock]);
     
+
+    console.log("RESULT",result)
     if (!result && process.env.USE_DEMO_DATA !== 'true') {
       throw new Error('Failed to fetch new blocks');
     }
 
     return (result?.rows || []).map((row) => ({
-      blockNumber: row.block_number,
+      blockNumber: row.number,
       timestamp: Number(row.timestamp),
-      basefee: row.base_fee_per_gas ? Number(row.base_fee_per_gas) : undefined,
+      basefee: row.base_fee_per_gas ? Number(Number(row.base_fee_per_gas).toPrecision(9)) : undefined,
     }));
   }
   public async updateTWAPs(): Promise<void> {
+    console.log("REACHED HERE")
+    if (process.env.USE_DEMO_DATA !== 'true') {
+      this.fossilClient = new Client({
+        host: process.env.FOSSIL_DB_HOST,
+        port: Number(process.env.FOSSIL_DB_PORT),
+        database: process.env.FOSSIL_DB_NAME,
+        user: process.env.FOSSIL_DB_USER,
+        password: process.env.FOSSIL_DB_PASSWORD,
+        ssl: {
+          rejectUnauthorized: false
+        }
+      });
+      await this.fossilClient.connect();
+      this.pitchlakeClient = new Client({
+        host: process.env.PITCHLAKE_DB_HOST,
+        port: Number(process.env.PITCHLAKE_DB_PORT),
+        database: process.env.PITCHLAKE_DB_NAME,
+        user: process.env.PITCHLAKE_DB_USER,
+        password: process.env.PITCHLAKE_DB_PASSWORD,
+        ssl: false
+      });
+      await this.pitchlakeClient.connect();
+    }
     try {
       if (process.env.USE_DEMO_DATA === 'true') {
         console.log('Running in demo mode with sample data');
@@ -538,13 +551,14 @@ export class GasDataService {
         process.env.USE_DEMO_DATA === "true"
           ? undefined
           : await this.getTWAPState("twelve_min");
-      const lastProcessedTimestamp = lastState?.lastBlockTimestamp || 0;
+      const lastProcessedBlock = lastState?.lastBlockNumber || 0;
 
       // Get new blocks since last processed
+      console.log("REACHED HERE 2")
       const newBlocks =
         process.env.USE_DEMO_DATA === "true"
           ? demoBlocks
-          : await this.getNewBlocks(lastProcessedTimestamp);
+          : await this.getNewBlocks(lastProcessedBlock);
 
       if (newBlocks.length === 0) {
         console.log("No new blocks to process");

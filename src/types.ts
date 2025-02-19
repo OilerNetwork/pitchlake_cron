@@ -5,7 +5,7 @@ export interface RawBlockData {
   }
   
   export interface FormattedBlockData {
-    blockNumber: number | undefined;
+    blockNumber: number;
     timestamp: number;
     basefee: number | undefined;
   

@@ -9,19 +9,18 @@
     "dev": "ts-node src/index.ts"
   },
   "dependencies": {
-    "axios": "^1.6.2",
-    "dotenv": "^16.3.1",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
     "ethers": "^6.13.5",
-    "pg": "^8.13.1",
+    "pg": "^8.13.3",
     "pg-protocol": "^1.7.1",
-    "starknet": "^6.11.0",
-    "winston": "^3.11.0"
+    "starknet": "^6.23.1",
+    "winston": "^3.17.0"
   },
   "devDependencies": {
-    "@types/node": "^20.17.17",
+    "@types/node": "^22.13.4",
     "@types/pg": "^8.11.11",
-    "@types/winston": "^2.4.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.7.3"
   }
 }
