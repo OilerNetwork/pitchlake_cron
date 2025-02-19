@@ -1,5 +1,4 @@
 import 'dotenv/config';
-import { setupLogger } from "../logger";
 import { GasDataService } from './gasData';
 
 
