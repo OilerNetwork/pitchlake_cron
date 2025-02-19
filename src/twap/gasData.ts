@@ -55,6 +55,7 @@ export class GasDataService {
       SELECT weighted_sum, total_seconds, twap_value, last_block_number, last_block_timestamp
       FROM twap_state
       WHERE window_type = $1
+      AND is_confirmed = true
       FOR UPDATE
     `;
 
@@ -87,10 +88,10 @@ export class GasDataService {
     const query = `
       INSERT INTO twap_state (
         window_type, weighted_sum, total_seconds, twap_value, 
-        last_block_number, last_block_timestamp
+        last_block_number, last_block_timestamp, is_confirmed
       ) 
-      VALUES ($1, $2, $3, $4, $5, $6)
-      ON CONFLICT (window_type) 
+      VALUES ($1, $2, $3, $4, $5, $6, true)
+      ON CONFLICT ON CONSTRAINT twap_state_window_type_is_confirmed_key
       DO UPDATE SET 
         weighted_sum = $2,
         total_seconds = $3,
@@ -289,22 +290,17 @@ export class GasDataService {
       VALUES ($1, $2, $3, false)
       ON CONFLICT (block_number) 
       DO UPDATE SET 
-        basefee = EXCLUDED.basefee,
-        is_confirmed = true,
-        twelve_min_twap = NULL,
-        three_hour_twap = NULL,
-        thirty_day_twap = NULL
+        basefee = $3,
+        is_confirmed = true
     `;
 
     await Promise.all(
       blocks.map((block) =>
-       { console.log("QUERY",block);
         this.pitchlakeClient?.query(query, [
           block.blockNumber,
           block.timestamp,
           block.basefee,
         ])
-      }
       )
     );
   }
@@ -514,7 +510,7 @@ export class GasDataService {
     return (result?.rows || []).map((row) => ({
       blockNumber: row.number,
       timestamp: Number(row.timestamp),
-      basefee: row.base_fee_per_gas ? Number(Number(row.base_fee_per_gas).toPrecision(9)) : undefined,
+      basefee: row.base_fee_per_gas ? Number(row.base_fee_per_gas) : undefined,
     }));
   }
   public async updateTWAPs(): Promise<void> {
