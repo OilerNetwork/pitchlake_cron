@@ -1,0 +1,3418 @@
+{
+  "metadata": {
+    "totalBlocks": 339,
+    "timeRange": {
+      "start": 1735707423,
+      "end": 1735711491
+    },
+    "finalState": {
+      "twelve_min": {
+        "twapValue": 5.609296169491524,
+        "lastBlockNumber": 21527725,
+        "lastBlockTimestamp": 1735711479
+      },
+      "three_hour": {
+        "twapValue": 7.099057606508874,
+        "lastBlockNumber": 21527725,
+        "lastBlockTimestamp": 1735711479
+      },
+      "thirty_day": {
+        "twapValue": 7.099057606508874,
+        "lastBlockNumber": 21527725,
+        "lastBlockTimestamp": 1735711479
+      }
+    }
+  },
+  "calculations": [
+    {
+      "blockNumber": 21527387,
+      "timestamp": 1735707423,
+      "basefee": 11.189797,
+      "states": {
+        "twelve_min": 11.189797,
+        "three_hour": 11.189797,
+        "thirty_day": 11.189797
+      }
+    },
+    {
+      "blockNumber": 21527388,
+      "timestamp": 1735707435,
+      "basefee": 9.791072,
+      "states": {
+        "twelve_min": 11.189797,
+        "three_hour": 11.189797,
+        "thirty_day": 11.189797
+      }
+    },
+    {
+      "blockNumber": 21527389,
+      "timestamp": 1735707447,
+      "basefee": 11.014956,
+      "states": {
+        "twelve_min": 10.490434500000001,
+        "three_hour": 10.490434500000001,
+        "thirty_day": 10.490434500000001
+      }
+    },
+    {
+      "blockNumber": 21527390,
+      "timestamp": 1735707459,
+      "basefee": 9.876467,
+      "states": {
+        "twelve_min": 10.665275000000001,
+        "three_hour": 10.665275000000001,
+        "thirty_day": 10.665275000000001
+      }
+    },
+    {
+      "blockNumber": 21527391,
+      "timestamp": 1735707471,
+      "basefee": 8.717426,
+      "states": {
+        "twelve_min": 10.468073,
+        "three_hour": 10.468073,
+        "thirty_day": 10.468073
+      }
+    },
+    {
+      "blockNumber": 21527392,
+      "timestamp": 1735707483,
+      "basefee": 8.695041,
+      "states": {
+        "twelve_min": 10.1179436,
+        "three_hour": 10.1179436,
+        "thirty_day": 10.1179436
+      }
+    },
+    {
+      "blockNumber": 21527393,
+      "timestamp": 1735707495,
+      "basefee": 9.781921,
+      "states": {
+        "twelve_min": 9.880793166666669,
+        "three_hour": 9.880793166666669,
+        "thirty_day": 9.880793166666669
+      }
+    },
+    {
+      "blockNumber": 21527394,
+      "timestamp": 1735707507,
+      "basefee": 10.518727,
+      "states": {
+        "twelve_min": 9.866668571428573,
+        "three_hour": 9.866668571428573,
+        "thirty_day": 9.866668571428573
+      }
+    },
+    {
+      "blockNumber": 21527395,
+      "timestamp": 1735707519,
+      "basefee": 11.822176,
+      "states": {
+        "twelve_min": 9.948175875000002,
+        "three_hour": 9.948175875000002,
+        "thirty_day": 9.948175875000002
+      }
+    },
+    {
+      "blockNumber": 21527396,
+      "timestamp": 1735707531,
+      "basefee": 10.344404,
+      "states": {
+        "twelve_min": 10.156398111111113,
+        "three_hour": 10.156398111111113,
+        "thirty_day": 10.156398111111113
+      }
+    },
+    {
+      "blockNumber": 21527397,
+      "timestamp": 1735707543,
+      "basefee": 9.136734,
+      "states": {
+        "twelve_min": 10.175198700000001,
+        "three_hour": 10.175198700000001,
+        "thirty_day": 10.175198700000001
+      }
+    },
+    {
+      "blockNumber": 21527398,
+      "timestamp": 1735707555,
+      "basefee": 9.427984,
+      "states": {
+        "twelve_min": 10.08079281818182,
+        "three_hour": 10.08079281818182,
+        "thirty_day": 10.08079281818182
+      }
+    },
+    {
+      "blockNumber": 21527399,
+      "timestamp": 1735707567,
+      "basefee": 10.606482,
+      "states": {
+        "twelve_min": 10.026392083333334,
+        "three_hour": 10.026392083333334,
+        "thirty_day": 10.026392083333334
+      }
+    },
+    {
+      "blockNumber": 21527400,
+      "timestamp": 1735707579,
+      "basefee": 9.280672,
+      "states": {
+        "twelve_min": 10.071014384615387,
+        "three_hour": 10.071014384615387,
+        "thirty_day": 10.071014384615387
+      }
+    },
+    {
+      "blockNumber": 21527401,
+      "timestamp": 1735707591,
+      "basefee": 8.120588,
+      "states": {
+        "twelve_min": 10.014561357142858,
+        "three_hour": 10.014561357142858,
+        "thirty_day": 10.014561357142858
+      }
+    },
+    {
+      "blockNumber": 21527402,
+      "timestamp": 1735707603,
+      "basefee": 9.135661,
+      "states": {
+        "twelve_min": 9.888296466666668,
+        "three_hour": 9.888296466666668,
+        "thirty_day": 9.888296466666668
+      }
+    },
+    {
+      "blockNumber": 21527403,
+      "timestamp": 1735707615,
+      "basefee": 10.277619,
+      "states": {
+        "twelve_min": 9.841256750000001,
+        "three_hour": 9.841256750000001,
+        "thirty_day": 9.841256750000001
+      }
+    },
+    {
+      "blockNumber": 21527404,
+      "timestamp": 1735707627,
+      "basefee": 11.562321,
+      "states": {
+        "twelve_min": 9.86692511764706,
+        "three_hour": 9.86692511764706,
+        "thirty_day": 9.86692511764706
+      }
+    },
+    {
+      "blockNumber": 21527405,
+      "timestamp": 1735707639,
+      "basefee": 10.117031,
+      "states": {
+        "twelve_min": 9.96111377777778,
+        "three_hour": 9.96111377777778,
+        "thirty_day": 9.96111377777778
+      }
+    },
+    {
+      "blockNumber": 21527406,
+      "timestamp": 1735707651,
+      "basefee": 8.944603,
+      "states": {
+        "twelve_min": 9.969319947368422,
+        "three_hour": 9.969319947368422,
+        "thirty_day": 9.969319947368422
+      }
+    },
+    {
+      "blockNumber": 21527407,
+      "timestamp": 1735707663,
+      "basefee": 9.524123,
+      "states": {
+        "twelve_min": 9.9180841,
+        "three_hour": 9.9180841,
+        "thirty_day": 9.9180841
+      }
+    },
+    {
+      "blockNumber": 21527408,
+      "timestamp": 1735707675,
+      "basefee": 10.714638,
+      "states": {
+        "twelve_min": 9.899324047619048,
+        "three_hour": 9.899324047619048,
+        "thirty_day": 9.899324047619048
+      }
+    },
+    {
+      "blockNumber": 21527409,
+      "timestamp": 1735707687,
+      "basefee": 10.441089,
+      "states": {
+        "twelve_min": 9.936383772727273,
+        "three_hour": 9.936383772727273,
+        "thirty_day": 9.936383772727273
+      }
+    },
+    {
+      "blockNumber": 21527410,
+      "timestamp": 1735707699,
+      "basefee": 10.355097,
+      "states": {
+        "twelve_min": 9.95832747826087,
+        "three_hour": 9.95832747826087,
+        "thirty_day": 9.95832747826087
+      }
+    },
+    {
+      "blockNumber": 21527411,
+      "timestamp": 1735707711,
+      "basefee": 9.241994,
+      "states": {
+        "twelve_min": 9.974859541666667,
+        "three_hour": 9.974859541666667,
+        "thirty_day": 9.974859541666667
+      }
+    },
+    {
+      "blockNumber": 21527412,
+      "timestamp": 1735707723,
+      "basefee": 9.097677,
+      "states": {
+        "twelve_min": 9.945544920000001,
+        "three_hour": 9.945544920000001,
+        "thirty_day": 9.945544920000001
+      }
+    },
+    {
+      "blockNumber": 21527413,
+      "timestamp": 1735707735,
+      "basefee": 8.811216,
+      "states": {
+        "twelve_min": 9.912934615384616,
+        "three_hour": 9.912934615384616,
+        "thirty_day": 9.912934615384616
+      }
+    },
+    {
+      "blockNumber": 21527414,
+      "timestamp": 1735707747,
+      "basefee": 9.912618,
+      "states": {
+        "twelve_min": 9.872130222222223,
+        "three_hour": 9.872130222222223,
+        "thirty_day": 9.872130222222223
+      }
+    },
+    {
+      "blockNumber": 21527415,
+      "timestamp": 1735707759,
+      "basefee": 9.474485,
+      "states": {
+        "twelve_min": 9.873576214285714,
+        "three_hour": 9.873576214285714,
+        "thirty_day": 9.873576214285714
+      }
+    },
+    {
+      "blockNumber": 21527416,
+      "timestamp": 1735707771,
+      "basefee": 8.886016,
+      "states": {
+        "twelve_min": 9.859814448275863,
+        "three_hour": 9.859814448275863,
+        "thirty_day": 9.859814448275863
+      }
+    },
+    {
+      "blockNumber": 21527417,
+      "timestamp": 1735707783,
+      "basefee": 8.645208,
+      "states": {
+        "twelve_min": 9.8273545,
+        "three_hour": 9.8273545,
+        "thirty_day": 9.8273545
+      }
+    },
+    {
+      "blockNumber": 21527418,
+      "timestamp": 1735707795,
+      "basefee": 9.725859,
+      "states": {
+        "twelve_min": 9.789220741935484,
+        "three_hour": 9.789220741935484,
+        "thirty_day": 9.789220741935484
+      }
+    },
+    {
+      "blockNumber": 21527419,
+      "timestamp": 1735707807,
+      "basefee": 10.941591,
+      "states": {
+        "twelve_min": 9.7872406875,
+        "three_hour": 9.7872406875,
+        "thirty_day": 9.7872406875
+      }
+    },
+    {
+      "blockNumber": 21527420,
+      "timestamp": 1735707819,
+      "basefee": 10.090236,
+      "states": {
+        "twelve_min": 9.822221,
+        "three_hour": 9.822221,
+        "thirty_day": 9.822221
+      }
+    },
+    {
+      "blockNumber": 21527421,
+      "timestamp": 1735707831,
+      "basefee": 9.929176,
+      "states": {
+        "twelve_min": 9.830103794117647,
+        "three_hour": 9.830103794117647,
+        "thirty_day": 9.830103794117647
+      }
+    },
+    {
+      "blockNumber": 21527422,
+      "timestamp": 1735707843,
+      "basefee": 8.775194,
+      "states": {
+        "twelve_min": 9.83293442857143,
+        "three_hour": 9.83293442857143,
+        "thirty_day": 9.83293442857143
+      }
+    },
+    {
+      "blockNumber": 21527423,
+      "timestamp": 1735707855,
+      "basefee": 9.684191,
+      "states": {
+        "twelve_min": 9.803552750000001,
+        "three_hour": 9.803552750000001,
+        "thirty_day": 9.803552750000001
+      }
+    },
+    {
+      "blockNumber": 21527424,
+      "timestamp": 1735707867,
+      "basefee": 9.809932,
+      "states": {
+        "twelve_min": 9.800326756756757,
+        "three_hour": 9.800326756756757,
+        "thirty_day": 9.800326756756757
+      }
+    },
+    {
+      "blockNumber": 21527425,
+      "timestamp": 1735707879,
+      "basefee": 8.58369,
+      "states": {
+        "twelve_min": 9.800579526315788,
+        "three_hour": 9.800579526315788,
+        "thirty_day": 9.800579526315788
+      }
+    },
+    {
+      "blockNumber": 21527426,
+      "timestamp": 1735707891,
+      "basefee": 9.656651,
+      "states": {
+        "twelve_min": 9.76937723076923,
+        "three_hour": 9.76937723076923,
+        "thirty_day": 9.76937723076923
+      }
+    },
+    {
+      "blockNumber": 21527427,
+      "timestamp": 1735707903,
+      "basefee": 8.44957,
+      "states": {
+        "twelve_min": 9.766559075,
+        "three_hour": 9.766559075,
+        "thirty_day": 9.766559075
+      }
+    },
+    {
+      "blockNumber": 21527428,
+      "timestamp": 1735707915,
+      "basefee": 9.505766,
+      "states": {
+        "twelve_min": 9.734437390243903,
+        "three_hour": 9.734437390243903,
+        "thirty_day": 9.734437390243903
+      }
+    },
+    {
+      "blockNumber": 21527429,
+      "timestamp": 1735707927,
+      "basefee": 9.083512,
+      "states": {
+        "twelve_min": 9.728992833333333,
+        "three_hour": 9.728992833333333,
+        "thirty_day": 9.728992833333333
+      }
+    },
+    {
+      "blockNumber": 21527430,
+      "timestamp": 1735707939,
+      "basefee": 9.443948,
+      "states": {
+        "twelve_min": 9.71398165116279,
+        "three_hour": 9.71398165116279,
+        "thirty_day": 9.71398165116279
+      }
+    },
+    {
+      "blockNumber": 21527431,
+      "timestamp": 1735707951,
+      "basefee": 8.263454,
+      "states": {
+        "twelve_min": 9.707844522727273,
+        "three_hour": 9.707844522727273,
+        "thirty_day": 9.707844522727273
+      }
+    },
+    {
+      "blockNumber": 21527432,
+      "timestamp": 1735707963,
+      "basefee": 9.296386,
+      "states": {
+        "twelve_min": 9.675746955555555,
+        "three_hour": 9.675746955555555,
+        "thirty_day": 9.675746955555555
+      }
+    },
+    {
+      "blockNumber": 21527433,
+      "timestamp": 1735707975,
+      "basefee": 10.458434,
+      "states": {
+        "twelve_min": 9.667499978260869,
+        "three_hour": 9.667499978260869,
+        "thirty_day": 9.667499978260869
+      }
+    },
+    {
+      "blockNumber": 21527434,
+      "timestamp": 1735707987,
+      "basefee": 9.15113,
+      "states": {
+        "twelve_min": 9.684328361702127,
+        "three_hour": 9.684328361702127,
+        "thirty_day": 9.684328361702127
+      }
+    },
+    {
+      "blockNumber": 21527435,
+      "timestamp": 1735707999,
+      "basefee": 9.100653,
+      "states": {
+        "twelve_min": 9.673220062499999,
+        "three_hour": 9.673220062499999,
+        "thirty_day": 9.673220062499999
+      }
+    },
+    {
+      "blockNumber": 21527436,
+      "timestamp": 1735708011,
+      "basefee": 8.820556,
+      "states": {
+        "twelve_min": 9.661535020408161,
+        "three_hour": 9.661535020408161,
+        "thirty_day": 9.661535020408161
+      }
+    },
+    {
+      "blockNumber": 21527437,
+      "timestamp": 1735708023,
+      "basefee": 9.923125,
+      "states": {
+        "twelve_min": 9.644715439999997,
+        "three_hour": 9.644715439999997,
+        "thirty_day": 9.644715439999997
+      }
+    },
+    {
+      "blockNumber": 21527438,
+      "timestamp": 1735708035,
+      "basefee": 11.163516,
+      "states": {
+        "twelve_min": 9.650174450980389,
+        "three_hour": 9.650174450980389,
+        "thirty_day": 9.650174450980389
+      }
+    },
+    {
+      "blockNumber": 21527439,
+      "timestamp": 1735708047,
+      "basefee": 9.768076,
+      "states": {
+        "twelve_min": 9.67927717307692,
+        "three_hour": 9.67927717307692,
+        "thirty_day": 9.67927717307692
+      }
+    },
+    {
+      "blockNumber": 21527440,
+      "timestamp": 1735708059,
+      "basefee": 8.88784,
+      "states": {
+        "twelve_min": 9.680952622641506,
+        "three_hour": 9.680952622641506,
+        "thirty_day": 9.680952622641506
+      }
+    },
+    {
+      "blockNumber": 21527441,
+      "timestamp": 1735708071,
+      "basefee": 7.816418,
+      "states": {
+        "twelve_min": 9.66626535185185,
+        "three_hour": 9.66626535185185,
+        "thirty_day": 9.66626535185185
+      }
+    },
+    {
+      "blockNumber": 21527442,
+      "timestamp": 1735708083,
+      "basefee": 8.79347,
+      "states": {
+        "twelve_min": 9.632631763636363,
+        "three_hour": 9.632631763636363,
+        "thirty_day": 9.632631763636363
+      }
+    },
+    {
+      "blockNumber": 21527443,
+      "timestamp": 1735708095,
+      "basefee": 7.910372,
+      "states": {
+        "twelve_min": 9.617646732142855,
+        "three_hour": 9.617646732142855,
+        "thirty_day": 9.617646732142855
+      }
+    },
+    {
+      "blockNumber": 21527444,
+      "timestamp": 1735708107,
+      "basefee": 8.899169,
+      "states": {
+        "twelve_min": 9.587694543859648,
+        "three_hour": 9.587694543859648,
+        "thirty_day": 9.587694543859648
+      }
+    },
+    {
+      "blockNumber": 21527445,
+      "timestamp": 1735708119,
+      "basefee": 8.342672,
+      "states": {
+        "twelve_min": 9.575823413793103,
+        "three_hour": 9.575823413793103,
+        "thirty_day": 9.575823413793103
+      }
+    },
+    {
+      "blockNumber": 21527446,
+      "timestamp": 1735708131,
+      "basefee": 9.385506,
+      "states": {
+        "twelve_min": 9.55492254237288,
+        "three_hour": 9.55492254237288,
+        "thirty_day": 9.55492254237288
+      }
+    },
+    {
+      "blockNumber": 21527447,
+      "timestamp": 1735708143,
+      "basefee": 9.044132,
+      "states": {
+        "twelve_min": 9.52434133898305,
+        "three_hour": 9.552098933333331,
+        "thirty_day": 9.552098933333331
+      }
+    },
+    {
+      "blockNumber": 21527448,
+      "timestamp": 1735708155,
+      "basefee": 7.956899,
+      "states": {
+        "twelve_min": 9.511681338983049,
+        "three_hour": 9.543771606557375,
+        "thirty_day": 9.543771606557375
+      }
+    },
+    {
+      "blockNumber": 21527449,
+      "timestamp": 1735708167,
+      "basefee": 7.993777,
+      "states": {
+        "twelve_min": 9.45984986440678,
+        "three_hour": 9.518176887096773,
+        "thirty_day": 9.518176887096773
+      }
+    },
+    {
+      "blockNumber": 21527450,
+      "timestamp": 1735708179,
+      "basefee": 8.992999,
+      "states": {
+        "twelve_min": 9.42793986440678,
+        "three_hour": 9.493980063492062,
+        "thirty_day": 9.493980063492062
+      }
+    },
+    {
+      "blockNumber": 21527451,
+      "timestamp": 1735708191,
+      "basefee": 10.117124,
+      "states": {
+        "twelve_min": 9.432610593220337,
+        "three_hour": 9.486152234374998,
+        "thirty_day": 9.486152234374998
+      }
+    },
+    {
+      "blockNumber": 21527452,
+      "timestamp": 1735708203,
+      "basefee": 9.818215,
+      "states": {
+        "twelve_min": 9.456713694915255,
+        "three_hour": 9.49585949230769,
+        "thirty_day": 9.49585949230769
+      }
+    },
+    {
+      "blockNumber": 21527453,
+      "timestamp": 1735708215,
+      "basefee": 11.045492,
+      "states": {
+        "twelve_min": 9.457328847457626,
+        "three_hour": 9.500743666666665,
+        "thirty_day": 9.500743666666665
+      }
+    },
+    {
+      "blockNumber": 21527454,
+      "timestamp": 1735708227,
+      "basefee": 9.726504,
+      "states": {
+        "twelve_min": 9.466257067796608,
+        "three_hour": 9.523799611940296,
+        "thirty_day": 9.523799611940296
+      }
+    },
+    {
+      "blockNumber": 21527455,
+      "timestamp": 1735708239,
+      "basefee": 8.510691,
+      "states": {
+        "twelve_min": 9.43073720338983,
+        "three_hour": 9.526780558823527,
+        "thirty_day": 9.526780558823527
+      }
+    },
+    {
+      "blockNumber": 21527456,
+      "timestamp": 1735708251,
+      "basefee": 9.574527,
+      "states": {
+        "twelve_min": 9.399657322033898,
+        "three_hour": 9.512054623188405,
+        "thirty_day": 9.512054623188405
+      }
+    },
+    {
+      "blockNumber": 21527457,
+      "timestamp": 1735708263,
+      "basefee": 8.377711,
+      "states": {
+        "twelve_min": 9.40707754237288,
+        "three_hour": 9.512947085714284,
+        "thirty_day": 9.512947085714284
+      }
+    },
+    {
+      "blockNumber": 21527458,
+      "timestamp": 1735708275,
+      "basefee": 9.424925,
+      "states": {
+        "twelve_min": 9.389276305084746,
+        "three_hour": 9.49695784507042,
+        "thirty_day": 9.49695784507042
+      }
+    },
+    {
+      "blockNumber": 21527459,
+      "timestamp": 1735708287,
+      "basefee": 10.603041,
+      "states": {
+        "twelve_min": 9.369249915254239,
+        "three_hour": 9.495957388888886,
+        "thirty_day": 9.495957388888886
+      }
+    },
+    {
+      "blockNumber": 21527460,
+      "timestamp": 1735708299,
+      "basefee": 9.28663,
+      "states": {
+        "twelve_min": 9.391662949152545,
+        "three_hour": 9.511122917808217,
+        "thirty_day": 9.511122917808217
+      }
+    },
+    {
+      "blockNumber": 21527461,
+      "timestamp": 1735708311,
+      "basefee": 9.020905,
+      "states": {
+        "twelve_min": 9.411426372881358,
+        "three_hour": 9.508089229729729,
+        "thirty_day": 9.508089229729729
+      }
+    },
+    {
+      "blockNumber": 21527462,
+      "timestamp": 1735708323,
+      "basefee": 8.805872,
+      "states": {
+        "twelve_min": 9.409481355932204,
+        "three_hour": 9.501593439999999,
+        "thirty_day": 9.501593439999999
+      }
+    },
+    {
+      "blockNumber": 21527463,
+      "timestamp": 1735708335,
+      "basefee": 9.789981,
+      "states": {
+        "twelve_min": 9.384536491525425,
+        "three_hour": 9.492439210526316,
+        "thirty_day": 9.492439210526316
+      }
+    },
+    {
+      "blockNumber": 21527464,
+      "timestamp": 1735708347,
+      "basefee": 10.880313,
+      "states": {
+        "twelve_min": 9.354496830508475,
+        "three_hour": 9.49630338961039,
+        "thirty_day": 9.49630338961039
+      }
+    },
+    {
+      "blockNumber": 21527465,
+      "timestamp": 1735708359,
+      "basefee": 9.520274,
+      "states": {
+        "twelve_min": 9.367433813559321,
+        "three_hour": 9.514047102564103,
+        "thirty_day": 9.514047102564103
+      }
+    },
+    {
+      "blockNumber": 21527466,
+      "timestamp": 1735708371,
+      "basefee": 10.061475,
+      "states": {
+        "twelve_min": 9.37719094915254,
+        "three_hour": 9.514125924050633,
+        "thirty_day": 9.514125924050633
+      }
+    },
+    {
+      "blockNumber": 21527467,
+      "timestamp": 1735708383,
+      "basefee": 10.34593,
+      "states": {
+        "twelve_min": 9.38629861016949,
+        "three_hour": 9.5209677875,
+        "thirty_day": 9.5209677875
+      }
+    },
+    {
+      "blockNumber": 21527468,
+      "timestamp": 1735708395,
+      "basefee": 10.154279,
+      "states": {
+        "twelve_min": 9.380049322033898,
+        "three_hour": 9.531152506172837,
+        "thirty_day": 9.531152506172837
+      }
+    },
+    {
+      "blockNumber": 21527469,
+      "timestamp": 1735708407,
+      "basefee": 9.328911,
+      "states": {
+        "twelve_min": 9.375188135593218,
+        "three_hour": 9.538751609756096,
+        "thirty_day": 9.538751609756096
+      }
+    },
+    {
+      "blockNumber": 21527470,
+      "timestamp": 1735708419,
+      "basefee": 10.220098,
+      "states": {
+        "twelve_min": 9.357795152542371,
+        "three_hour": 9.536223409638554,
+        "thirty_day": 9.536223409638554
+      }
+    },
+    {
+      "blockNumber": 21527471,
+      "timestamp": 1735708431,
+      "basefee": 10.162248,
+      "states": {
+        "twelve_min": 9.374373186440675,
+        "three_hour": 9.544364773809523,
+        "thirty_day": 9.544364773809523
+      }
+    },
+    {
+      "blockNumber": 21527472,
+      "timestamp": 1735708443,
+      "basefee": 8.891967,
+      "states": {
+        "twelve_min": 9.392416762711862,
+        "three_hour": 9.551633988235292,
+        "thirty_day": 9.551633988235292
+      }
+    },
+    {
+      "blockNumber": 21527473,
+      "timestamp": 1735708455,
+      "basefee": 8.765165,
+      "states": {
+        "twelve_min": 9.393785423728811,
+        "three_hour": 9.543963441860463,
+        "thirty_day": 9.543963441860463
+      }
+    },
+    {
+      "blockNumber": 21527474,
+      "timestamp": 1735708467,
+      "basefee": 9.860811,
+      "states": {
+        "twelve_min": 9.374337067796608,
+        "three_hour": 9.535011735632182,
+        "thirty_day": 9.535011735632182
+      }
+    },
+    {
+      "blockNumber": 21527475,
+      "timestamp": 1735708479,
+      "basefee": 10.133461,
+      "states": {
+        "twelve_min": 9.380884966101695,
+        "three_hour": 9.538713999999999,
+        "thirty_day": 9.538713999999999
+      }
+    },
+    {
+      "blockNumber": 21527476,
+      "timestamp": 1735708491,
+      "basefee": 10.868865,
+      "states": {
+        "twelve_min": 9.402028101694913,
+        "three_hour": 9.545396550561795,
+        "thirty_day": 9.545396550561795
+      }
+    },
+    {
+      "blockNumber": 21527477,
+      "timestamp": 1735708503,
+      "basefee": 10.342138,
+      "states": {
+        "twelve_min": 9.43971720338983,
+        "three_hour": 9.560101755555555,
+        "thirty_day": 9.560101755555555
+      }
+    },
+    {
+      "blockNumber": 21527478,
+      "timestamp": 1735708515,
+      "basefee": 9.049371,
+      "states": {
+        "twelve_min": 9.45016261016949,
+        "three_hour": 9.56869556043956,
+        "thirty_day": 9.56869556043956
+      }
+    },
+    {
+      "blockNumber": 21527479,
+      "timestamp": 1735708527,
+      "basefee": 10.180542,
+      "states": {
+        "twelve_min": 9.418091084745761,
+        "three_hour": 9.563050728260869,
+        "thirty_day": 9.563050728260869
+      }
+    },
+    {
+      "blockNumber": 21527480,
+      "timestamp": 1735708539,
+      "basefee": 8.907974,
+      "states": {
+        "twelve_min": 9.419621694915252,
+        "three_hour": 9.569690419354838,
+        "thirty_day": 9.569690419354838
+      }
+    },
+    {
+      "blockNumber": 21527481,
+      "timestamp": 1735708551,
+      "basefee": 9.429295,
+      "states": {
+        "twelve_min": 9.402313186440674,
+        "three_hour": 9.562650882978724,
+        "thirty_day": 9.562650882978724
+      }
+    },
+    {
+      "blockNumber": 21527482,
+      "timestamp": 1735708563,
+      "basefee": 9.77055,
+      "states": {
+        "twelve_min": 9.413399644067793,
+        "three_hour": 9.561247136842107,
+        "thirty_day": 9.561247136842107
+      }
+    },
+    {
+      "blockNumber": 21527483,
+      "timestamp": 1735708575,
+      "basefee": 10.441398,
+      "states": {
+        "twelve_min": 9.414863355932201,
+        "three_hour": 9.563427375000002,
+        "thirty_day": 9.563427375000002
+      }
+    },
+    {
+      "blockNumber": 21527484,
+      "timestamp": 1735708587,
+      "basefee": 10.26164,
+      "states": {
+        "twelve_min": 9.425566169491525,
+        "three_hour": 9.572478618556703,
+        "thirty_day": 9.572478618556703
+      }
+    },
+    {
+      "blockNumber": 21527485,
+      "timestamp": 1735708599,
+      "basefee": 8.978935,
+      "states": {
+        "twelve_min": 9.454005999999998,
+        "three_hour": 9.579510877551021,
+        "thirty_day": 9.579510877551021
+      }
+    },
+    {
+      "blockNumber": 21527486,
+      "timestamp": 1735708611,
+      "basefee": 8.285709,
+      "states": {
+        "twelve_min": 9.442519288135593,
+        "three_hour": 9.573444454545456,
+        "thirty_day": 9.573444454545456
+      }
+    },
+    {
+      "blockNumber": 21527487,
+      "timestamp": 1735708623,
+      "basefee": 7.309888,
+      "states": {
+        "twelve_min": 9.439741983050846,
+        "three_hour": 9.560567100000002,
+        "thirty_day": 9.560567100000002
+      }
+    },
+    {
+      "blockNumber": 21527488,
+      "timestamp": 1735708635,
+      "basefee": 8.223624,
+      "states": {
+        "twelve_min": 9.402523711864408,
+        "three_hour": 9.538283148514852,
+        "thirty_day": 9.538283148514852
+      }
+    },
+    {
+      "blockNumber": 21527489,
+      "timestamp": 1735708647,
+      "basefee": 9.251577,
+      "states": {
+        "twelve_min": 9.38794933898305,
+        "three_hour": 9.525394333333335,
+        "thirty_day": 9.525394333333335
+      }
+    },
+    {
+      "blockNumber": 21527490,
+      "timestamp": 1735708659,
+      "basefee": 10.019128,
+      "states": {
+        "twelve_min": 9.384688813559322,
+        "three_hour": 9.52273591262136,
+        "thirty_day": 9.52273591262136
+      }
+    },
+    {
+      "blockNumber": 21527491,
+      "timestamp": 1735708671,
+      "basefee": 10.050594,
+      "states": {
+        "twelve_min": 9.414446,
+        "three_hour": 9.52750891346154,
+        "thirty_day": 9.52750891346154
+      }
+    },
+    {
+      "blockNumber": 21527492,
+      "timestamp": 1735708683,
+      "basefee": 8.79427,
+      "states": {
+        "twelve_min": 9.427229186440677,
+        "three_hour": 9.532490676190477,
+        "thirty_day": 9.532490676190477
+      }
+    },
+    {
+      "blockNumber": 21527493,
+      "timestamp": 1735708695,
+      "basefee": 9.893554,
+      "states": {
+        "twelve_min": 9.399023016949151,
+        "three_hour": 9.525526330188681,
+        "thirty_day": 9.525526330188681
+      }
+    },
+    {
+      "blockNumber": 21527494,
+      "timestamp": 1735708707,
+      "basefee": 10.081981,
+      "states": {
+        "twelve_min": 9.41160647457627,
+        "three_hour": 9.528965841121497,
+        "thirty_day": 9.528965841121497
+      }
+    },
+    {
+      "blockNumber": 21527495,
+      "timestamp": 1735708719,
+      "basefee": 8.831873,
+      "states": {
+        "twelve_min": 9.428239152542371,
+        "three_hour": 9.534086351851855,
+        "thirty_day": 9.534086351851855
+      }
+    },
+    {
+      "blockNumber": 21527496,
+      "timestamp": 1735708731,
+      "basefee": 8.383287,
+      "states": {
+        "twelve_min": 9.428430966101693,
+        "three_hour": 9.527644027522937,
+        "thirty_day": 9.527644027522937
+      }
+    },
+    {
+      "blockNumber": 21527497,
+      "timestamp": 1735708743,
+      "basefee": 9.431198,
+      "states": {
+        "twelve_min": 9.40233201694915,
+        "three_hour": 9.517240781818183,
+        "thirty_day": 9.517240781818183
+      }
+    },
+    {
+      "blockNumber": 21527498,
+      "timestamp": 1735708755,
+      "basefee": 10.156074,
+      "states": {
+        "twelve_min": 9.372970694915253,
+        "three_hour": 9.516465621621624,
+        "thirty_day": 9.516465621621624
+      }
+    },
+    {
+      "blockNumber": 21527499,
+      "timestamp": 1735708767,
+      "basefee": 9.683485,
+      "states": {
+        "twelve_min": 9.37954693220339,
+        "three_hour": 9.522176410714287,
+        "thirty_day": 9.522176410714287
+      }
+    },
+    {
+      "blockNumber": 21527500,
+      "timestamp": 1735708779,
+      "basefee": 9.553483,
+      "states": {
+        "twelve_min": 9.393032440677967,
+        "three_hour": 9.523603920353985,
+        "thirty_day": 9.523603920353985
+      }
+    },
+    {
+      "blockNumber": 21527501,
+      "timestamp": 1735708791,
+      "basefee": 10.496164,
+      "states": {
+        "twelve_min": 9.422474220338984,
+        "three_hour": 9.523866017543861,
+        "thirty_day": 9.523866017543861
+      }
+    },
+    {
+      "blockNumber": 21527502,
+      "timestamp": 1735708803,
+      "basefee": 9.184144,
+      "states": {
+        "twelve_min": 9.451333440677965,
+        "three_hour": 9.532320782608696,
+        "thirty_day": 9.532320782608696
+      }
+    },
+    {
+      "blockNumber": 21527503,
+      "timestamp": 1735708815,
+      "basefee": 10.041834,
+      "states": {
+        "twelve_min": 9.47292279661017,
+        "three_hour": 9.52931925862069,
+        "thirty_day": 9.52931925862069
+      }
+    },
+    {
+      "blockNumber": 21527504,
+      "timestamp": 1735708827,
+      "basefee": 10.198677,
+      "states": {
+        "twelve_min": 9.49229,
+        "three_hour": 9.533699726495728,
+        "thirty_day": 9.533699726495728
+      }
+    },
+    {
+      "blockNumber": 21527505,
+      "timestamp": 1735708839,
+      "basefee": 8.923842,
+      "states": {
+        "twelve_min": 9.523747711864408,
+        "three_hour": 9.539335127118646,
+        "thirty_day": 9.539335127118646
+      }
+    },
+    {
+      "blockNumber": 21527506,
+      "timestamp": 1735708851,
+      "basefee": 8.791367,
+      "states": {
+        "twelve_min": 9.515922898305083,
+        "three_hour": 9.534162915966387,
+        "thirty_day": 9.534162915966387
+      }
+    },
+    {
+      "blockNumber": 21527507,
+      "timestamp": 1735708863,
+      "basefee": 9.890288,
+      "states": {
+        "twelve_min": 9.511638745762712,
+        "three_hour": 9.52797295,
+        "thirty_day": 9.52797295
+      }
+    },
+    {
+      "blockNumber": 21527508,
+      "timestamp": 1735708875,
+      "basefee": 10.044149,
+      "states": {
+        "twelve_min": 9.544408050847455,
+        "three_hour": 9.5309672892562,
+        "thirty_day": 9.5309672892562
+      }
+    },
+    {
+      "blockNumber": 21527509,
+      "timestamp": 1735708887,
+      "basefee": 10.580668,
+      "states": {
+        "twelve_min": 9.579160118644065,
+        "three_hour": 9.535173696721312,
+        "thirty_day": 9.535173696721312
+      }
+    },
+    {
+      "blockNumber": 21527510,
+      "timestamp": 1735708899,
+      "basefee": 9.258084,
+      "states": {
+        "twelve_min": 9.606069762711861,
+        "three_hour": 9.543673650406506,
+        "thirty_day": 9.543673650406506
+      }
+    },
+    {
+      "blockNumber": 21527511,
+      "timestamp": 1735708911,
+      "basefee": 8.545799,
+      "states": {
+        "twelve_min": 9.591509762711864,
+        "three_hour": 9.541370508064517,
+        "thirty_day": 9.541370508064517
+      }
+    },
+    {
+      "blockNumber": 21527512,
+      "timestamp": 1735708923,
+      "basefee": 8.037608,
+      "states": {
+        "twelve_min": 9.569943389830506,
+        "three_hour": 9.533405936000001,
+        "thirty_day": 9.533405936000001
+      }
+    },
+    {
+      "blockNumber": 21527513,
+      "timestamp": 1735708935,
+      "basefee": 7.032907,
+      "states": {
+        "twelve_min": 9.518962305084745,
+        "three_hour": 9.521534523809525,
+        "thirty_day": 9.521534523809525
+      }
+    },
+    {
+      "blockNumber": 21527514,
+      "timestamp": 1735708947,
+      "basefee": 6.775563,
+      "states": {
+        "twelve_min": 9.473308118644066,
+        "three_hour": 9.501939031496065,
+        "thirty_day": 9.501939031496065
+      }
+    },
+    {
+      "blockNumber": 21527515,
+      "timestamp": 1735708959,
+      "basefee": 7.622508,
+      "states": {
+        "twelve_min": 9.443899169491525,
+        "three_hour": 9.480639218750001,
+        "thirty_day": 9.480639218750001
+      }
+    },
+    {
+      "blockNumber": 21527516,
+      "timestamp": 1735708971,
+      "basefee": 7.852627,
+      "states": {
+        "twelve_min": 9.410814101694916,
+        "three_hour": 9.466235100775194,
+        "thirty_day": 9.466235100775194
+      }
+    },
+    {
+      "blockNumber": 21527517,
+      "timestamp": 1735708983,
+      "basefee": 6.871049,
+      "states": {
+        "twelve_min": 9.401914372881356,
+        "three_hour": 9.45382273076923,
+        "thirty_day": 9.45382273076923
+      }
+    },
+    {
+      "blockNumber": 21527518,
+      "timestamp": 1735708995,
+      "basefee": 6.012168,
+      "states": {
+        "twelve_min": 9.358628338983051,
+        "three_hour": 9.434106900763359,
+        "thirty_day": 9.434106900763359
+      }
+    },
+    {
+      "blockNumber": 21527519,
+      "timestamp": 1735709007,
+      "basefee": 6.377533,
+      "states": {
+        "twelve_min": 9.28081693220339,
+        "three_hour": 9.408183121212122,
+        "thirty_day": 9.408183121212122
+      }
+    },
+    {
+      "blockNumber": 21527520,
+      "timestamp": 1735709019,
+      "basefee": 7.174725,
+      "states": {
+        "twelve_min": 9.23151020338983,
+        "three_hour": 9.38539627819549,
+        "thirty_day": 9.38539627819549
+      }
+    },
+    {
+      "blockNumber": 21527521,
+      "timestamp": 1735709031,
+      "basefee": 7.838711,
+      "states": {
+        "twelve_min": 9.200219016949152,
+        "three_hour": 9.368898731343284,
+        "thirty_day": 9.368898731343284
+      }
+    },
+    {
+      "blockNumber": 21527522,
+      "timestamp": 1735709043,
+      "basefee": 7.554302,
+      "states": {
+        "twelve_min": 9.18382645762712,
+        "three_hour": 9.357564007407408,
+        "thirty_day": 9.357564007407408
+      }
+    },
+    {
+      "blockNumber": 21527523,
+      "timestamp": 1735709055,
+      "basefee": 6.610014,
+      "states": {
+        "twelve_min": 9.145933593220338,
+        "three_hour": 9.344304727941179,
+        "thirty_day": 9.344304727941179
+      }
+    },
+    {
+      "blockNumber": 21527524,
+      "timestamp": 1735709067,
+      "basefee": 7.436266,
+      "states": {
+        "twelve_min": 9.073555644067795,
+        "three_hour": 9.324346401459856,
+        "thirty_day": 9.324346401459856
+      }
+    },
+    {
+      "blockNumber": 21527525,
+      "timestamp": 1735709079,
+      "basefee": 8.332776,
+      "states": {
+        "twelve_min": 9.03823347457627,
+        "three_hour": 9.310664659420292,
+        "thirty_day": 9.310664659420292
+      }
+    },
+    {
+      "blockNumber": 21527526,
+      "timestamp": 1735709091,
+      "basefee": 7.291179,
+      "states": {
+        "twelve_min": 9.008933491525422,
+        "three_hour": 9.303629489208635,
+        "thirty_day": 9.303629489208635
+      }
+    },
+    {
+      "blockNumber": 21527527,
+      "timestamp": 1735709103,
+      "basefee": 6.379782,
+      "states": {
+        "twelve_min": 8.957158050847458,
+        "three_hour": 9.289254842857144,
+        "thirty_day": 9.289254842857144
+      }
+    },
+    {
+      "blockNumber": 21527528,
+      "timestamp": 1735709115,
+      "basefee": 7.177255,
+      "states": {
+        "twelve_min": 8.893183525423725,
+        "three_hour": 9.268620283687945,
+        "thirty_day": 9.268620283687945
+      }
+    },
+    {
+      "blockNumber": 21527529,
+      "timestamp": 1735709127,
+      "basefee": 6.280098,
+      "states": {
+        "twelve_min": 8.856714779661015,
+        "three_hour": 9.253892359154932,
+        "thirty_day": 9.253892359154932
+      }
+    },
+    {
+      "blockNumber": 21527530,
+      "timestamp": 1735709139,
+      "basefee": 7.06511,
+      "states": {
+        "twelve_min": 8.789935118644065,
+        "three_hour": 9.233096594405596,
+        "thirty_day": 9.233096594405596
+      }
+    },
+    {
+      "blockNumber": 21527531,
+      "timestamp": 1735709151,
+      "basefee": 7.83073,
+      "states": {
+        "twelve_min": 8.737441254237286,
+        "three_hour": 9.218041131944446,
+        "thirty_day": 9.218041131944446
+      }
+    },
+    {
+      "blockNumber": 21527532,
+      "timestamp": 1735709163,
+      "basefee": 6.851889,
+      "states": {
+        "twelve_min": 8.719454186440675,
+        "three_hour": 9.208473468965519,
+        "thirty_day": 9.208473468965519
+      }
+    },
+    {
+      "blockNumber": 21527533,
+      "timestamp": 1735709175,
+      "basefee": 5.995403,
+      "states": {
+        "twelve_min": 8.687025779661015,
+        "three_hour": 9.192332479452057,
+        "thirty_day": 9.192332479452057
+      }
+    },
+    {
+      "blockNumber": 21527534,
+      "timestamp": 1735709187,
+      "basefee": 5.245978,
+      "states": {
+        "twelve_min": 8.621510389830506,
+        "three_hour": 9.170584659863948,
+        "thirty_day": 9.170584659863948
+      }
+    },
+    {
+      "blockNumber": 21527535,
+      "timestamp": 1735709199,
+      "basefee": 5.901725,
+      "states": {
+        "twelve_min": 8.538671694915253,
+        "three_hour": 9.1440670472973,
+        "thirty_day": 9.1440670472973
+      }
+    },
+    {
+      "blockNumber": 21527536,
+      "timestamp": 1735709211,
+      "basefee": 6.639441,
+      "states": {
+        "twelve_min": 8.454482881355931,
+        "three_hour": 9.12230636241611,
+        "thirty_day": 9.12230636241611
+      }
+    },
+    {
+      "blockNumber": 21527537,
+      "timestamp": 1735709223,
+      "basefee": 7.469371,
+      "states": {
+        "twelve_min": 8.391725305084744,
+        "three_hour": 9.105753926666669,
+        "thirty_day": 9.105753926666669
+      }
+    },
+    {
+      "blockNumber": 21527538,
+      "timestamp": 1735709235,
+      "basefee": 6.5357,
+      "states": {
+        "twelve_min": 8.364945644067795,
+        "three_hour": 9.094916953642388,
+        "thirty_day": 9.094916953642388
+      }
+    },
+    {
+      "blockNumber": 21527539,
+      "timestamp": 1735709247,
+      "basefee": 5.718738,
+      "states": {
+        "twelve_min": 8.303168661016947,
+        "three_hour": 9.078080000000003,
+        "thirty_day": 9.078080000000003
+      }
+    },
+    {
+      "blockNumber": 21527540,
+      "timestamp": 1735709259,
+      "basefee": 6.43358,
+      "states": {
+        "twelve_min": 8.249113813559322,
+        "three_hour": 9.056123516339872,
+        "thirty_day": 9.056123516339872
+      }
+    },
+    {
+      "blockNumber": 21527541,
+      "timestamp": 1735709271,
+      "basefee": 7.237777,
+      "states": {
+        "twelve_min": 8.198338983050846,
+        "three_hour": 9.039094012987015,
+        "thirty_day": 9.039094012987015
+      }
+    },
+    {
+      "blockNumber": 21527542,
+      "timestamp": 1735709283,
+      "basefee": 6.333055,
+      "states": {
+        "twelve_min": 8.155410627118643,
+        "three_hour": 9.027472612903228,
+        "thirty_day": 9.027472612903228
+      }
+    },
+    {
+      "blockNumber": 21527543,
+      "timestamp": 1735709295,
+      "basefee": 6.599498,
+      "states": {
+        "twelve_min": 8.085777694915253,
+        "three_hour": 9.010200705128208,
+        "thirty_day": 9.010200705128208
+      }
+    },
+    {
+      "blockNumber": 21527544,
+      "timestamp": 1735709307,
+      "basefee": 5.774561,
+      "states": {
+        "twelve_min": 8.023707491525421,
+        "three_hour": 8.994845910828028,
+        "thirty_day": 8.994845910828028
+      }
+    },
+    {
+      "blockNumber": 21527545,
+      "timestamp": 1735709319,
+      "basefee": 6.496381,
+      "states": {
+        "twelve_min": 7.969396067796609,
+        "three_hour": 8.974464360759494,
+        "thirty_day": 8.974464360759494
+      }
+    },
+    {
+      "blockNumber": 21527546,
+      "timestamp": 1735709331,
+      "basefee": 7.308429,
+      "states": {
+        "twelve_min": 7.939068474576271,
+        "three_hour": 8.95887893081761,
+        "thirty_day": 8.95887893081761
+      }
+    },
+    {
+      "blockNumber": 21527547,
+      "timestamp": 1735709343,
+      "basefee": 8.221983,
+      "states": {
+        "twelve_min": 7.939043745762713,
+        "three_hour": 8.94856361875,
+        "thirty_day": 8.94856361875
+      }
+    },
+    {
+      "blockNumber": 21527548,
+      "timestamp": 1735709355,
+      "basefee": 7.980925,
+      "states": {
+        "twelve_min": 7.93901593220339,
+        "three_hour": 8.944050695652175,
+        "thirty_day": 8.944050695652175
+      }
+    },
+    {
+      "blockNumber": 21527549,
+      "timestamp": 1735709367,
+      "basefee": 6.983309,
+      "states": {
+        "twelve_min": 7.917479457627118,
+        "three_hour": 8.938105475308644,
+        "thirty_day": 8.938105475308644
+      }
+    },
+    {
+      "blockNumber": 21527550,
+      "timestamp": 1735709379,
+      "basefee": 7.613618,
+      "states": {
+        "twelve_min": 7.866024898305082,
+        "three_hour": 8.926112858895706,
+        "thirty_day": 8.926112858895706
+      }
+    },
+    {
+      "blockNumber": 21527551,
+      "timestamp": 1735709391,
+      "basefee": 7.823687,
+      "states": {
+        "twelve_min": 7.824720220338982,
+        "three_hour": 8.918109841463416,
+        "thirty_day": 8.918109841463416
+      }
+    },
+    {
+      "blockNumber": 21527552,
+      "timestamp": 1735709403,
+      "basefee": 6.845726,
+      "states": {
+        "twelve_min": 7.80826966101695,
+        "three_hour": 8.911476975757578,
+        "thirty_day": 8.911476975757578
+      }
+    },
+    {
+      "blockNumber": 21527553,
+      "timestamp": 1735709415,
+      "basefee": 6.648521,
+      "states": {
+        "twelve_min": 7.7566115593220335,
+        "three_hour": 8.899032692771085,
+        "thirty_day": 8.899032692771085
+      }
+    },
+    {
+      "blockNumber": 21527554,
+      "timestamp": 1735709427,
+      "basefee": 5.817456,
+      "states": {
+        "twelve_min": 7.698417322033898,
+        "three_hour": 8.8855565748503,
+        "thirty_day": 8.8855565748503
+      }
+    },
+    {
+      "blockNumber": 21527555,
+      "timestamp": 1735709439,
+      "basefee": 5.090274,
+      "states": {
+        "twelve_min": 7.6473255084745775,
+        "three_hour": 8.867294071428573,
+        "thirty_day": 8.867294071428573
+      }
+    },
+    {
+      "blockNumber": 21527556,
+      "timestamp": 1735709451,
+      "basefee": 4.45399,
+      "states": {
+        "twelve_min": 7.5915117288135585,
+        "three_hour": 8.844944840236689,
+        "thirty_day": 8.844944840236689
+      }
+    },
+    {
+      "blockNumber": 21527557,
+      "timestamp": 1735709463,
+      "basefee": 4.994919,
+      "states": {
+        "twelve_min": 7.507152271186441,
+        "three_hour": 8.819115694117649,
+        "thirty_day": 8.819115694117649
+      }
+    },
+    {
+      "blockNumber": 21527558,
+      "timestamp": 1735709475,
+      "basefee": 5.619284,
+      "states": {
+        "twelve_min": 7.41967506779661,
+        "three_hour": 8.796751970760237,
+        "thirty_day": 8.796751970760237
+      }
+    },
+    {
+      "blockNumber": 21527559,
+      "timestamp": 1735709487,
+      "basefee": 6.321695,
+      "states": {
+        "twelve_min": 7.350790305084746,
+        "three_hour": 8.778278319767445,
+        "thirty_day": 8.778278319767445
+      }
+    },
+    {
+      "blockNumber": 21527560,
+      "timestamp": 1735709499,
+      "basefee": 5.531483,
+      "states": {
+        "twelve_min": 7.296014237288136,
+        "three_hour": 8.764078416184974,
+        "thirty_day": 8.764078416184974
+      }
+    },
+    {
+      "blockNumber": 21527561,
+      "timestamp": 1735709511,
+      "basefee": 5.059667,
+      "states": {
+        "twelve_min": 7.211867101694915,
+        "three_hour": 8.745500281609198,
+        "thirty_day": 8.745500281609198
+      }
+    },
+    {
+      "blockNumber": 21527562,
+      "timestamp": 1735709523,
+      "basefee": 4.653193,
+      "states": {
+        "twelve_min": 7.1419607118644075,
+        "three_hour": 8.72443837714286,
+        "thirty_day": 8.72443837714286
+      }
+    },
+    {
+      "blockNumber": 21527563,
+      "timestamp": 1735709535,
+      "basefee": 5.234842,
+      "states": {
+        "twelve_min": 7.0506278135593226,
+        "three_hour": 8.701306301136368,
+        "thirty_day": 8.701306301136368
+      }
+    },
+    {
+      "blockNumber": 21527564,
+      "timestamp": 1735709547,
+      "basefee": 4.807791,
+      "states": {
+        "twelve_min": 6.966495016949152,
+        "three_hour": 8.681721757062151,
+        "thirty_day": 8.681721757062151
+      }
+    },
+    {
+      "blockNumber": 21527565,
+      "timestamp": 1735709559,
+      "basefee": 5.408765,
+      "states": {
+        "twelve_min": 6.896731440677967,
+        "three_hour": 8.6599581011236,
+        "thirty_day": 8.6599581011236
+      }
+    },
+    {
+      "blockNumber": 21527566,
+      "timestamp": 1735709571,
+      "basefee": 5.954931,
+      "states": {
+        "twelve_min": 6.83939920338983,
+        "three_hour": 8.641795011173189,
+        "thirty_day": 8.641795011173189
+      }
+    },
+    {
+      "blockNumber": 21527567,
+      "timestamp": 1735709583,
+      "basefee": 6.541689,
+      "states": {
+        "twelve_min": 6.772698237288137,
+        "three_hour": 8.626867988888893,
+        "thirty_day": 8.626867988888893
+      }
+    },
+    {
+      "blockNumber": 21527568,
+      "timestamp": 1735709595,
+      "basefee": 5.723978,
+      "states": {
+        "twelve_min": 6.713334508474577,
+        "three_hour": 8.61534766298343,
+        "thirty_day": 8.61534766298343
+      }
+    },
+    {
+      "blockNumber": 21527569,
+      "timestamp": 1735709607,
+      "basefee": 5.008481,
+      "states": {
+        "twelve_min": 6.631017728813559,
+        "three_hour": 8.59946101648352,
+        "thirty_day": 8.59946101648352
+      }
+    },
+    {
+      "blockNumber": 21527570,
+      "timestamp": 1735709619,
+      "basefee": 5.335085,
+      "states": {
+        "twelve_min": 6.558990559322034,
+        "three_hour": 8.579838174863394,
+        "thirty_day": 8.579838174863394
+      }
+    },
+    {
+      "blockNumber": 21527571,
+      "timestamp": 1735709631,
+      "basefee": 6.001971,
+      "states": {
+        "twelve_min": 6.504571677966102,
+        "three_hour": 8.562203646739135,
+        "thirty_day": 8.562203646739135
+      }
+    },
+    {
+      "blockNumber": 21527572,
+      "timestamp": 1735709643,
+      "basefee": 5.251725,
+      "states": {
+        "twelve_min": 6.4700693559322024,
+        "three_hour": 8.548364551351357,
+        "thirty_day": 8.548364551351357
+      }
+    },
+    {
+      "blockNumber": 21527573,
+      "timestamp": 1735709655,
+      "basefee": 4.595259,
+      "states": {
+        "twelve_min": 6.439879830508474,
+        "three_hour": 8.530640682795704,
+        "thirty_day": 8.530640682795704
+      }
+    },
+    {
+      "blockNumber": 21527574,
+      "timestamp": 1735709667,
+      "basefee": 5.169666,
+      "states": {
+        "twelve_min": 6.402925525423729,
+        "three_hour": 8.509595860962571,
+        "thirty_day": 8.509595860962571
+      }
+    },
+    {
+      "blockNumber": 21527575,
+      "timestamp": 1735709679,
+      "basefee": 5.815874,
+      "states": {
+        "twelve_min": 6.36135193220339,
+        "three_hour": 8.491830276595751,
+        "thirty_day": 8.491830276595751
+      }
+    },
+    {
+      "blockNumber": 21527576,
+      "timestamp": 1735709691,
+      "basefee": 5.08889,
+      "states": {
+        "twelve_min": 6.326830694915254,
+        "three_hour": 8.477671777777783,
+        "thirty_day": 8.477671777777783
+      }
+    },
+    {
+      "blockNumber": 21527577,
+      "timestamp": 1735709703,
+      "basefee": 4.98964,
+      "states": {
+        "twelve_min": 6.296624610169491,
+        "three_hour": 8.459836084210531,
+        "thirty_day": 8.459836084210531
+      }
+    },
+    {
+      "blockNumber": 21527578,
+      "timestamp": 1735709715,
+      "basefee": 4.585977,
+      "states": {
+        "twelve_min": 6.279293627118643,
+        "three_hour": 8.441667518324612,
+        "thirty_day": 8.441667518324612
+      }
+    },
+    {
+      "blockNumber": 21527579,
+      "timestamp": 1735709727,
+      "basefee": 5.159224,
+      "states": {
+        "twelve_min": 6.24892827118644,
+        "three_hour": 8.421585796875005,
+        "thirty_day": 8.421585796875005
+      }
+    },
+    {
+      "blockNumber": 21527580,
+      "timestamp": 1735709739,
+      "basefee": 5.449411,
+      "states": {
+        "twelve_min": 6.214767237288136,
+        "three_hour": 8.404682367875653,
+        "thirty_day": 8.404682367875653
+      }
+    },
+    {
+      "blockNumber": 21527581,
+      "timestamp": 1735709751,
+      "basefee": 6.130587,
+      "states": {
+        "twelve_min": 6.174270627118645,
+        "three_hour": 8.389449010309283,
+        "thirty_day": 8.389449010309283
+      }
+    },
+    {
+      "blockNumber": 21527582,
+      "timestamp": 1735709763,
+      "basefee": 6.668862,
+      "states": {
+        "twelve_min": 6.150139864406781,
+        "three_hour": 8.377865102564108,
+        "thirty_day": 8.377865102564108
+      }
+    },
+    {
+      "blockNumber": 21527583,
+      "timestamp": 1735709775,
+      "basefee": 6.153925,
+      "states": {
+        "twelve_min": 6.151137288135594,
+        "three_hour": 8.369145698979597,
+        "thirty_day": 8.369145698979597
+      }
+    },
+    {
+      "blockNumber": 21527584,
+      "timestamp": 1735709787,
+      "basefee": 5.384684,
+      "states": {
+        "twelve_min": 6.129402694915255,
+        "three_hour": 8.357900923857873,
+        "thirty_day": 8.357900923857873
+      }
+    },
+    {
+      "blockNumber": 21527585,
+      "timestamp": 1735709799,
+      "basefee": 4.711599,
+      "states": {
+        "twelve_min": 6.0794350338983065,
+        "three_hour": 8.342884676767682,
+        "thirty_day": 8.342884676767682
+      }
+    },
+    {
+      "blockNumber": 21527586,
+      "timestamp": 1735709811,
+      "basefee": 4.673917,
+      "states": {
+        "twelve_min": 6.035713338983051,
+        "three_hour": 8.324637010050255,
+        "thirty_day": 8.324637010050255
+      }
+    },
+    {
+      "blockNumber": 21527587,
+      "timestamp": 1735709823,
+      "basefee": 4.755481,
+      "states": {
+        "twelve_min": 6.006800372881356,
+        "three_hour": 8.306383410000004,
+        "thirty_day": 8.306383410000004
+      }
+    },
+    {
+      "blockNumber": 21527588,
+      "timestamp": 1735709835,
+      "basefee": 4.748869,
+      "states": {
+        "twelve_min": 5.965753355932204,
+        "three_hour": 8.288717228855727,
+        "thirty_day": 8.288717228855727
+      }
+    },
+    {
+      "blockNumber": 21527589,
+      "timestamp": 1735709847,
+      "basefee": 4.699876,
+      "states": {
+        "twelve_min": 5.939800322033899,
+        "three_hour": 8.271193227722778,
+        "thirty_day": 8.271193227722778
+      }
+    },
+    {
+      "blockNumber": 21527590,
+      "timestamp": 1735709859,
+      "basefee": 4.112391,
+      "states": {
+        "twelve_min": 5.899711610169492,
+        "three_hour": 8.253600532019709,
+        "thirty_day": 8.253600532019709
+      }
+    },
+    {
+      "blockNumber": 21527591,
+      "timestamp": 1735709871,
+      "basefee": 4.62644,
+      "states": {
+        "twelve_min": 5.836688915254238,
+        "three_hour": 8.233300485294123,
+        "thirty_day": 8.233300485294123
+      }
+    },
+    {
+      "blockNumber": 21527592,
+      "timestamp": 1735709883,
+      "basefee": 5.204745,
+      "states": {
+        "twelve_min": 5.798969440677967,
+        "three_hour": 8.215706043902443,
+        "thirty_day": 8.215706043902443
+      }
+    },
+    {
+      "blockNumber": 21527593,
+      "timestamp": 1735709895,
+      "basefee": 5.832734,
+      "states": {
+        "twelve_min": 5.785568457627119,
+        "three_hour": 8.201089728155345,
+        "thirty_day": 8.201089728155345
+      }
+    },
+    {
+      "blockNumber": 21527594,
+      "timestamp": 1735709907,
+      "basefee": 5.715959,
+      "states": {
+        "twelve_min": 5.795513474576271,
+        "three_hour": 8.18964839613527,
+        "thirty_day": 8.18964839613527
+      }
+    },
+    {
+      "blockNumber": 21527595,
+      "timestamp": 1735709919,
+      "basefee": 6.430454,
+      "states": {
+        "twelve_min": 5.792364898305085,
+        "three_hour": 8.177755658653851,
+        "thirty_day": 8.177755658653851
+      }
+    },
+    {
+      "blockNumber": 21527596,
+      "timestamp": 1735709931,
+      "basefee": 6.470464,
+      "states": {
+        "twelve_min": 5.788822745762713,
+        "three_hour": 8.169395363636369,
+        "thirty_day": 8.169395363636369
+      }
+    },
+    {
+      "blockNumber": 21527597,
+      "timestamp": 1735709943,
+      "basefee": 5.661656,
+      "states": {
+        "twelve_min": 5.771892118644068,
+        "three_hour": 8.161305214285719,
+        "thirty_day": 8.161305214285719
+      }
+    },
+    {
+      "blockNumber": 21527598,
+      "timestamp": 1735709955,
+      "basefee": 6.369363,
+      "states": {
+        "twelve_min": 5.757077813559323,
+        "three_hour": 8.149458535545028,
+        "thirty_day": 8.149458535545028
+      }
+    },
+    {
+      "blockNumber": 21527599,
+      "timestamp": 1735709967,
+      "basefee": 5.573193,
+      "states": {
+        "twelve_min": 5.768105355932203,
+        "three_hour": 8.141061858490572,
+        "thirty_day": 8.141061858490572
+      }
+    },
+    {
+      "blockNumber": 21527600,
+      "timestamp": 1735709979,
+      "basefee": 5.193392,
+      "states": {
+        "twelve_min": 5.753522525423729,
+        "three_hour": 8.12900613615024,
+        "thirty_day": 8.12900613615024
+      }
+    },
+    {
+      "blockNumber": 21527601,
+      "timestamp": 1735709991,
+      "basefee": 5.842566,
+      "states": {
+        "twelve_min": 5.718871932203391,
+        "three_hour": 8.115288313084116,
+        "thirty_day": 8.115288313084116
+      }
+    },
+    {
+      "blockNumber": 21527602,
+      "timestamp": 1735710003,
+      "basefee": 6.29726,
+      "states": {
+        "twelve_min": 5.710558559322035,
+        "three_hour": 8.104717511627912,
+        "thirty_day": 8.104717511627912
+      }
+    },
+    {
+      "blockNumber": 21527603,
+      "timestamp": 1735710015,
+      "basefee": 5.510102,
+      "states": {
+        "twelve_min": 5.705435881355933,
+        "three_hour": 8.096349652777782,
+        "thirty_day": 8.096349652777782
+      }
+    },
+    {
+      "blockNumber": 21527604,
+      "timestamp": 1735710027,
+      "basefee": 5.130539,
+      "states": {
+        "twelve_min": 5.70095352542373,
+        "three_hour": 8.084431460829498,
+        "thirty_day": 8.084431460829498
+      }
+    },
+    {
+      "blockNumber": 21527605,
+      "timestamp": 1735710039,
+      "basefee": 4.489222,
+      "states": {
+        "twelve_min": 5.6778036610169496,
+        "three_hour": 8.070881495412848,
+        "thirty_day": 8.070881495412848
+      }
+    },
+    {
+      "blockNumber": 21527606,
+      "timestamp": 1735710051,
+      "basefee": 5.050375,
+      "states": {
+        "twelve_min": 5.630020491525425,
+        "three_hour": 8.054526885844753,
+        "thirty_day": 8.054526885844753
+      }
+    },
+    {
+      "blockNumber": 21527607,
+      "timestamp": 1735710063,
+      "basefee": 5.496746,
+      "states": {
+        "twelve_min": 5.576264423728814,
+        "three_hour": 8.040871650000003,
+        "thirty_day": 8.040871650000003
+      }
+    },
+    {
+      "blockNumber": 21527608,
+      "timestamp": 1735710075,
+      "basefee": 6.183839,
+      "states": {
+        "twelve_min": 5.534159694915255,
+        "three_hour": 8.029359769230775,
+        "thirty_day": 8.029359769230775
+      }
+    },
+    {
+      "blockNumber": 21527609,
+      "timestamp": 1735710087,
+      "basefee": 5.410859,
+      "states": {
+        "twelve_min": 5.520609355932204,
+        "three_hour": 8.021046612612617,
+        "thirty_day": 8.021046612612617
+      }
+    },
+    {
+      "blockNumber": 21527610,
+      "timestamp": 1735710099,
+      "basefee": 5.760308,
+      "states": {
+        "twelve_min": 5.483274457627119,
+        "three_hour": 8.009341735426013,
+        "thirty_day": 8.009341735426013
+      }
+    },
+    {
+      "blockNumber": 21527611,
+      "timestamp": 1735710111,
+      "basefee": 6.480347,
+      "states": {
+        "twelve_min": 5.44830193220339,
+        "three_hour": 7.999301406250003,
+        "thirty_day": 7.999301406250003
+      }
+    },
+    {
+      "blockNumber": 21527612,
+      "timestamp": 1735710123,
+      "basefee": 5.670304,
+      "states": {
+        "twelve_min": 5.44210906779661,
+        "three_hour": 7.992550497777781,
+        "thirty_day": 7.992550497777781
+      }
+    },
+    {
+      "blockNumber": 21527613,
+      "timestamp": 1735710135,
+      "basefee": 6.379092,
+      "states": {
+        "twelve_min": 5.425529118644068,
+        "three_hour": 7.982275070796463,
+        "thirty_day": 7.982275070796463
+      }
+    },
+    {
+      "blockNumber": 21527614,
+      "timestamp": 1735710147,
+      "basefee": 5.581705,
+      "states": {
+        "twelve_min": 5.435048372881356,
+        "three_hour": 7.975212590308374,
+        "thirty_day": 7.975212590308374
+      }
+    },
+    {
+      "blockNumber": 21527615,
+      "timestamp": 1735710159,
+      "basefee": 4.883992,
+      "states": {
+        "twelve_min": 5.443377711864407,
+        "three_hour": 7.964714750000003,
+        "thirty_day": 7.964714750000003
+      }
+    },
+    {
+      "blockNumber": 21527616,
+      "timestamp": 1735710171,
+      "basefee": 4.273493,
+      "states": {
+        "twelve_min": 5.450665881355932,
+        "three_hour": 7.951261812227077,
+        "thirty_day": 7.951261812227077
+      }
+    },
+    {
+      "blockNumber": 21527617,
+      "timestamp": 1735710183,
+      "basefee": 3.969131,
+      "states": {
+        "twelve_min": 5.438438322033898,
+        "three_hour": 7.935271513043482,
+        "thirty_day": 7.935271513043482
+      }
+    },
+    {
+      "blockNumber": 21527618,
+      "timestamp": 1735710195,
+      "basefee": 4.465272,
+      "states": {
+        "twelve_min": 5.410469627118643,
+        "three_hour": 7.918102073593078,
+        "thirty_day": 7.918102073593078
+      }
+    },
+    {
+      "blockNumber": 21527619,
+      "timestamp": 1735710207,
+      "basefee": 3.907113,
+      "states": {
+        "twelve_min": 5.379004830508473,
+        "three_hour": 7.903219185344832,
+        "thirty_day": 7.903219185344832
+      }
+    },
+    {
+      "blockNumber": 21527620,
+      "timestamp": 1735710219,
+      "basefee": 3.909694,
+      "states": {
+        "twelve_min": 5.35147313559322,
+        "three_hour": 7.886068515021463,
+        "thirty_day": 7.886068515021463
+      }
+    },
+    {
+      "blockNumber": 21527621,
+      "timestamp": 1735710231,
+      "basefee": 4.398406,
+      "states": {
+        "twelve_min": 5.331982067796609,
+        "three_hour": 7.869075461538465,
+        "thirty_day": 7.869075461538465
+      }
+    },
+    {
+      "blockNumber": 21527622,
+      "timestamp": 1735710243,
+      "basefee": 4.948207,
+      "states": {
+        "twelve_min": 5.327663644067795,
+        "three_hour": 7.854306655319152,
+        "thirty_day": 7.854306655319152
+      }
+    },
+    {
+      "blockNumber": 21527623,
+      "timestamp": 1735710255,
+      "basefee": 4.366293,
+      "states": {
+        "twelve_min": 5.322805423728812,
+        "three_hour": 7.841992673728817,
+        "thirty_day": 7.841992673728817
+      }
+    },
+    {
+      "blockNumber": 21527624,
+      "timestamp": 1735710267,
+      "basefee": 3.820506,
+      "states": {
+        "twelve_min": 5.315322406779659,
+        "three_hour": 7.827327274261607,
+        "thirty_day": 7.827327274261607
+      }
+    },
+    {
+      "blockNumber": 21527625,
+      "timestamp": 1735710279,
+      "basefee": 4.298069,
+      "states": {
+        "twelve_min": 5.288402762711862,
+        "three_hour": 7.810491890756306,
+        "thirty_day": 7.810491890756306
+      }
+    },
+    {
+      "blockNumber": 21527626,
+      "timestamp": 1735710291,
+      "basefee": 4.835328,
+      "states": {
+        "twelve_min": 5.260320355932202,
+        "three_hour": 7.79579556066946,
+        "thirty_day": 7.79579556066946
+      }
+    },
+    {
+      "blockNumber": 21527627,
+      "timestamp": 1735710303,
+      "basefee": 5.439744,
+      "states": {
+        "twelve_min": 5.2313989830508465,
+        "three_hour": 7.783460279166671,
+        "thirty_day": 7.783460279166671
+      }
+    },
+    {
+      "blockNumber": 21527628,
+      "timestamp": 1735710315,
+      "basefee": 6.119712,
+      "states": {
+        "twelve_min": 5.226581457627117,
+        "three_hour": 7.773735315352702,
+        "thirty_day": 7.773735315352702
+      }
+    },
+    {
+      "blockNumber": 21527629,
+      "timestamp": 1735710327,
+      "basefee": 5.62037,
+      "states": {
+        "twelve_min": 5.245415881355931,
+        "three_hour": 7.7669005082644675,
+        "thirty_day": 7.7669005082644675
+      }
+    },
+    {
+      "blockNumber": 21527630,
+      "timestamp": 1735710339,
+      "basefee": 4.917824,
+      "states": {
+        "twelve_min": 5.250251220338982,
+        "three_hour": 7.75806704938272,
+        "thirty_day": 7.75806704938272
+      }
+    },
+    {
+      "blockNumber": 21527631,
+      "timestamp": 1735710351,
+      "basefee": 5.532552,
+      "states": {
+        "twelve_min": 5.231875847457626,
+        "three_hour": 7.746426709016398,
+        "thirty_day": 7.746426709016398
+      }
+    },
+    {
+      "blockNumber": 21527632,
+      "timestamp": 1735710363,
+      "basefee": 4.840983,
+      "states": {
+        "twelve_min": 5.236635627118643,
+        "three_hour": 7.7373904857142906,
+        "thirty_day": 7.7373904857142906
+      }
+    },
+    {
+      "blockNumber": 21527633,
+      "timestamp": 1735710375,
+      "basefee": 4.888483,
+      "states": {
+        "twelve_min": 5.240800440677965,
+        "three_hour": 7.72561647154472,
+        "thirty_day": 7.72561647154472
+      }
+    },
+    {
+      "blockNumber": 21527634,
+      "timestamp": 1735710387,
+      "basefee": 5.499543,
+      "states": {
+        "twelve_min": 5.236034627118643,
+        "three_hour": 7.71413010121458,
+        "thirty_day": 7.71413010121458
+      }
+    },
+    {
+      "blockNumber": 21527635,
+      "timestamp": 1735710399,
+      "basefee": 4.8121,
+      "states": {
+        "twelve_min": 5.230673084745763,
+        "three_hour": 7.705200314516134,
+        "thirty_day": 7.705200314516134
+      }
+    },
+    {
+      "blockNumber": 21527636,
+      "timestamp": 1735710411,
+      "basefee": 4.210587,
+      "states": {
+        "twelve_min": 5.225981728813559,
+        "three_hour": 7.693581437751009,
+        "thirty_day": 7.693581437751009
+      }
+    },
+    {
+      "blockNumber": 21527637,
+      "timestamp": 1735710423,
+      "basefee": 4.644224,
+      "states": {
+        "twelve_min": 5.212777440677965,
+        "three_hour": 7.679649460000004,
+        "thirty_day": 7.679649460000004
+      }
+    },
+    {
+      "blockNumber": 21527638,
+      "timestamp": 1735710435,
+      "basefee": 4.145756,
+      "states": {
+        "twelve_min": 5.2137646779661,
+        "three_hour": 7.667556131474107,
+        "thirty_day": 7.667556131474107
+      }
+    },
+    {
+      "blockNumber": 21527639,
+      "timestamp": 1735710447,
+      "basefee": 4.663976,
+      "states": {
+        "twelve_min": 5.196587254237287,
+        "three_hour": 7.6535807341269875,
+        "thirty_day": 7.6535807341269875
+      }
+    },
+    {
+      "blockNumber": 21527640,
+      "timestamp": 1735710459,
+      "basefee": 5.246973,
+      "states": {
+        "twelve_min": 5.183274796610169,
+        "three_hour": 7.64176411462451,
+        "thirty_day": 7.64176411462451
+      }
+    },
+    {
+      "blockNumber": 21527641,
+      "timestamp": 1735710471,
+      "basefee": 4.71536,
+      "states": {
+        "twelve_min": 5.168298288135592,
+        "three_hour": 7.63233580314961,
+        "thirty_day": 7.63233580314961
+      }
+    },
+    {
+      "blockNumber": 21527642,
+      "timestamp": 1735710483,
+      "basefee": 4.636644,
+      "states": {
+        "twelve_min": 5.135188084745762,
+        "three_hour": 7.620896682352946,
+        "thirty_day": 7.620896682352946
+      }
+    },
+    {
+      "blockNumber": 21527643,
+      "timestamp": 1735710495,
+      "basefee": 5.05876,
+      "states": {
+        "twelve_min": 5.109471457627118,
+        "three_hour": 7.609239445312504,
+        "thirty_day": 7.609239445312504
+      }
+    },
+    {
+      "blockNumber": 21527644,
+      "timestamp": 1735710507,
+      "basefee": 4.426415,
+      "states": {
+        "twelve_min": 5.103947322033897,
+        "three_hour": 7.599315400778213,
+        "thirty_day": 7.599315400778213
+      }
+    },
+    {
+      "blockNumber": 21527645,
+      "timestamp": 1735710519,
+      "basefee": 4.979717,
+      "states": {
+        "twelve_min": 5.099113694915253,
+        "three_hour": 7.587017337209305,
+        "thirty_day": 7.587017337209305
+      }
+    },
+    {
+      "blockNumber": 21527646,
+      "timestamp": 1735710531,
+      "basefee": 4.440324,
+      "states": {
+        "twelve_min": 5.104296745762711,
+        "three_hour": 7.576950540540543,
+        "thirty_day": 7.576950540540543
+      }
+    },
+    {
+      "blockNumber": 21527647,
+      "timestamp": 1735710543,
+      "basefee": 4.995365,
+      "states": {
+        "twelve_min": 5.098955101694915,
+        "three_hour": 7.564886592307696,
+        "thirty_day": 7.564886592307696
+      }
+    },
+    {
+      "blockNumber": 21527648,
+      "timestamp": 1735710555,
+      "basefee": 4.370944,
+      "states": {
+        "twelve_min": 5.103133,
+        "three_hour": 7.55504168199234,
+        "thirty_day": 7.55504168199234
+      }
+    },
+    {
+      "blockNumber": 21527649,
+      "timestamp": 1735710567,
+      "basefee": 4.917312,
+      "states": {
+        "twelve_min": 5.097557881355932,
+        "three_hour": 7.542888637404583,
+        "thirty_day": 7.542888637404583
+      }
+    },
+    {
+      "blockNumber": 21527650,
+      "timestamp": 1735710579,
+      "basefee": 5.531976,
+      "states": {
+        "twelve_min": 5.111200610169493,
+        "three_hour": 7.532905456273767,
+        "thirty_day": 7.532905456273767
+      }
+    },
+    {
+      "blockNumber": 21527651,
+      "timestamp": 1735710591,
+      "basefee": 6.223473,
+      "states": {
+        "twelve_min": 5.1265486779661025,
+        "three_hour": 7.525326178030305,
+        "thirty_day": 7.525326178030305
+      }
+    },
+    {
+      "blockNumber": 21527652,
+      "timestamp": 1735710603,
+      "basefee": 5.445539,
+      "states": {
+        "twelve_min": 5.143815254237289,
+        "three_hour": 7.520413524528304,
+        "thirty_day": 7.520413524528304
+      }
+    },
+    {
+      "blockNumber": 21527653,
+      "timestamp": 1735710615,
+      "basefee": 6.126231,
+      "states": {
+        "twelve_min": 5.137252627118645,
+        "three_hour": 7.512613244360905,
+        "thirty_day": 7.512613244360905
+      }
+    },
+    {
+      "blockNumber": 21527654,
+      "timestamp": 1735710627,
+      "basefee": 6.866645,
+      "states": {
+        "twelve_min": 5.144206389830509,
+        "three_hour": 7.507420801498129,
+        "thirty_day": 7.507420801498129
+      }
+    },
+    {
+      "blockNumber": 21527655,
+      "timestamp": 1735710639,
+      "basefee": 6.355885,
+      "states": {
+        "twelve_min": 5.151599457627119,
+        "three_hour": 7.505029847014927,
+        "thirty_day": 7.505029847014927
+      }
+    },
+    {
+      "blockNumber": 21527656,
+      "timestamp": 1735710651,
+      "basefee": 5.561399,
+      "states": {
+        "twelve_min": 5.1496574406779665,
+        "three_hour": 7.500757933085503,
+        "thirty_day": 7.500757933085503
+      }
+    },
+    {
+      "blockNumber": 21527657,
+      "timestamp": 1735710663,
+      "basefee": 5.164475,
+      "states": {
+        "twelve_min": 5.147958169491526,
+        "three_hour": 7.493575122222223,
+        "thirty_day": 7.493575122222223
+      }
+    },
+    {
+      "blockNumber": 21527658,
+      "timestamp": 1735710675,
+      "basefee": 4.550425,
+      "states": {
+        "twelve_min": 5.127536338983051,
+        "three_hour": 7.484980656826569,
+        "thirty_day": 7.484980656826569
+      }
+    },
+    {
+      "blockNumber": 21527659,
+      "timestamp": 1735710687,
+      "basefee": 4.735841,
+      "states": {
+        "twelve_min": 5.110201288135594,
+        "three_hour": 7.474191849264707,
+        "thirty_day": 7.474191849264707
+      }
+    },
+    {
+      "blockNumber": 21527660,
+      "timestamp": 1735710699,
+      "basefee": 4.209599,
+      "states": {
+        "twelve_min": 5.102446186440678,
+        "three_hour": 7.464161260073261,
+        "thirty_day": 7.464161260073261
+      }
+    },
+    {
+      "blockNumber": 21527661,
+      "timestamp": 1735710711,
+      "basefee": 4.735799,
+      "states": {
+        "twelve_min": 5.074768779661017,
+        "three_hour": 7.45228329562044,
+        "thirty_day": 7.45228329562044
+      }
+    },
+    {
+      "blockNumber": 21527662,
+      "timestamp": 1735710723,
+      "basefee": 5.006275,
+      "states": {
+        "twelve_min": 5.048303338983052,
+        "three_hour": 7.442405170909092,
+        "thirty_day": 7.442405170909092
+      }
+    },
+    {
+      "blockNumber": 21527663,
+      "timestamp": 1735710735,
+      "basefee": 5.632059,
+      "states": {
+        "twelve_min": 5.039763898305085,
+        "three_hour": 7.4335786123188425,
+        "thirty_day": 7.4335786123188425
+      }
+    },
+    {
+      "blockNumber": 21527664,
+      "timestamp": 1735710747,
+      "basefee": 5.286231,
+      "states": {
+        "twelve_min": 5.0482642372881354,
+        "three_hour": 7.427074931407944,
+        "thirty_day": 7.427074931407944
+      }
+    },
+    {
+      "blockNumber": 21527665,
+      "timestamp": 1735710759,
+      "basefee": 5.94701,
+      "states": {
+        "twelve_min": 5.061772864406779,
+        "three_hour": 7.419374053956836,
+        "thirty_day": 7.419374053956836
+      }
+    },
+    {
+      "blockNumber": 21527666,
+      "timestamp": 1735710771,
+      "basefee": 5.304999,
+      "states": {
+        "twelve_min": 5.07697006779661,
+        "three_hour": 7.414096763440861,
+        "thirty_day": 7.414096763440861
+      }
+    },
+    {
+      "blockNumber": 21527667,
+      "timestamp": 1735710783,
+      "basefee": 4.641874,
+      "states": {
+        "twelve_min": 5.073720118644069,
+        "three_hour": 7.406564271428572,
+        "thirty_day": 7.406564271428572
+      }
+    },
+    {
+      "blockNumber": 21527668,
+      "timestamp": 1735710795,
+      "basefee": 5.222108,
+      "states": {
+        "twelve_min": 5.047585118644068,
+        "three_hour": 7.396725516014235,
+        "thirty_day": 7.396725516014235
+      }
+    },
+    {
+      "blockNumber": 21527669,
+      "timestamp": 1735710807,
+      "basefee": 5.681849,
+      "states": {
+        "twelve_min": 5.0443859491525425,
+        "three_hour": 7.389014106382979,
+        "thirty_day": 7.389014106382979
+      }
+    },
+    {
+      "blockNumber": 21527670,
+      "timestamp": 1735710819,
+      "basefee": 4.971618,
+      "states": {
+        "twelve_min": 5.04305613559322,
+        "three_hour": 7.382981720848057,
+        "thirty_day": 7.382981720848057
+      }
+    },
+    {
+      "blockNumber": 21527671,
+      "timestamp": 1735710831,
+      "basefee": 4.350166,
+      "states": {
+        "twelve_min": 5.017484457627119,
+        "three_hour": 7.374491003521126,
+        "thirty_day": 7.374491003521126
+      }
+    },
+    {
+      "blockNumber": 21527672,
+      "timestamp": 1735710843,
+      "basefee": 3.806395,
+      "states": {
+        "twelve_min": 4.995109237288135,
+        "three_hour": 7.363879336842104,
+        "thirty_day": 7.363879336842104
+      }
+    },
+    {
+      "blockNumber": 21527673,
+      "timestamp": 1735710855,
+      "basefee": 4.282194,
+      "states": {
+        "twelve_min": 4.95150420338983,
+        "three_hour": 7.351440580419579,
+        "thirty_day": 7.351440580419579
+      }
+    },
+    {
+      "blockNumber": 21527674,
+      "timestamp": 1735710867,
+      "basefee": 4.817468,
+      "states": {
+        "twelve_min": 4.929478593220339,
+        "three_hour": 7.340746341463413,
+        "thirty_day": 7.340746341463413
+      }
+    },
+    {
+      "blockNumber": 21527675,
+      "timestamp": 1735710879,
+      "basefee": 5.419651,
+      "states": {
+        "twelve_min": 4.92835106779661,
+        "three_hour": 7.331984958333332,
+        "thirty_day": 7.331984958333332
+      }
+    },
+    {
+      "blockNumber": 21527676,
+      "timestamp": 1735710891,
+      "basefee": 5.314428,
+      "states": {
+        "twelve_min": 4.947777474576271,
+        "three_hour": 7.325367885813146,
+        "thirty_day": 7.325367885813146
+      }
+    },
+    {
+      "blockNumber": 21527677,
+      "timestamp": 1735710903,
+      "basefee": 4.650125,
+      "states": {
+        "twelve_min": 4.970579118644067,
+        "three_hour": 7.318433610344825,
+        "thirty_day": 7.318433610344825
+      }
+    },
+    {
+      "blockNumber": 21527678,
+      "timestamp": 1735710915,
+      "basefee": 5.231391,
+      "states": {
+        "twelve_min": 4.973712220338982,
+        "three_hour": 7.309264164948452,
+        "thirty_day": 7.309264164948452
+      }
+    },
+    {
+      "blockNumber": 21527679,
+      "timestamp": 1735710927,
+      "basefee": 5.885315,
+      "states": {
+        "twelve_min": 4.996157610169491,
+        "three_hour": 7.302148160958902,
+        "thirty_day": 7.302148160958902
+      }
+    },
+    {
+      "blockNumber": 21527680,
+      "timestamp": 1735710939,
+      "basefee": 5.149651,
+      "states": {
+        "twelve_min": 5.029642711864406,
+        "three_hour": 7.2973125529010225,
+        "thirty_day": 7.2973125529010225
+      }
+    },
+    {
+      "blockNumber": 21527681,
+      "timestamp": 1735710951,
+      "basefee": 5.793357,
+      "states": {
+        "twelve_min": 5.042375677966101,
+        "three_hour": 7.2900075816326515,
+        "thirty_day": 7.2900075816326515
+      }
+    },
+    {
+      "blockNumber": 21527682,
+      "timestamp": 1735710963,
+      "basefee": 6.517527,
+      "states": {
+        "twelve_min": 5.0567002542372865,
+        "three_hour": 7.284934189830507,
+        "thirty_day": 7.284934189830507
+      }
+    },
+    {
+      "blockNumber": 21527683,
+      "timestamp": 1735710975,
+      "basefee": 5.702836,
+      "states": {
+        "twelve_min": 5.093161847457626,
+        "three_hour": 7.282341597972971,
+        "thirty_day": 7.282341597972971
+      }
+    },
+    {
+      "blockNumber": 21527684,
+      "timestamp": 1735710987,
+      "basefee": 5.509165,
+      "states": {
+        "twelve_min": 5.125065745762711,
+        "three_hour": 7.277023397306396,
+        "thirty_day": 7.277023397306396
+      }
+    },
+    {
+      "blockNumber": 21527685,
+      "timestamp": 1735710999,
+      "basefee": 4.820519,
+      "states": {
+        "twelve_min": 5.145592796610169,
+        "three_hour": 7.27109098657718,
+        "thirty_day": 7.27109098657718
+      }
+    },
+    {
+      "blockNumber": 21527686,
+      "timestamp": 1735711011,
+      "basefee": 5.423084,
+      "states": {
+        "twelve_min": 5.145341796610169,
+        "three_hour": 7.262895093645484,
+        "thirty_day": 7.262895093645484
+      }
+    },
+    {
+      "blockNumber": 21527687,
+      "timestamp": 1735711023,
+      "basefee": 6.10097,
+      "states": {
+        "twelve_min": 5.145059423728813,
+        "three_hour": 7.256762389999999,
+        "thirty_day": 7.256762389999999
+      }
+    },
+    {
+      "blockNumber": 21527688,
+      "timestamp": 1735711035,
+      "basefee": 5.338349,
+      "states": {
+        "twelve_min": 5.144741762711865,
+        "three_hour": 7.252922548172756,
+        "thirty_day": 7.252922548172756
+      }
+    },
+    {
+      "blockNumber": 21527689,
+      "timestamp": 1735711047,
+      "basefee": 6.005643,
+      "states": {
+        "twelve_min": 5.139961745762712,
+        "three_hour": 7.246582900662251,
+        "thirty_day": 7.246582900662251
+      }
+    },
+    {
+      "blockNumber": 21527690,
+      "timestamp": 1735711059,
+      "basefee": 5.254938,
+      "states": {
+        "twelve_min": 5.158399355932203,
+        "three_hour": 7.242487389438943,
+        "thirty_day": 7.242487389438943
+      }
+    },
+    {
+      "blockNumber": 21527691,
+      "timestamp": 1735711071,
+      "basefee": 4.598071,
+      "states": {
+        "twelve_min": 5.153694033898305,
+        "three_hour": 7.235949398026315,
+        "thirty_day": 7.235949398026315
+      }
+    },
+    {
+      "blockNumber": 21527692,
+      "timestamp": 1735711083,
+      "basefee": 4.571293,
+      "states": {
+        "twelve_min": 5.149576881355933,
+        "three_hour": 7.227300616393442,
+        "thirty_day": 7.227300616393442
+      }
+    },
+    {
+      "blockNumber": 21527693,
+      "timestamp": 1735711095,
+      "basefee": 5.142705,
+      "states": {
+        "twelve_min": 5.144200779661017,
+        "three_hour": 7.218620852941176,
+        "thirty_day": 7.218620852941176
+      }
+    },
+    {
+      "blockNumber": 21527694,
+      "timestamp": 1735711107,
+      "basefee": 4.499867,
+      "states": {
+        "twelve_min": 5.138152677966103,
+        "three_hour": 7.211858912052116,
+        "thirty_day": 7.211858912052116
+      }
+    },
+    {
+      "blockNumber": 21527695,
+      "timestamp": 1735711119,
+      "basefee": 5.06235,
+      "states": {
+        "twelve_min": 5.1328605932203395,
+        "three_hour": 7.2030537435064925,
+        "thirty_day": 7.2030537435064925
+      }
+    },
+    {
+      "blockNumber": 21527696,
+      "timestamp": 1735711131,
+      "basefee": 5.429458,
+      "states": {
+        "twelve_min": 5.147297254237288,
+        "three_hour": 7.1961258996763755,
+        "thirty_day": 7.1961258996763755
+      }
+    },
+    {
+      "blockNumber": 21527697,
+      "timestamp": 1735711143,
+      "basefee": 6.10814,
+      "states": {
+        "twelve_min": 5.1606063050847455,
+        "three_hour": 7.190426970967741,
+        "thirty_day": 7.190426970967741
+      }
+    },
+    {
+      "blockNumber": 21527698,
+      "timestamp": 1735711155,
+      "basefee": 6.871657,
+      "states": {
+        "twelve_min": 5.193867050847459,
+        "three_hour": 7.186946948553055,
+        "thirty_day": 7.186946948553055
+      }
+    },
+    {
+      "blockNumber": 21527699,
+      "timestamp": 1735711167,
+      "basefee": 6.457183,
+      "states": {
+        "twelve_min": 5.231285372881357,
+        "three_hour": 7.185936403846154,
+        "thirty_day": 7.185936403846154
+      }
+    },
+    {
+      "blockNumber": 21527700,
+      "timestamp": 1735711179,
+      "basefee": 6.844364,
+      "states": {
+        "twelve_min": 5.251797406779661,
+        "three_hour": 7.183608118210863,
+        "thirty_day": 7.183608118210863
+      }
+    },
+    {
+      "blockNumber": 21527701,
+      "timestamp": 1735711191,
+      "basefee": 5.988818,
+      "states": {
+        "twelve_min": 5.287882220338983,
+        "three_hour": 7.182527722929936,
+        "thirty_day": 7.182527722929936
+      }
+    },
+    {
+      "blockNumber": 21527702,
+      "timestamp": 1735711203,
+      "basefee": 6.73742,
+      "states": {
+        "twelve_min": 5.310800423728814,
+        "three_hour": 7.178738168253968,
+        "thirty_day": 7.178738168253968
+      }
+    },
+    {
+      "blockNumber": 21527703,
+      "timestamp": 1735711215,
+      "basefee": 5.895243,
+      "states": {
+        "twelve_min": 5.339252288135594,
+        "three_hour": 7.177341591772152,
+        "thirty_day": 7.177341591772152
+      }
+    },
+    {
+      "blockNumber": 21527704,
+      "timestamp": 1735711227,
+      "basefee": 6.076961,
+      "states": {
+        "twelve_min": 5.364147677966104,
+        "three_hour": 7.173297116719243,
+        "thirty_day": 7.173297116719243
+      }
+    },
+    {
+      "blockNumber": 21527705,
+      "timestamp": 1735711239,
+      "basefee": 6.836581,
+      "states": {
+        "twelve_min": 5.382745033898306,
+        "three_hour": 7.169849518867925,
+        "thirty_day": 7.169849518867925
+      }
+    },
+    {
+      "blockNumber": 21527706,
+      "timestamp": 1735711251,
+      "basefee": 5.982008,
+      "states": {
+        "twelve_min": 5.4233595593220345,
+        "three_hour": 7.168804789968652,
+        "thirty_day": 7.168804789968652
+      }
+    },
+    {
+      "blockNumber": 21527707,
+      "timestamp": 1735711263,
+      "basefee": 5.281702,
+      "states": {
+        "twelve_min": 5.440082322033899,
+        "three_hour": 7.16509605,
+        "thirty_day": 7.16509605
+      }
+    },
+    {
+      "blockNumber": 21527708,
+      "timestamp": 1735711275,
+      "basefee": 5.941915,
+      "states": {
+        "twelve_min": 5.455518898305085,
+        "three_hour": 7.159228778816199,
+        "thirty_day": 7.159228778816199
+      }
+    },
+    {
+      "blockNumber": 21527709,
+      "timestamp": 1735711287,
+      "basefee": 6.684654,
+      "states": {
+        "twelve_min": 5.472885050847458,
+        "three_hour": 7.155448301242235,
+        "thirty_day": 7.155448301242235
+      }
+    },
+    {
+      "blockNumber": 21527710,
+      "timestamp": 1735711299,
+      "basefee": 5.849072,
+      "states": {
+        "twelve_min": 5.492421966101694,
+        "three_hour": 7.15399073374613,
+        "thirty_day": 7.15399073374613
+      }
+    },
+    {
+      "blockNumber": 21527711,
+      "timestamp": 1735711311,
+      "basefee": 6.21448,
+      "states": {
+        "twelve_min": 5.486076186440677,
+        "three_hour": 7.149963206790122,
+        "thirty_day": 7.149963206790122
+      }
+    },
+    {
+      "blockNumber": 21527712,
+      "timestamp": 1735711323,
+      "basefee": 5.43767,
+      "states": {
+        "twelve_min": 5.499109084745763,
+        "three_hour": 7.147084796923076,
+        "thirty_day": 7.147084796923076
+      }
+    },
+    {
+      "blockNumber": 21527713,
+      "timestamp": 1735711335,
+      "basefee": 5.170573,
+      "states": {
+        "twelve_min": 5.487438559322033,
+        "three_hour": 7.141841193251532,
+        "thirty_day": 7.141841193251532
+      }
+    },
+    {
+      "blockNumber": 21527714,
+      "timestamp": 1735711347,
+      "basefee": 5.349314,
+      "states": {
+        "twelve_min": 5.458691576271185,
+        "three_hour": 7.135812850152904,
+        "thirty_day": 7.135812850152904
+      }
+    },
+    {
+      "blockNumber": 21527715,
+      "timestamp": 1735711359,
+      "basefee": 6.017978,
+      "states": {
+        "twelve_min": 5.441631050847457,
+        "three_hour": 7.130366207317072,
+        "thirty_day": 7.130366207317072
+      }
+    },
+    {
+      "blockNumber": 21527716,
+      "timestamp": 1735711371,
+      "basefee": 6.770225,
+      "states": {
+        "twelve_min": 5.449369677966101,
+        "three_hour": 7.126985088145895,
+        "thirty_day": 7.126985088145895
+      }
+    },
+    {
+      "blockNumber": 21527717,
+      "timestamp": 1735711383,
+      "basefee": 5.923947,
+      "states": {
+        "twelve_min": 5.476585779661017,
+        "three_hour": 7.125903996969695,
+        "thirty_day": 7.125903996969695
+      }
+    },
+    {
+      "blockNumber": 21527718,
+      "timestamp": 1735711395,
+      "basefee": 6.66444,
+      "states": {
+        "twelve_min": 5.49986581355932,
+        "three_hour": 7.122272706948639,
+        "thirty_day": 7.122272706948639
+      }
+    },
+    {
+      "blockNumber": 21527719,
+      "timestamp": 1735711407,
+      "basefee": 5.831385,
+      "states": {
+        "twelve_min": 5.532553932203388,
+        "three_hour": 7.120893692771082,
+        "thirty_day": 7.120893692771082
+      }
+    },
+    {
+      "blockNumber": 21527720,
+      "timestamp": 1735711419,
+      "basefee": 5.622702,
+      "states": {
+        "twelve_min": 5.560041830508474,
+        "three_hour": 7.117021294294292,
+        "thirty_day": 7.117021294294292
+      }
+    },
+    {
+      "blockNumber": 21527721,
+      "timestamp": 1735711431,
+      "basefee": 6.32554,
+      "states": {
+        "twelve_min": 5.575074084745761,
+        "three_hour": 7.112547284431136,
+        "thirty_day": 7.112547284431136
+      }
+    },
+    {
+      "blockNumber": 21527722,
+      "timestamp": 1735711443,
+      "basefee": 5.534847,
+      "states": {
+        "twelve_min": 5.597434508474575,
+        "three_hour": 7.110198008955223,
+        "thirty_day": 7.110198008955223
+      }
+    },
+    {
+      "blockNumber": 21527723,
+      "timestamp": 1735711455,
+      "basefee": 5.801572,
+      "states": {
+        "twelve_min": 5.595786847457626,
+        "three_hour": 7.105509464285713,
+        "thirty_day": 7.105509464285713
+      }
+    },
+    {
+      "blockNumber": 21527724,
+      "timestamp": 1735711467,
+      "basefee": 6.228719,
+      "states": {
+        "twelve_min": 5.604521440677965,
+        "three_hour": 7.1016402136498495,
+        "thirty_day": 7.1016402136498495
+      }
+    },
+    {
+      "blockNumber": 21527725,
+      "timestamp": 1735711479,
+      "basefee": 5.450129,
+      "states": {
+        "twelve_min": 5.609296169491524,
+        "three_hour": 7.099057606508874,
+        "thirty_day": 7.099057606508874
+      }
+    }
+  ]
+}

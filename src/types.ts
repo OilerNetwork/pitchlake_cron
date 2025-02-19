@@ -35,3 +35,25 @@ export const TWAP_RANGES = {
     thirtyDayTwap?: TWAPMetrics;
   }
   
+export type TWAPWindowType = 'twelve_min' | 'three_hour' | 'thirty_day';
+
+export interface TWAPState {
+  weightedSum: number;
+  totalSeconds: number;
+  twapValue: number;
+  lastBlockNumber: number;
+  lastBlockTimestamp: number;
+}
+
+export interface BlockWithNextTimestamp {
+  timestamp: number;
+  next_timestamp: number | null;
+  basefee: number;
+}
+
+export interface TWAPStateContainer {
+  twelveminTwap: TWAPState;
+  threeHourTwap: TWAPState;
+  thirtyDayTwap: TWAPState;
+}
+  

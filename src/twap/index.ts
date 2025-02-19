@@ -2,20 +2,17 @@ import 'dotenv/config';
 import { setupLogger } from "../logger";
 import { GasDataService } from './gasData';
 
-const logger = setupLogger();
 
+async function main() {
+  const service = new GasDataService();
+  
+  try {
+    await service.updateTWAPs();
+  } catch (error) {
+    console.error('Failed to update TWAPs:', error);
+  } finally {
+    await service.cleanup();
+  }
+}
 
-const service = new GasDataService(
-    
-);
-
-// Run once and exit
-service.updateTWAP()
-    .then(() => {
-        logger.info("TWAP update completed");
-        process.exit(0);
-    })
-    .catch(error => {
-        logger.error("Error in TWAP update:", error);
-        process.exit(1);
-    });
+main().catch(console.error);

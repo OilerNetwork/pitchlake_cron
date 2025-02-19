@@ -1,0 +1,6452 @@
+{
+  "metadata": {
+    "totalBlocks": 339,
+    "timeRange": {
+      "start": 1735707423,
+      "end": 1735711491
+    }
+  },
+  "calculations": [
+    {
+      "blockNumber": 21527387,
+      "timestamp": 1735707423,
+      "basefee": 11.189797,
+      "states": {
+        "twelve_min": {
+          "twapValue": 11.189797,
+          "totalSeconds": 0
+        },
+        "three_hour": {
+          "twapValue": 11.189797,
+          "totalSeconds": 0
+        },
+        "thirty_day": {
+          "twapValue": 11.189797,
+          "totalSeconds": 0
+        }
+      }
+    },
+    {
+      "blockNumber": 21527388,
+      "timestamp": 1735707435,
+      "basefee": 9.791072,
+      "states": {
+        "twelve_min": {
+          "twapValue": 11.189797,
+          "totalSeconds": 12
+        },
+        "three_hour": {
+          "twapValue": 11.189797,
+          "totalSeconds": 12
+        },
+        "thirty_day": {
+          "twapValue": 11.189797,
+          "totalSeconds": 12
+        }
+      }
+    },
+    {
+      "blockNumber": 21527389,
+      "timestamp": 1735707447,
+      "basefee": 11.014956,
+      "states": {
+        "twelve_min": {
+          "twapValue": 10.490434500000001,
+          "totalSeconds": 24
+        },
+        "three_hour": {
+          "twapValue": 10.490434500000001,
+          "totalSeconds": 24
+        },
+        "thirty_day": {
+          "twapValue": 10.490434500000001,
+          "totalSeconds": 24
+        }
+      }
+    },
+    {
+      "blockNumber": 21527390,
+      "timestamp": 1735707459,
+      "basefee": 9.876467,
+      "states": {
+        "twelve_min": {
+          "twapValue": 10.665275000000001,
+          "totalSeconds": 36
+        },
+        "three_hour": {
+          "twapValue": 10.665275000000001,
+          "totalSeconds": 36
+        },
+        "thirty_day": {
+          "twapValue": 10.665275000000001,
+          "totalSeconds": 36
+        }
+      }
+    },
+    {
+      "blockNumber": 21527391,
+      "timestamp": 1735707471,
+      "basefee": 8.717426,
+      "states": {
+        "twelve_min": {
+          "twapValue": 10.468073,
+          "totalSeconds": 48
+        },
+        "three_hour": {
+          "twapValue": 10.468073,
+          "totalSeconds": 48
+        },
+        "thirty_day": {
+          "twapValue": 10.468073,
+          "totalSeconds": 48
+        }
+      }
+    },
+    {
+      "blockNumber": 21527392,
+      "timestamp": 1735707483,
+      "basefee": 8.695041,
+      "states": {
+        "twelve_min": {
+          "twapValue": 10.1179436,
+          "totalSeconds": 60
+        },
+        "three_hour": {
+          "twapValue": 10.1179436,
+          "totalSeconds": 60
+        },
+        "thirty_day": {
+          "twapValue": 10.1179436,
+          "totalSeconds": 60
+        }
+      }
+    },
+    {
+      "blockNumber": 21527393,
+      "timestamp": 1735707495,
+      "basefee": 9.781921,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.880793166666669,
+          "totalSeconds": 72
+        },
+        "three_hour": {
+          "twapValue": 9.880793166666669,
+          "totalSeconds": 72
+        },
+        "thirty_day": {
+          "twapValue": 9.880793166666669,
+          "totalSeconds": 72
+        }
+      }
+    },
+    {
+      "blockNumber": 21527394,
+      "timestamp": 1735707507,
+      "basefee": 10.518727,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.866668571428573,
+          "totalSeconds": 84
+        },
+        "three_hour": {
+          "twapValue": 9.866668571428573,
+          "totalSeconds": 84
+        },
+        "thirty_day": {
+          "twapValue": 9.866668571428573,
+          "totalSeconds": 84
+        }
+      }
+    },
+    {
+      "blockNumber": 21527395,
+      "timestamp": 1735707519,
+      "basefee": 11.822176,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.948175875000002,
+          "totalSeconds": 96
+        },
+        "three_hour": {
+          "twapValue": 9.948175875000002,
+          "totalSeconds": 96
+        },
+        "thirty_day": {
+          "twapValue": 9.948175875000002,
+          "totalSeconds": 96
+        }
+      }
+    },
+    {
+      "blockNumber": 21527396,
+      "timestamp": 1735707531,
+      "basefee": 10.344404,
+      "states": {
+        "twelve_min": {
+          "twapValue": 10.156398111111113,
+          "totalSeconds": 108
+        },
+        "three_hour": {
+          "twapValue": 10.156398111111113,
+          "totalSeconds": 108
+        },
+        "thirty_day": {
+          "twapValue": 10.156398111111113,
+          "totalSeconds": 108
+        }
+      }
+    },
+    {
+      "blockNumber": 21527397,
+      "timestamp": 1735707543,
+      "basefee": 9.136734,
+      "states": {
+        "twelve_min": {
+          "twapValue": 10.175198700000001,
+          "totalSeconds": 120
+        },
+        "three_hour": {
+          "twapValue": 10.175198700000001,
+          "totalSeconds": 120
+        },
+        "thirty_day": {
+          "twapValue": 10.175198700000001,
+          "totalSeconds": 120
+        }
+      }
+    },
+    {
+      "blockNumber": 21527398,
+      "timestamp": 1735707555,
+      "basefee": 9.427984,
+      "states": {
+        "twelve_min": {
+          "twapValue": 10.08079281818182,
+          "totalSeconds": 132
+        },
+        "three_hour": {
+          "twapValue": 10.08079281818182,
+          "totalSeconds": 132
+        },
+        "thirty_day": {
+          "twapValue": 10.08079281818182,
+          "totalSeconds": 132
+        }
+      }
+    },
+    {
+      "blockNumber": 21527399,
+      "timestamp": 1735707567,
+      "basefee": 10.606482,
+      "states": {
+        "twelve_min": {
+          "twapValue": 10.026392083333334,
+          "totalSeconds": 144
+        },
+        "three_hour": {
+          "twapValue": 10.026392083333334,
+          "totalSeconds": 144
+        },
+        "thirty_day": {
+          "twapValue": 10.026392083333334,
+          "totalSeconds": 144
+        }
+      }
+    },
+    {
+      "blockNumber": 21527400,
+      "timestamp": 1735707579,
+      "basefee": 9.280672,
+      "states": {
+        "twelve_min": {
+          "twapValue": 10.071014384615387,
+          "totalSeconds": 156
+        },
+        "three_hour": {
+          "twapValue": 10.071014384615387,
+          "totalSeconds": 156
+        },
+        "thirty_day": {
+          "twapValue": 10.071014384615387,
+          "totalSeconds": 156
+        }
+      }
+    },
+    {
+      "blockNumber": 21527401,
+      "timestamp": 1735707591,
+      "basefee": 8.120588,
+      "states": {
+        "twelve_min": {
+          "twapValue": 10.014561357142858,
+          "totalSeconds": 168
+        },
+        "three_hour": {
+          "twapValue": 10.014561357142858,
+          "totalSeconds": 168
+        },
+        "thirty_day": {
+          "twapValue": 10.014561357142858,
+          "totalSeconds": 168
+        }
+      }
+    },
+    {
+      "blockNumber": 21527402,
+      "timestamp": 1735707603,
+      "basefee": 9.135661,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.888296466666668,
+          "totalSeconds": 180
+        },
+        "three_hour": {
+          "twapValue": 9.888296466666668,
+          "totalSeconds": 180
+        },
+        "thirty_day": {
+          "twapValue": 9.888296466666668,
+          "totalSeconds": 180
+        }
+      }
+    },
+    {
+      "blockNumber": 21527403,
+      "timestamp": 1735707615,
+      "basefee": 10.277619,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.841256750000001,
+          "totalSeconds": 192
+        },
+        "three_hour": {
+          "twapValue": 9.841256750000001,
+          "totalSeconds": 192
+        },
+        "thirty_day": {
+          "twapValue": 9.841256750000001,
+          "totalSeconds": 192
+        }
+      }
+    },
+    {
+      "blockNumber": 21527404,
+      "timestamp": 1735707627,
+      "basefee": 11.562321,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.86692511764706,
+          "totalSeconds": 204
+        },
+        "three_hour": {
+          "twapValue": 9.86692511764706,
+          "totalSeconds": 204
+        },
+        "thirty_day": {
+          "twapValue": 9.86692511764706,
+          "totalSeconds": 204
+        }
+      }
+    },
+    {
+      "blockNumber": 21527405,
+      "timestamp": 1735707639,
+      "basefee": 10.117031,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.96111377777778,
+          "totalSeconds": 216
+        },
+        "three_hour": {
+          "twapValue": 9.96111377777778,
+          "totalSeconds": 216
+        },
+        "thirty_day": {
+          "twapValue": 9.96111377777778,
+          "totalSeconds": 216
+        }
+      }
+    },
+    {
+      "blockNumber": 21527406,
+      "timestamp": 1735707651,
+      "basefee": 8.944603,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.969319947368422,
+          "totalSeconds": 228
+        },
+        "three_hour": {
+          "twapValue": 9.969319947368422,
+          "totalSeconds": 228
+        },
+        "thirty_day": {
+          "twapValue": 9.969319947368422,
+          "totalSeconds": 228
+        }
+      }
+    },
+    {
+      "blockNumber": 21527407,
+      "timestamp": 1735707663,
+      "basefee": 9.524123,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.9180841,
+          "totalSeconds": 240
+        },
+        "three_hour": {
+          "twapValue": 9.9180841,
+          "totalSeconds": 240
+        },
+        "thirty_day": {
+          "twapValue": 9.9180841,
+          "totalSeconds": 240
+        }
+      }
+    },
+    {
+      "blockNumber": 21527408,
+      "timestamp": 1735707675,
+      "basefee": 10.714638,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.899324047619048,
+          "totalSeconds": 252
+        },
+        "three_hour": {
+          "twapValue": 9.899324047619048,
+          "totalSeconds": 252
+        },
+        "thirty_day": {
+          "twapValue": 9.899324047619048,
+          "totalSeconds": 252
+        }
+      }
+    },
+    {
+      "blockNumber": 21527409,
+      "timestamp": 1735707687,
+      "basefee": 10.441089,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.936383772727273,
+          "totalSeconds": 264
+        },
+        "three_hour": {
+          "twapValue": 9.936383772727273,
+          "totalSeconds": 264
+        },
+        "thirty_day": {
+          "twapValue": 9.936383772727273,
+          "totalSeconds": 264
+        }
+      }
+    },
+    {
+      "blockNumber": 21527410,
+      "timestamp": 1735707699,
+      "basefee": 10.355097,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.95832747826087,
+          "totalSeconds": 276
+        },
+        "three_hour": {
+          "twapValue": 9.95832747826087,
+          "totalSeconds": 276
+        },
+        "thirty_day": {
+          "twapValue": 9.95832747826087,
+          "totalSeconds": 276
+        }
+      }
+    },
+    {
+      "blockNumber": 21527411,
+      "timestamp": 1735707711,
+      "basefee": 9.241994,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.974859541666667,
+          "totalSeconds": 288
+        },
+        "three_hour": {
+          "twapValue": 9.974859541666667,
+          "totalSeconds": 288
+        },
+        "thirty_day": {
+          "twapValue": 9.974859541666667,
+          "totalSeconds": 288
+        }
+      }
+    },
+    {
+      "blockNumber": 21527412,
+      "timestamp": 1735707723,
+      "basefee": 9.097677,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.945544920000001,
+          "totalSeconds": 300
+        },
+        "three_hour": {
+          "twapValue": 9.945544920000001,
+          "totalSeconds": 300
+        },
+        "thirty_day": {
+          "twapValue": 9.945544920000001,
+          "totalSeconds": 300
+        }
+      }
+    },
+    {
+      "blockNumber": 21527413,
+      "timestamp": 1735707735,
+      "basefee": 8.811216,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.912934615384616,
+          "totalSeconds": 312
+        },
+        "three_hour": {
+          "twapValue": 9.912934615384616,
+          "totalSeconds": 312
+        },
+        "thirty_day": {
+          "twapValue": 9.912934615384616,
+          "totalSeconds": 312
+        }
+      }
+    },
+    {
+      "blockNumber": 21527414,
+      "timestamp": 1735707747,
+      "basefee": 9.912618,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.872130222222223,
+          "totalSeconds": 324
+        },
+        "three_hour": {
+          "twapValue": 9.872130222222223,
+          "totalSeconds": 324
+        },
+        "thirty_day": {
+          "twapValue": 9.872130222222223,
+          "totalSeconds": 324
+        }
+      }
+    },
+    {
+      "blockNumber": 21527415,
+      "timestamp": 1735707759,
+      "basefee": 9.474485,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.873576214285714,
+          "totalSeconds": 336
+        },
+        "three_hour": {
+          "twapValue": 9.873576214285714,
+          "totalSeconds": 336
+        },
+        "thirty_day": {
+          "twapValue": 9.873576214285714,
+          "totalSeconds": 336
+        }
+      }
+    },
+    {
+      "blockNumber": 21527416,
+      "timestamp": 1735707771,
+      "basefee": 8.886016,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.859814448275863,
+          "totalSeconds": 348
+        },
+        "three_hour": {
+          "twapValue": 9.859814448275863,
+          "totalSeconds": 348
+        },
+        "thirty_day": {
+          "twapValue": 9.859814448275863,
+          "totalSeconds": 348
+        }
+      }
+    },
+    {
+      "blockNumber": 21527417,
+      "timestamp": 1735707783,
+      "basefee": 8.645208,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.8273545,
+          "totalSeconds": 360
+        },
+        "three_hour": {
+          "twapValue": 9.8273545,
+          "totalSeconds": 360
+        },
+        "thirty_day": {
+          "twapValue": 9.8273545,
+          "totalSeconds": 360
+        }
+      }
+    },
+    {
+      "blockNumber": 21527418,
+      "timestamp": 1735707795,
+      "basefee": 9.725859,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.789220741935484,
+          "totalSeconds": 372
+        },
+        "three_hour": {
+          "twapValue": 9.789220741935484,
+          "totalSeconds": 372
+        },
+        "thirty_day": {
+          "twapValue": 9.789220741935484,
+          "totalSeconds": 372
+        }
+      }
+    },
+    {
+      "blockNumber": 21527419,
+      "timestamp": 1735707807,
+      "basefee": 10.941591,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.7872406875,
+          "totalSeconds": 384
+        },
+        "three_hour": {
+          "twapValue": 9.7872406875,
+          "totalSeconds": 384
+        },
+        "thirty_day": {
+          "twapValue": 9.7872406875,
+          "totalSeconds": 384
+        }
+      }
+    },
+    {
+      "blockNumber": 21527420,
+      "timestamp": 1735707819,
+      "basefee": 10.090236,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.822221,
+          "totalSeconds": 396
+        },
+        "three_hour": {
+          "twapValue": 9.822221,
+          "totalSeconds": 396
+        },
+        "thirty_day": {
+          "twapValue": 9.822221,
+          "totalSeconds": 396
+        }
+      }
+    },
+    {
+      "blockNumber": 21527421,
+      "timestamp": 1735707831,
+      "basefee": 9.929176,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.830103794117647,
+          "totalSeconds": 408
+        },
+        "three_hour": {
+          "twapValue": 9.830103794117647,
+          "totalSeconds": 408
+        },
+        "thirty_day": {
+          "twapValue": 9.830103794117647,
+          "totalSeconds": 408
+        }
+      }
+    },
+    {
+      "blockNumber": 21527422,
+      "timestamp": 1735707843,
+      "basefee": 8.775194,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.83293442857143,
+          "totalSeconds": 420
+        },
+        "three_hour": {
+          "twapValue": 9.83293442857143,
+          "totalSeconds": 420
+        },
+        "thirty_day": {
+          "twapValue": 9.83293442857143,
+          "totalSeconds": 420
+        }
+      }
+    },
+    {
+      "blockNumber": 21527423,
+      "timestamp": 1735707855,
+      "basefee": 9.684191,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.803552750000001,
+          "totalSeconds": 432
+        },
+        "three_hour": {
+          "twapValue": 9.803552750000001,
+          "totalSeconds": 432
+        },
+        "thirty_day": {
+          "twapValue": 9.803552750000001,
+          "totalSeconds": 432
+        }
+      }
+    },
+    {
+      "blockNumber": 21527424,
+      "timestamp": 1735707867,
+      "basefee": 9.809932,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.800326756756757,
+          "totalSeconds": 444
+        },
+        "three_hour": {
+          "twapValue": 9.800326756756757,
+          "totalSeconds": 444
+        },
+        "thirty_day": {
+          "twapValue": 9.800326756756757,
+          "totalSeconds": 444
+        }
+      }
+    },
+    {
+      "blockNumber": 21527425,
+      "timestamp": 1735707879,
+      "basefee": 8.58369,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.800579526315788,
+          "totalSeconds": 456
+        },
+        "three_hour": {
+          "twapValue": 9.800579526315788,
+          "totalSeconds": 456
+        },
+        "thirty_day": {
+          "twapValue": 9.800579526315788,
+          "totalSeconds": 456
+        }
+      }
+    },
+    {
+      "blockNumber": 21527426,
+      "timestamp": 1735707891,
+      "basefee": 9.656651,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.76937723076923,
+          "totalSeconds": 468
+        },
+        "three_hour": {
+          "twapValue": 9.76937723076923,
+          "totalSeconds": 468
+        },
+        "thirty_day": {
+          "twapValue": 9.76937723076923,
+          "totalSeconds": 468
+        }
+      }
+    },
+    {
+      "blockNumber": 21527427,
+      "timestamp": 1735707903,
+      "basefee": 8.44957,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.766559075,
+          "totalSeconds": 480
+        },
+        "three_hour": {
+          "twapValue": 9.766559075,
+          "totalSeconds": 480
+        },
+        "thirty_day": {
+          "twapValue": 9.766559075,
+          "totalSeconds": 480
+        }
+      }
+    },
+    {
+      "blockNumber": 21527428,
+      "timestamp": 1735707915,
+      "basefee": 9.505766,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.734437390243903,
+          "totalSeconds": 492
+        },
+        "three_hour": {
+          "twapValue": 9.734437390243903,
+          "totalSeconds": 492
+        },
+        "thirty_day": {
+          "twapValue": 9.734437390243903,
+          "totalSeconds": 492
+        }
+      }
+    },
+    {
+      "blockNumber": 21527429,
+      "timestamp": 1735707927,
+      "basefee": 9.083512,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.728992833333333,
+          "totalSeconds": 504
+        },
+        "three_hour": {
+          "twapValue": 9.728992833333333,
+          "totalSeconds": 504
+        },
+        "thirty_day": {
+          "twapValue": 9.728992833333333,
+          "totalSeconds": 504
+        }
+      }
+    },
+    {
+      "blockNumber": 21527430,
+      "timestamp": 1735707939,
+      "basefee": 9.443948,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.71398165116279,
+          "totalSeconds": 516
+        },
+        "three_hour": {
+          "twapValue": 9.71398165116279,
+          "totalSeconds": 516
+        },
+        "thirty_day": {
+          "twapValue": 9.71398165116279,
+          "totalSeconds": 516
+        }
+      }
+    },
+    {
+      "blockNumber": 21527431,
+      "timestamp": 1735707951,
+      "basefee": 8.263454,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.707844522727273,
+          "totalSeconds": 528
+        },
+        "three_hour": {
+          "twapValue": 9.707844522727273,
+          "totalSeconds": 528
+        },
+        "thirty_day": {
+          "twapValue": 9.707844522727273,
+          "totalSeconds": 528
+        }
+      }
+    },
+    {
+      "blockNumber": 21527432,
+      "timestamp": 1735707963,
+      "basefee": 9.296386,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.675746955555555,
+          "totalSeconds": 540
+        },
+        "three_hour": {
+          "twapValue": 9.675746955555555,
+          "totalSeconds": 540
+        },
+        "thirty_day": {
+          "twapValue": 9.675746955555555,
+          "totalSeconds": 540
+        }
+      }
+    },
+    {
+      "blockNumber": 21527433,
+      "timestamp": 1735707975,
+      "basefee": 10.458434,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.667499978260869,
+          "totalSeconds": 552
+        },
+        "three_hour": {
+          "twapValue": 9.667499978260869,
+          "totalSeconds": 552
+        },
+        "thirty_day": {
+          "twapValue": 9.667499978260869,
+          "totalSeconds": 552
+        }
+      }
+    },
+    {
+      "blockNumber": 21527434,
+      "timestamp": 1735707987,
+      "basefee": 9.15113,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.684328361702127,
+          "totalSeconds": 564
+        },
+        "three_hour": {
+          "twapValue": 9.684328361702127,
+          "totalSeconds": 564
+        },
+        "thirty_day": {
+          "twapValue": 9.684328361702127,
+          "totalSeconds": 564
+        }
+      }
+    },
+    {
+      "blockNumber": 21527435,
+      "timestamp": 1735707999,
+      "basefee": 9.100653,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.673220062499999,
+          "totalSeconds": 576
+        },
+        "three_hour": {
+          "twapValue": 9.673220062499999,
+          "totalSeconds": 576
+        },
+        "thirty_day": {
+          "twapValue": 9.673220062499999,
+          "totalSeconds": 576
+        }
+      }
+    },
+    {
+      "blockNumber": 21527436,
+      "timestamp": 1735708011,
+      "basefee": 8.820556,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.661535020408161,
+          "totalSeconds": 588
+        },
+        "three_hour": {
+          "twapValue": 9.661535020408161,
+          "totalSeconds": 588
+        },
+        "thirty_day": {
+          "twapValue": 9.661535020408161,
+          "totalSeconds": 588
+        }
+      }
+    },
+    {
+      "blockNumber": 21527437,
+      "timestamp": 1735708023,
+      "basefee": 9.923125,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.644715439999997,
+          "totalSeconds": 600
+        },
+        "three_hour": {
+          "twapValue": 9.644715439999997,
+          "totalSeconds": 600
+        },
+        "thirty_day": {
+          "twapValue": 9.644715439999997,
+          "totalSeconds": 600
+        }
+      }
+    },
+    {
+      "blockNumber": 21527438,
+      "timestamp": 1735708035,
+      "basefee": 11.163516,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.650174450980389,
+          "totalSeconds": 612
+        },
+        "three_hour": {
+          "twapValue": 9.650174450980389,
+          "totalSeconds": 612
+        },
+        "thirty_day": {
+          "twapValue": 9.650174450980389,
+          "totalSeconds": 612
+        }
+      }
+    },
+    {
+      "blockNumber": 21527439,
+      "timestamp": 1735708047,
+      "basefee": 9.768076,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.67927717307692,
+          "totalSeconds": 624
+        },
+        "three_hour": {
+          "twapValue": 9.67927717307692,
+          "totalSeconds": 624
+        },
+        "thirty_day": {
+          "twapValue": 9.67927717307692,
+          "totalSeconds": 624
+        }
+      }
+    },
+    {
+      "blockNumber": 21527440,
+      "timestamp": 1735708059,
+      "basefee": 8.88784,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.680952622641506,
+          "totalSeconds": 636
+        },
+        "three_hour": {
+          "twapValue": 9.680952622641506,
+          "totalSeconds": 636
+        },
+        "thirty_day": {
+          "twapValue": 9.680952622641506,
+          "totalSeconds": 636
+        }
+      }
+    },
+    {
+      "blockNumber": 21527441,
+      "timestamp": 1735708071,
+      "basefee": 7.816418,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.66626535185185,
+          "totalSeconds": 648
+        },
+        "three_hour": {
+          "twapValue": 9.66626535185185,
+          "totalSeconds": 648
+        },
+        "thirty_day": {
+          "twapValue": 9.66626535185185,
+          "totalSeconds": 648
+        }
+      }
+    },
+    {
+      "blockNumber": 21527442,
+      "timestamp": 1735708083,
+      "basefee": 8.79347,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.632631763636363,
+          "totalSeconds": 660
+        },
+        "three_hour": {
+          "twapValue": 9.632631763636363,
+          "totalSeconds": 660
+        },
+        "thirty_day": {
+          "twapValue": 9.632631763636363,
+          "totalSeconds": 660
+        }
+      }
+    },
+    {
+      "blockNumber": 21527443,
+      "timestamp": 1735708095,
+      "basefee": 7.910372,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.617646732142855,
+          "totalSeconds": 672
+        },
+        "three_hour": {
+          "twapValue": 9.617646732142855,
+          "totalSeconds": 672
+        },
+        "thirty_day": {
+          "twapValue": 9.617646732142855,
+          "totalSeconds": 672
+        }
+      }
+    },
+    {
+      "blockNumber": 21527444,
+      "timestamp": 1735708107,
+      "basefee": 8.899169,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.587694543859648,
+          "totalSeconds": 684
+        },
+        "three_hour": {
+          "twapValue": 9.587694543859648,
+          "totalSeconds": 684
+        },
+        "thirty_day": {
+          "twapValue": 9.587694543859648,
+          "totalSeconds": 684
+        }
+      }
+    },
+    {
+      "blockNumber": 21527445,
+      "timestamp": 1735708119,
+      "basefee": 8.342672,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.575823413793103,
+          "totalSeconds": 696
+        },
+        "three_hour": {
+          "twapValue": 9.575823413793103,
+          "totalSeconds": 696
+        },
+        "thirty_day": {
+          "twapValue": 9.575823413793103,
+          "totalSeconds": 696
+        }
+      }
+    },
+    {
+      "blockNumber": 21527446,
+      "timestamp": 1735708131,
+      "basefee": 9.385506,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.55492254237288,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.55492254237288,
+          "totalSeconds": 708
+        },
+        "thirty_day": {
+          "twapValue": 9.55492254237288,
+          "totalSeconds": 708
+        }
+      }
+    },
+    {
+      "blockNumber": 21527447,
+      "timestamp": 1735708143,
+      "basefee": 9.044132,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.52434133898305,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.552098933333331,
+          "totalSeconds": 720
+        },
+        "thirty_day": {
+          "twapValue": 9.552098933333331,
+          "totalSeconds": 720
+        }
+      }
+    },
+    {
+      "blockNumber": 21527448,
+      "timestamp": 1735708155,
+      "basefee": 7.956899,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.511681338983049,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.543771606557375,
+          "totalSeconds": 732
+        },
+        "thirty_day": {
+          "twapValue": 9.543771606557375,
+          "totalSeconds": 732
+        }
+      }
+    },
+    {
+      "blockNumber": 21527449,
+      "timestamp": 1735708167,
+      "basefee": 7.993777,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.45984986440678,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.518176887096773,
+          "totalSeconds": 744
+        },
+        "thirty_day": {
+          "twapValue": 9.518176887096773,
+          "totalSeconds": 744
+        }
+      }
+    },
+    {
+      "blockNumber": 21527450,
+      "timestamp": 1735708179,
+      "basefee": 8.992999,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.42793986440678,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.493980063492062,
+          "totalSeconds": 756
+        },
+        "thirty_day": {
+          "twapValue": 9.493980063492062,
+          "totalSeconds": 756
+        }
+      }
+    },
+    {
+      "blockNumber": 21527451,
+      "timestamp": 1735708191,
+      "basefee": 10.117124,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.432610593220337,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.486152234374998,
+          "totalSeconds": 768
+        },
+        "thirty_day": {
+          "twapValue": 9.486152234374998,
+          "totalSeconds": 768
+        }
+      }
+    },
+    {
+      "blockNumber": 21527452,
+      "timestamp": 1735708203,
+      "basefee": 9.818215,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.456713694915255,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.49585949230769,
+          "totalSeconds": 780
+        },
+        "thirty_day": {
+          "twapValue": 9.49585949230769,
+          "totalSeconds": 780
+        }
+      }
+    },
+    {
+      "blockNumber": 21527453,
+      "timestamp": 1735708215,
+      "basefee": 11.045492,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.457328847457626,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.500743666666665,
+          "totalSeconds": 792
+        },
+        "thirty_day": {
+          "twapValue": 9.500743666666665,
+          "totalSeconds": 792
+        }
+      }
+    },
+    {
+      "blockNumber": 21527454,
+      "timestamp": 1735708227,
+      "basefee": 9.726504,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.466257067796608,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.523799611940296,
+          "totalSeconds": 804
+        },
+        "thirty_day": {
+          "twapValue": 9.523799611940296,
+          "totalSeconds": 804
+        }
+      }
+    },
+    {
+      "blockNumber": 21527455,
+      "timestamp": 1735708239,
+      "basefee": 8.510691,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.43073720338983,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.526780558823527,
+          "totalSeconds": 816
+        },
+        "thirty_day": {
+          "twapValue": 9.526780558823527,
+          "totalSeconds": 816
+        }
+      }
+    },
+    {
+      "blockNumber": 21527456,
+      "timestamp": 1735708251,
+      "basefee": 9.574527,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.399657322033898,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.512054623188405,
+          "totalSeconds": 828
+        },
+        "thirty_day": {
+          "twapValue": 9.512054623188405,
+          "totalSeconds": 828
+        }
+      }
+    },
+    {
+      "blockNumber": 21527457,
+      "timestamp": 1735708263,
+      "basefee": 8.377711,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.40707754237288,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.512947085714284,
+          "totalSeconds": 840
+        },
+        "thirty_day": {
+          "twapValue": 9.512947085714284,
+          "totalSeconds": 840
+        }
+      }
+    },
+    {
+      "blockNumber": 21527458,
+      "timestamp": 1735708275,
+      "basefee": 9.424925,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.389276305084746,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.49695784507042,
+          "totalSeconds": 852
+        },
+        "thirty_day": {
+          "twapValue": 9.49695784507042,
+          "totalSeconds": 852
+        }
+      }
+    },
+    {
+      "blockNumber": 21527459,
+      "timestamp": 1735708287,
+      "basefee": 10.603041,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.369249915254239,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.495957388888886,
+          "totalSeconds": 864
+        },
+        "thirty_day": {
+          "twapValue": 9.495957388888886,
+          "totalSeconds": 864
+        }
+      }
+    },
+    {
+      "blockNumber": 21527460,
+      "timestamp": 1735708299,
+      "basefee": 9.28663,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.391662949152545,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.511122917808217,
+          "totalSeconds": 876
+        },
+        "thirty_day": {
+          "twapValue": 9.511122917808217,
+          "totalSeconds": 876
+        }
+      }
+    },
+    {
+      "blockNumber": 21527461,
+      "timestamp": 1735708311,
+      "basefee": 9.020905,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.411426372881358,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.508089229729729,
+          "totalSeconds": 888
+        },
+        "thirty_day": {
+          "twapValue": 9.508089229729729,
+          "totalSeconds": 888
+        }
+      }
+    },
+    {
+      "blockNumber": 21527462,
+      "timestamp": 1735708323,
+      "basefee": 8.805872,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.409481355932204,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.501593439999999,
+          "totalSeconds": 900
+        },
+        "thirty_day": {
+          "twapValue": 9.501593439999999,
+          "totalSeconds": 900
+        }
+      }
+    },
+    {
+      "blockNumber": 21527463,
+      "timestamp": 1735708335,
+      "basefee": 9.789981,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.384536491525425,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.492439210526316,
+          "totalSeconds": 912
+        },
+        "thirty_day": {
+          "twapValue": 9.492439210526316,
+          "totalSeconds": 912
+        }
+      }
+    },
+    {
+      "blockNumber": 21527464,
+      "timestamp": 1735708347,
+      "basefee": 10.880313,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.354496830508475,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.49630338961039,
+          "totalSeconds": 924
+        },
+        "thirty_day": {
+          "twapValue": 9.49630338961039,
+          "totalSeconds": 924
+        }
+      }
+    },
+    {
+      "blockNumber": 21527465,
+      "timestamp": 1735708359,
+      "basefee": 9.520274,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.367433813559321,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.514047102564103,
+          "totalSeconds": 936
+        },
+        "thirty_day": {
+          "twapValue": 9.514047102564103,
+          "totalSeconds": 936
+        }
+      }
+    },
+    {
+      "blockNumber": 21527466,
+      "timestamp": 1735708371,
+      "basefee": 10.061475,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.37719094915254,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.514125924050633,
+          "totalSeconds": 948
+        },
+        "thirty_day": {
+          "twapValue": 9.514125924050633,
+          "totalSeconds": 948
+        }
+      }
+    },
+    {
+      "blockNumber": 21527467,
+      "timestamp": 1735708383,
+      "basefee": 10.34593,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.38629861016949,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.5209677875,
+          "totalSeconds": 960
+        },
+        "thirty_day": {
+          "twapValue": 9.5209677875,
+          "totalSeconds": 960
+        }
+      }
+    },
+    {
+      "blockNumber": 21527468,
+      "timestamp": 1735708395,
+      "basefee": 10.154279,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.380049322033898,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.531152506172837,
+          "totalSeconds": 972
+        },
+        "thirty_day": {
+          "twapValue": 9.531152506172837,
+          "totalSeconds": 972
+        }
+      }
+    },
+    {
+      "blockNumber": 21527469,
+      "timestamp": 1735708407,
+      "basefee": 9.328911,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.375188135593218,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.538751609756096,
+          "totalSeconds": 984
+        },
+        "thirty_day": {
+          "twapValue": 9.538751609756096,
+          "totalSeconds": 984
+        }
+      }
+    },
+    {
+      "blockNumber": 21527470,
+      "timestamp": 1735708419,
+      "basefee": 10.220098,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.357795152542371,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.536223409638554,
+          "totalSeconds": 996
+        },
+        "thirty_day": {
+          "twapValue": 9.536223409638554,
+          "totalSeconds": 996
+        }
+      }
+    },
+    {
+      "blockNumber": 21527471,
+      "timestamp": 1735708431,
+      "basefee": 10.162248,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.374373186440675,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.544364773809523,
+          "totalSeconds": 1008
+        },
+        "thirty_day": {
+          "twapValue": 9.544364773809523,
+          "totalSeconds": 1008
+        }
+      }
+    },
+    {
+      "blockNumber": 21527472,
+      "timestamp": 1735708443,
+      "basefee": 8.891967,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.392416762711862,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.551633988235292,
+          "totalSeconds": 1020
+        },
+        "thirty_day": {
+          "twapValue": 9.551633988235292,
+          "totalSeconds": 1020
+        }
+      }
+    },
+    {
+      "blockNumber": 21527473,
+      "timestamp": 1735708455,
+      "basefee": 8.765165,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.393785423728811,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.543963441860463,
+          "totalSeconds": 1032
+        },
+        "thirty_day": {
+          "twapValue": 9.543963441860463,
+          "totalSeconds": 1032
+        }
+      }
+    },
+    {
+      "blockNumber": 21527474,
+      "timestamp": 1735708467,
+      "basefee": 9.860811,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.374337067796608,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.535011735632182,
+          "totalSeconds": 1044
+        },
+        "thirty_day": {
+          "twapValue": 9.535011735632182,
+          "totalSeconds": 1044
+        }
+      }
+    },
+    {
+      "blockNumber": 21527475,
+      "timestamp": 1735708479,
+      "basefee": 10.133461,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.380884966101695,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.538713999999999,
+          "totalSeconds": 1056
+        },
+        "thirty_day": {
+          "twapValue": 9.538713999999999,
+          "totalSeconds": 1056
+        }
+      }
+    },
+    {
+      "blockNumber": 21527476,
+      "timestamp": 1735708491,
+      "basefee": 10.868865,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.402028101694913,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.545396550561795,
+          "totalSeconds": 1068
+        },
+        "thirty_day": {
+          "twapValue": 9.545396550561795,
+          "totalSeconds": 1068
+        }
+      }
+    },
+    {
+      "blockNumber": 21527477,
+      "timestamp": 1735708503,
+      "basefee": 10.342138,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.43971720338983,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.560101755555555,
+          "totalSeconds": 1080
+        },
+        "thirty_day": {
+          "twapValue": 9.560101755555555,
+          "totalSeconds": 1080
+        }
+      }
+    },
+    {
+      "blockNumber": 21527478,
+      "timestamp": 1735708515,
+      "basefee": 9.049371,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.45016261016949,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.56869556043956,
+          "totalSeconds": 1092
+        },
+        "thirty_day": {
+          "twapValue": 9.56869556043956,
+          "totalSeconds": 1092
+        }
+      }
+    },
+    {
+      "blockNumber": 21527479,
+      "timestamp": 1735708527,
+      "basefee": 10.180542,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.418091084745761,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.563050728260869,
+          "totalSeconds": 1104
+        },
+        "thirty_day": {
+          "twapValue": 9.563050728260869,
+          "totalSeconds": 1104
+        }
+      }
+    },
+    {
+      "blockNumber": 21527480,
+      "timestamp": 1735708539,
+      "basefee": 8.907974,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.419621694915252,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.569690419354838,
+          "totalSeconds": 1116
+        },
+        "thirty_day": {
+          "twapValue": 9.569690419354838,
+          "totalSeconds": 1116
+        }
+      }
+    },
+    {
+      "blockNumber": 21527481,
+      "timestamp": 1735708551,
+      "basefee": 9.429295,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.402313186440674,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.562650882978724,
+          "totalSeconds": 1128
+        },
+        "thirty_day": {
+          "twapValue": 9.562650882978724,
+          "totalSeconds": 1128
+        }
+      }
+    },
+    {
+      "blockNumber": 21527482,
+      "timestamp": 1735708563,
+      "basefee": 9.77055,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.413399644067793,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.561247136842107,
+          "totalSeconds": 1140
+        },
+        "thirty_day": {
+          "twapValue": 9.561247136842107,
+          "totalSeconds": 1140
+        }
+      }
+    },
+    {
+      "blockNumber": 21527483,
+      "timestamp": 1735708575,
+      "basefee": 10.441398,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.414863355932201,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.563427375000002,
+          "totalSeconds": 1152
+        },
+        "thirty_day": {
+          "twapValue": 9.563427375000002,
+          "totalSeconds": 1152
+        }
+      }
+    },
+    {
+      "blockNumber": 21527484,
+      "timestamp": 1735708587,
+      "basefee": 10.26164,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.425566169491525,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.572478618556703,
+          "totalSeconds": 1164
+        },
+        "thirty_day": {
+          "twapValue": 9.572478618556703,
+          "totalSeconds": 1164
+        }
+      }
+    },
+    {
+      "blockNumber": 21527485,
+      "timestamp": 1735708599,
+      "basefee": 8.978935,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.454005999999998,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.579510877551021,
+          "totalSeconds": 1176
+        },
+        "thirty_day": {
+          "twapValue": 9.579510877551021,
+          "totalSeconds": 1176
+        }
+      }
+    },
+    {
+      "blockNumber": 21527486,
+      "timestamp": 1735708611,
+      "basefee": 8.285709,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.442519288135593,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.573444454545456,
+          "totalSeconds": 1188
+        },
+        "thirty_day": {
+          "twapValue": 9.573444454545456,
+          "totalSeconds": 1188
+        }
+      }
+    },
+    {
+      "blockNumber": 21527487,
+      "timestamp": 1735708623,
+      "basefee": 7.309888,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.439741983050846,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.560567100000002,
+          "totalSeconds": 1200
+        },
+        "thirty_day": {
+          "twapValue": 9.560567100000002,
+          "totalSeconds": 1200
+        }
+      }
+    },
+    {
+      "blockNumber": 21527488,
+      "timestamp": 1735708635,
+      "basefee": 8.223624,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.402523711864408,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.538283148514852,
+          "totalSeconds": 1212
+        },
+        "thirty_day": {
+          "twapValue": 9.538283148514852,
+          "totalSeconds": 1212
+        }
+      }
+    },
+    {
+      "blockNumber": 21527489,
+      "timestamp": 1735708647,
+      "basefee": 9.251577,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.38794933898305,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.525394333333335,
+          "totalSeconds": 1224
+        },
+        "thirty_day": {
+          "twapValue": 9.525394333333335,
+          "totalSeconds": 1224
+        }
+      }
+    },
+    {
+      "blockNumber": 21527490,
+      "timestamp": 1735708659,
+      "basefee": 10.019128,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.384688813559322,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.52273591262136,
+          "totalSeconds": 1236
+        },
+        "thirty_day": {
+          "twapValue": 9.52273591262136,
+          "totalSeconds": 1236
+        }
+      }
+    },
+    {
+      "blockNumber": 21527491,
+      "timestamp": 1735708671,
+      "basefee": 10.050594,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.414446,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.52750891346154,
+          "totalSeconds": 1248
+        },
+        "thirty_day": {
+          "twapValue": 9.52750891346154,
+          "totalSeconds": 1248
+        }
+      }
+    },
+    {
+      "blockNumber": 21527492,
+      "timestamp": 1735708683,
+      "basefee": 8.79427,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.427229186440677,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.532490676190477,
+          "totalSeconds": 1260
+        },
+        "thirty_day": {
+          "twapValue": 9.532490676190477,
+          "totalSeconds": 1260
+        }
+      }
+    },
+    {
+      "blockNumber": 21527493,
+      "timestamp": 1735708695,
+      "basefee": 9.893554,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.399023016949151,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.525526330188681,
+          "totalSeconds": 1272
+        },
+        "thirty_day": {
+          "twapValue": 9.525526330188681,
+          "totalSeconds": 1272
+        }
+      }
+    },
+    {
+      "blockNumber": 21527494,
+      "timestamp": 1735708707,
+      "basefee": 10.081981,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.41160647457627,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.528965841121497,
+          "totalSeconds": 1284
+        },
+        "thirty_day": {
+          "twapValue": 9.528965841121497,
+          "totalSeconds": 1284
+        }
+      }
+    },
+    {
+      "blockNumber": 21527495,
+      "timestamp": 1735708719,
+      "basefee": 8.831873,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.428239152542371,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.534086351851855,
+          "totalSeconds": 1296
+        },
+        "thirty_day": {
+          "twapValue": 9.534086351851855,
+          "totalSeconds": 1296
+        }
+      }
+    },
+    {
+      "blockNumber": 21527496,
+      "timestamp": 1735708731,
+      "basefee": 8.383287,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.428430966101693,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.527644027522937,
+          "totalSeconds": 1308
+        },
+        "thirty_day": {
+          "twapValue": 9.527644027522937,
+          "totalSeconds": 1308
+        }
+      }
+    },
+    {
+      "blockNumber": 21527497,
+      "timestamp": 1735708743,
+      "basefee": 9.431198,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.40233201694915,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.517240781818183,
+          "totalSeconds": 1320
+        },
+        "thirty_day": {
+          "twapValue": 9.517240781818183,
+          "totalSeconds": 1320
+        }
+      }
+    },
+    {
+      "blockNumber": 21527498,
+      "timestamp": 1735708755,
+      "basefee": 10.156074,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.372970694915253,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.516465621621624,
+          "totalSeconds": 1332
+        },
+        "thirty_day": {
+          "twapValue": 9.516465621621624,
+          "totalSeconds": 1332
+        }
+      }
+    },
+    {
+      "blockNumber": 21527499,
+      "timestamp": 1735708767,
+      "basefee": 9.683485,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.37954693220339,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.522176410714287,
+          "totalSeconds": 1344
+        },
+        "thirty_day": {
+          "twapValue": 9.522176410714287,
+          "totalSeconds": 1344
+        }
+      }
+    },
+    {
+      "blockNumber": 21527500,
+      "timestamp": 1735708779,
+      "basefee": 9.553483,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.393032440677967,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.523603920353985,
+          "totalSeconds": 1356
+        },
+        "thirty_day": {
+          "twapValue": 9.523603920353985,
+          "totalSeconds": 1356
+        }
+      }
+    },
+    {
+      "blockNumber": 21527501,
+      "timestamp": 1735708791,
+      "basefee": 10.496164,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.422474220338984,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.523866017543861,
+          "totalSeconds": 1368
+        },
+        "thirty_day": {
+          "twapValue": 9.523866017543861,
+          "totalSeconds": 1368
+        }
+      }
+    },
+    {
+      "blockNumber": 21527502,
+      "timestamp": 1735708803,
+      "basefee": 9.184144,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.451333440677965,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.532320782608696,
+          "totalSeconds": 1380
+        },
+        "thirty_day": {
+          "twapValue": 9.532320782608696,
+          "totalSeconds": 1380
+        }
+      }
+    },
+    {
+      "blockNumber": 21527503,
+      "timestamp": 1735708815,
+      "basefee": 10.041834,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.47292279661017,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.52931925862069,
+          "totalSeconds": 1392
+        },
+        "thirty_day": {
+          "twapValue": 9.52931925862069,
+          "totalSeconds": 1392
+        }
+      }
+    },
+    {
+      "blockNumber": 21527504,
+      "timestamp": 1735708827,
+      "basefee": 10.198677,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.49229,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.533699726495728,
+          "totalSeconds": 1404
+        },
+        "thirty_day": {
+          "twapValue": 9.533699726495728,
+          "totalSeconds": 1404
+        }
+      }
+    },
+    {
+      "blockNumber": 21527505,
+      "timestamp": 1735708839,
+      "basefee": 8.923842,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.523747711864408,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.539335127118646,
+          "totalSeconds": 1416
+        },
+        "thirty_day": {
+          "twapValue": 9.539335127118646,
+          "totalSeconds": 1416
+        }
+      }
+    },
+    {
+      "blockNumber": 21527506,
+      "timestamp": 1735708851,
+      "basefee": 8.791367,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.515922898305083,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.534162915966387,
+          "totalSeconds": 1428
+        },
+        "thirty_day": {
+          "twapValue": 9.534162915966387,
+          "totalSeconds": 1428
+        }
+      }
+    },
+    {
+      "blockNumber": 21527507,
+      "timestamp": 1735708863,
+      "basefee": 9.890288,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.511638745762712,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.52797295,
+          "totalSeconds": 1440
+        },
+        "thirty_day": {
+          "twapValue": 9.52797295,
+          "totalSeconds": 1440
+        }
+      }
+    },
+    {
+      "blockNumber": 21527508,
+      "timestamp": 1735708875,
+      "basefee": 10.044149,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.544408050847455,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.5309672892562,
+          "totalSeconds": 1452
+        },
+        "thirty_day": {
+          "twapValue": 9.5309672892562,
+          "totalSeconds": 1452
+        }
+      }
+    },
+    {
+      "blockNumber": 21527509,
+      "timestamp": 1735708887,
+      "basefee": 10.580668,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.579160118644065,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.535173696721312,
+          "totalSeconds": 1464
+        },
+        "thirty_day": {
+          "twapValue": 9.535173696721312,
+          "totalSeconds": 1464
+        }
+      }
+    },
+    {
+      "blockNumber": 21527510,
+      "timestamp": 1735708899,
+      "basefee": 9.258084,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.606069762711861,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.543673650406506,
+          "totalSeconds": 1476
+        },
+        "thirty_day": {
+          "twapValue": 9.543673650406506,
+          "totalSeconds": 1476
+        }
+      }
+    },
+    {
+      "blockNumber": 21527511,
+      "timestamp": 1735708911,
+      "basefee": 8.545799,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.591509762711864,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.541370508064517,
+          "totalSeconds": 1488
+        },
+        "thirty_day": {
+          "twapValue": 9.541370508064517,
+          "totalSeconds": 1488
+        }
+      }
+    },
+    {
+      "blockNumber": 21527512,
+      "timestamp": 1735708923,
+      "basefee": 8.037608,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.569943389830506,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.533405936000001,
+          "totalSeconds": 1500
+        },
+        "thirty_day": {
+          "twapValue": 9.533405936000001,
+          "totalSeconds": 1500
+        }
+      }
+    },
+    {
+      "blockNumber": 21527513,
+      "timestamp": 1735708935,
+      "basefee": 7.032907,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.518962305084745,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.521534523809525,
+          "totalSeconds": 1512
+        },
+        "thirty_day": {
+          "twapValue": 9.521534523809525,
+          "totalSeconds": 1512
+        }
+      }
+    },
+    {
+      "blockNumber": 21527514,
+      "timestamp": 1735708947,
+      "basefee": 6.775563,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.473308118644066,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.501939031496065,
+          "totalSeconds": 1524
+        },
+        "thirty_day": {
+          "twapValue": 9.501939031496065,
+          "totalSeconds": 1524
+        }
+      }
+    },
+    {
+      "blockNumber": 21527515,
+      "timestamp": 1735708959,
+      "basefee": 7.622508,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.443899169491525,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.480639218750001,
+          "totalSeconds": 1536
+        },
+        "thirty_day": {
+          "twapValue": 9.480639218750001,
+          "totalSeconds": 1536
+        }
+      }
+    },
+    {
+      "blockNumber": 21527516,
+      "timestamp": 1735708971,
+      "basefee": 7.852627,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.410814101694916,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.466235100775194,
+          "totalSeconds": 1548
+        },
+        "thirty_day": {
+          "twapValue": 9.466235100775194,
+          "totalSeconds": 1548
+        }
+      }
+    },
+    {
+      "blockNumber": 21527517,
+      "timestamp": 1735708983,
+      "basefee": 6.871049,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.401914372881356,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.45382273076923,
+          "totalSeconds": 1560
+        },
+        "thirty_day": {
+          "twapValue": 9.45382273076923,
+          "totalSeconds": 1560
+        }
+      }
+    },
+    {
+      "blockNumber": 21527518,
+      "timestamp": 1735708995,
+      "basefee": 6.012168,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.358628338983051,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.434106900763359,
+          "totalSeconds": 1572
+        },
+        "thirty_day": {
+          "twapValue": 9.434106900763359,
+          "totalSeconds": 1572
+        }
+      }
+    },
+    {
+      "blockNumber": 21527519,
+      "timestamp": 1735709007,
+      "basefee": 6.377533,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.28081693220339,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.408183121212122,
+          "totalSeconds": 1584
+        },
+        "thirty_day": {
+          "twapValue": 9.408183121212122,
+          "totalSeconds": 1584
+        }
+      }
+    },
+    {
+      "blockNumber": 21527520,
+      "timestamp": 1735709019,
+      "basefee": 7.174725,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.23151020338983,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.38539627819549,
+          "totalSeconds": 1596
+        },
+        "thirty_day": {
+          "twapValue": 9.38539627819549,
+          "totalSeconds": 1596
+        }
+      }
+    },
+    {
+      "blockNumber": 21527521,
+      "timestamp": 1735709031,
+      "basefee": 7.838711,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.200219016949152,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.368898731343284,
+          "totalSeconds": 1608
+        },
+        "thirty_day": {
+          "twapValue": 9.368898731343284,
+          "totalSeconds": 1608
+        }
+      }
+    },
+    {
+      "blockNumber": 21527522,
+      "timestamp": 1735709043,
+      "basefee": 7.554302,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.18382645762712,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.357564007407408,
+          "totalSeconds": 1620
+        },
+        "thirty_day": {
+          "twapValue": 9.357564007407408,
+          "totalSeconds": 1620
+        }
+      }
+    },
+    {
+      "blockNumber": 21527523,
+      "timestamp": 1735709055,
+      "basefee": 6.610014,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.145933593220338,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.344304727941179,
+          "totalSeconds": 1632
+        },
+        "thirty_day": {
+          "twapValue": 9.344304727941179,
+          "totalSeconds": 1632
+        }
+      }
+    },
+    {
+      "blockNumber": 21527524,
+      "timestamp": 1735709067,
+      "basefee": 7.436266,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.073555644067795,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.324346401459856,
+          "totalSeconds": 1644
+        },
+        "thirty_day": {
+          "twapValue": 9.324346401459856,
+          "totalSeconds": 1644
+        }
+      }
+    },
+    {
+      "blockNumber": 21527525,
+      "timestamp": 1735709079,
+      "basefee": 8.332776,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.03823347457627,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.310664659420292,
+          "totalSeconds": 1656
+        },
+        "thirty_day": {
+          "twapValue": 9.310664659420292,
+          "totalSeconds": 1656
+        }
+      }
+    },
+    {
+      "blockNumber": 21527526,
+      "timestamp": 1735709091,
+      "basefee": 7.291179,
+      "states": {
+        "twelve_min": {
+          "twapValue": 9.008933491525422,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.303629489208635,
+          "totalSeconds": 1668
+        },
+        "thirty_day": {
+          "twapValue": 9.303629489208635,
+          "totalSeconds": 1668
+        }
+      }
+    },
+    {
+      "blockNumber": 21527527,
+      "timestamp": 1735709103,
+      "basefee": 6.379782,
+      "states": {
+        "twelve_min": {
+          "twapValue": 8.957158050847458,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.289254842857144,
+          "totalSeconds": 1680
+        },
+        "thirty_day": {
+          "twapValue": 9.289254842857144,
+          "totalSeconds": 1680
+        }
+      }
+    },
+    {
+      "blockNumber": 21527528,
+      "timestamp": 1735709115,
+      "basefee": 7.177255,
+      "states": {
+        "twelve_min": {
+          "twapValue": 8.893183525423725,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.268620283687945,
+          "totalSeconds": 1692
+        },
+        "thirty_day": {
+          "twapValue": 9.268620283687945,
+          "totalSeconds": 1692
+        }
+      }
+    },
+    {
+      "blockNumber": 21527529,
+      "timestamp": 1735709127,
+      "basefee": 6.280098,
+      "states": {
+        "twelve_min": {
+          "twapValue": 8.856714779661015,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.253892359154932,
+          "totalSeconds": 1704
+        },
+        "thirty_day": {
+          "twapValue": 9.253892359154932,
+          "totalSeconds": 1704
+        }
+      }
+    },
+    {
+      "blockNumber": 21527530,
+      "timestamp": 1735709139,
+      "basefee": 7.06511,
+      "states": {
+        "twelve_min": {
+          "twapValue": 8.789935118644065,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.233096594405596,
+          "totalSeconds": 1716
+        },
+        "thirty_day": {
+          "twapValue": 9.233096594405596,
+          "totalSeconds": 1716
+        }
+      }
+    },
+    {
+      "blockNumber": 21527531,
+      "timestamp": 1735709151,
+      "basefee": 7.83073,
+      "states": {
+        "twelve_min": {
+          "twapValue": 8.737441254237286,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.218041131944446,
+          "totalSeconds": 1728
+        },
+        "thirty_day": {
+          "twapValue": 9.218041131944446,
+          "totalSeconds": 1728
+        }
+      }
+    },
+    {
+      "blockNumber": 21527532,
+      "timestamp": 1735709163,
+      "basefee": 6.851889,
+      "states": {
+        "twelve_min": {
+          "twapValue": 8.719454186440675,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.208473468965519,
+          "totalSeconds": 1740
+        },
+        "thirty_day": {
+          "twapValue": 9.208473468965519,
+          "totalSeconds": 1740
+        }
+      }
+    },
+    {
+      "blockNumber": 21527533,
+      "timestamp": 1735709175,
+      "basefee": 5.995403,
+      "states": {
+        "twelve_min": {
+          "twapValue": 8.687025779661015,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.192332479452057,
+          "totalSeconds": 1752
+        },
+        "thirty_day": {
+          "twapValue": 9.192332479452057,
+          "totalSeconds": 1752
+        }
+      }
+    },
+    {
+      "blockNumber": 21527534,
+      "timestamp": 1735709187,
+      "basefee": 5.245978,
+      "states": {
+        "twelve_min": {
+          "twapValue": 8.621510389830506,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.170584659863948,
+          "totalSeconds": 1764
+        },
+        "thirty_day": {
+          "twapValue": 9.170584659863948,
+          "totalSeconds": 1764
+        }
+      }
+    },
+    {
+      "blockNumber": 21527535,
+      "timestamp": 1735709199,
+      "basefee": 5.901725,
+      "states": {
+        "twelve_min": {
+          "twapValue": 8.538671694915253,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.1440670472973,
+          "totalSeconds": 1776
+        },
+        "thirty_day": {
+          "twapValue": 9.1440670472973,
+          "totalSeconds": 1776
+        }
+      }
+    },
+    {
+      "blockNumber": 21527536,
+      "timestamp": 1735709211,
+      "basefee": 6.639441,
+      "states": {
+        "twelve_min": {
+          "twapValue": 8.454482881355931,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.12230636241611,
+          "totalSeconds": 1788
+        },
+        "thirty_day": {
+          "twapValue": 9.12230636241611,
+          "totalSeconds": 1788
+        }
+      }
+    },
+    {
+      "blockNumber": 21527537,
+      "timestamp": 1735709223,
+      "basefee": 7.469371,
+      "states": {
+        "twelve_min": {
+          "twapValue": 8.391725305084744,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.105753926666669,
+          "totalSeconds": 1800
+        },
+        "thirty_day": {
+          "twapValue": 9.105753926666669,
+          "totalSeconds": 1800
+        }
+      }
+    },
+    {
+      "blockNumber": 21527538,
+      "timestamp": 1735709235,
+      "basefee": 6.5357,
+      "states": {
+        "twelve_min": {
+          "twapValue": 8.364945644067795,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.094916953642388,
+          "totalSeconds": 1812
+        },
+        "thirty_day": {
+          "twapValue": 9.094916953642388,
+          "totalSeconds": 1812
+        }
+      }
+    },
+    {
+      "blockNumber": 21527539,
+      "timestamp": 1735709247,
+      "basefee": 5.718738,
+      "states": {
+        "twelve_min": {
+          "twapValue": 8.303168661016947,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.078080000000003,
+          "totalSeconds": 1824
+        },
+        "thirty_day": {
+          "twapValue": 9.078080000000003,
+          "totalSeconds": 1824
+        }
+      }
+    },
+    {
+      "blockNumber": 21527540,
+      "timestamp": 1735709259,
+      "basefee": 6.43358,
+      "states": {
+        "twelve_min": {
+          "twapValue": 8.249113813559322,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.056123516339872,
+          "totalSeconds": 1836
+        },
+        "thirty_day": {
+          "twapValue": 9.056123516339872,
+          "totalSeconds": 1836
+        }
+      }
+    },
+    {
+      "blockNumber": 21527541,
+      "timestamp": 1735709271,
+      "basefee": 7.237777,
+      "states": {
+        "twelve_min": {
+          "twapValue": 8.198338983050846,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.039094012987015,
+          "totalSeconds": 1848
+        },
+        "thirty_day": {
+          "twapValue": 9.039094012987015,
+          "totalSeconds": 1848
+        }
+      }
+    },
+    {
+      "blockNumber": 21527542,
+      "timestamp": 1735709283,
+      "basefee": 6.333055,
+      "states": {
+        "twelve_min": {
+          "twapValue": 8.155410627118643,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.027472612903228,
+          "totalSeconds": 1860
+        },
+        "thirty_day": {
+          "twapValue": 9.027472612903228,
+          "totalSeconds": 1860
+        }
+      }
+    },
+    {
+      "blockNumber": 21527543,
+      "timestamp": 1735709295,
+      "basefee": 6.599498,
+      "states": {
+        "twelve_min": {
+          "twapValue": 8.085777694915253,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 9.010200705128208,
+          "totalSeconds": 1872
+        },
+        "thirty_day": {
+          "twapValue": 9.010200705128208,
+          "totalSeconds": 1872
+        }
+      }
+    },
+    {
+      "blockNumber": 21527544,
+      "timestamp": 1735709307,
+      "basefee": 5.774561,
+      "states": {
+        "twelve_min": {
+          "twapValue": 8.023707491525421,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.994845910828028,
+          "totalSeconds": 1884
+        },
+        "thirty_day": {
+          "twapValue": 8.994845910828028,
+          "totalSeconds": 1884
+        }
+      }
+    },
+    {
+      "blockNumber": 21527545,
+      "timestamp": 1735709319,
+      "basefee": 6.496381,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.969396067796609,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.974464360759494,
+          "totalSeconds": 1896
+        },
+        "thirty_day": {
+          "twapValue": 8.974464360759494,
+          "totalSeconds": 1896
+        }
+      }
+    },
+    {
+      "blockNumber": 21527546,
+      "timestamp": 1735709331,
+      "basefee": 7.308429,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.939068474576271,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.95887893081761,
+          "totalSeconds": 1908
+        },
+        "thirty_day": {
+          "twapValue": 8.95887893081761,
+          "totalSeconds": 1908
+        }
+      }
+    },
+    {
+      "blockNumber": 21527547,
+      "timestamp": 1735709343,
+      "basefee": 8.221983,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.939043745762713,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.94856361875,
+          "totalSeconds": 1920
+        },
+        "thirty_day": {
+          "twapValue": 8.94856361875,
+          "totalSeconds": 1920
+        }
+      }
+    },
+    {
+      "blockNumber": 21527548,
+      "timestamp": 1735709355,
+      "basefee": 7.980925,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.93901593220339,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.944050695652175,
+          "totalSeconds": 1932
+        },
+        "thirty_day": {
+          "twapValue": 8.944050695652175,
+          "totalSeconds": 1932
+        }
+      }
+    },
+    {
+      "blockNumber": 21527549,
+      "timestamp": 1735709367,
+      "basefee": 6.983309,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.917479457627118,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.938105475308644,
+          "totalSeconds": 1944
+        },
+        "thirty_day": {
+          "twapValue": 8.938105475308644,
+          "totalSeconds": 1944
+        }
+      }
+    },
+    {
+      "blockNumber": 21527550,
+      "timestamp": 1735709379,
+      "basefee": 7.613618,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.866024898305082,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.926112858895706,
+          "totalSeconds": 1956
+        },
+        "thirty_day": {
+          "twapValue": 8.926112858895706,
+          "totalSeconds": 1956
+        }
+      }
+    },
+    {
+      "blockNumber": 21527551,
+      "timestamp": 1735709391,
+      "basefee": 7.823687,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.824720220338982,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.918109841463416,
+          "totalSeconds": 1968
+        },
+        "thirty_day": {
+          "twapValue": 8.918109841463416,
+          "totalSeconds": 1968
+        }
+      }
+    },
+    {
+      "blockNumber": 21527552,
+      "timestamp": 1735709403,
+      "basefee": 6.845726,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.80826966101695,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.911476975757578,
+          "totalSeconds": 1980
+        },
+        "thirty_day": {
+          "twapValue": 8.911476975757578,
+          "totalSeconds": 1980
+        }
+      }
+    },
+    {
+      "blockNumber": 21527553,
+      "timestamp": 1735709415,
+      "basefee": 6.648521,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.7566115593220335,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.899032692771085,
+          "totalSeconds": 1992
+        },
+        "thirty_day": {
+          "twapValue": 8.899032692771085,
+          "totalSeconds": 1992
+        }
+      }
+    },
+    {
+      "blockNumber": 21527554,
+      "timestamp": 1735709427,
+      "basefee": 5.817456,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.698417322033898,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.8855565748503,
+          "totalSeconds": 2004
+        },
+        "thirty_day": {
+          "twapValue": 8.8855565748503,
+          "totalSeconds": 2004
+        }
+      }
+    },
+    {
+      "blockNumber": 21527555,
+      "timestamp": 1735709439,
+      "basefee": 5.090274,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.6473255084745775,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.867294071428573,
+          "totalSeconds": 2016
+        },
+        "thirty_day": {
+          "twapValue": 8.867294071428573,
+          "totalSeconds": 2016
+        }
+      }
+    },
+    {
+      "blockNumber": 21527556,
+      "timestamp": 1735709451,
+      "basefee": 4.45399,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.5915117288135585,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.844944840236689,
+          "totalSeconds": 2028
+        },
+        "thirty_day": {
+          "twapValue": 8.844944840236689,
+          "totalSeconds": 2028
+        }
+      }
+    },
+    {
+      "blockNumber": 21527557,
+      "timestamp": 1735709463,
+      "basefee": 4.994919,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.507152271186441,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.819115694117649,
+          "totalSeconds": 2040
+        },
+        "thirty_day": {
+          "twapValue": 8.819115694117649,
+          "totalSeconds": 2040
+        }
+      }
+    },
+    {
+      "blockNumber": 21527558,
+      "timestamp": 1735709475,
+      "basefee": 5.619284,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.41967506779661,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.796751970760237,
+          "totalSeconds": 2052
+        },
+        "thirty_day": {
+          "twapValue": 8.796751970760237,
+          "totalSeconds": 2052
+        }
+      }
+    },
+    {
+      "blockNumber": 21527559,
+      "timestamp": 1735709487,
+      "basefee": 6.321695,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.350790305084746,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.778278319767445,
+          "totalSeconds": 2064
+        },
+        "thirty_day": {
+          "twapValue": 8.778278319767445,
+          "totalSeconds": 2064
+        }
+      }
+    },
+    {
+      "blockNumber": 21527560,
+      "timestamp": 1735709499,
+      "basefee": 5.531483,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.296014237288136,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.764078416184974,
+          "totalSeconds": 2076
+        },
+        "thirty_day": {
+          "twapValue": 8.764078416184974,
+          "totalSeconds": 2076
+        }
+      }
+    },
+    {
+      "blockNumber": 21527561,
+      "timestamp": 1735709511,
+      "basefee": 5.059667,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.211867101694915,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.745500281609198,
+          "totalSeconds": 2088
+        },
+        "thirty_day": {
+          "twapValue": 8.745500281609198,
+          "totalSeconds": 2088
+        }
+      }
+    },
+    {
+      "blockNumber": 21527562,
+      "timestamp": 1735709523,
+      "basefee": 4.653193,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.1419607118644075,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.72443837714286,
+          "totalSeconds": 2100
+        },
+        "thirty_day": {
+          "twapValue": 8.72443837714286,
+          "totalSeconds": 2100
+        }
+      }
+    },
+    {
+      "blockNumber": 21527563,
+      "timestamp": 1735709535,
+      "basefee": 5.234842,
+      "states": {
+        "twelve_min": {
+          "twapValue": 7.0506278135593226,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.701306301136368,
+          "totalSeconds": 2112
+        },
+        "thirty_day": {
+          "twapValue": 8.701306301136368,
+          "totalSeconds": 2112
+        }
+      }
+    },
+    {
+      "blockNumber": 21527564,
+      "timestamp": 1735709547,
+      "basefee": 4.807791,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.966495016949152,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.681721757062151,
+          "totalSeconds": 2124
+        },
+        "thirty_day": {
+          "twapValue": 8.681721757062151,
+          "totalSeconds": 2124
+        }
+      }
+    },
+    {
+      "blockNumber": 21527565,
+      "timestamp": 1735709559,
+      "basefee": 5.408765,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.896731440677967,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.6599581011236,
+          "totalSeconds": 2136
+        },
+        "thirty_day": {
+          "twapValue": 8.6599581011236,
+          "totalSeconds": 2136
+        }
+      }
+    },
+    {
+      "blockNumber": 21527566,
+      "timestamp": 1735709571,
+      "basefee": 5.954931,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.83939920338983,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.641795011173189,
+          "totalSeconds": 2148
+        },
+        "thirty_day": {
+          "twapValue": 8.641795011173189,
+          "totalSeconds": 2148
+        }
+      }
+    },
+    {
+      "blockNumber": 21527567,
+      "timestamp": 1735709583,
+      "basefee": 6.541689,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.772698237288137,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.626867988888893,
+          "totalSeconds": 2160
+        },
+        "thirty_day": {
+          "twapValue": 8.626867988888893,
+          "totalSeconds": 2160
+        }
+      }
+    },
+    {
+      "blockNumber": 21527568,
+      "timestamp": 1735709595,
+      "basefee": 5.723978,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.713334508474577,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.61534766298343,
+          "totalSeconds": 2172
+        },
+        "thirty_day": {
+          "twapValue": 8.61534766298343,
+          "totalSeconds": 2172
+        }
+      }
+    },
+    {
+      "blockNumber": 21527569,
+      "timestamp": 1735709607,
+      "basefee": 5.008481,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.631017728813559,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.59946101648352,
+          "totalSeconds": 2184
+        },
+        "thirty_day": {
+          "twapValue": 8.59946101648352,
+          "totalSeconds": 2184
+        }
+      }
+    },
+    {
+      "blockNumber": 21527570,
+      "timestamp": 1735709619,
+      "basefee": 5.335085,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.558990559322034,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.579838174863394,
+          "totalSeconds": 2196
+        },
+        "thirty_day": {
+          "twapValue": 8.579838174863394,
+          "totalSeconds": 2196
+        }
+      }
+    },
+    {
+      "blockNumber": 21527571,
+      "timestamp": 1735709631,
+      "basefee": 6.001971,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.504571677966102,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.562203646739135,
+          "totalSeconds": 2208
+        },
+        "thirty_day": {
+          "twapValue": 8.562203646739135,
+          "totalSeconds": 2208
+        }
+      }
+    },
+    {
+      "blockNumber": 21527572,
+      "timestamp": 1735709643,
+      "basefee": 5.251725,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.4700693559322024,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.548364551351357,
+          "totalSeconds": 2220
+        },
+        "thirty_day": {
+          "twapValue": 8.548364551351357,
+          "totalSeconds": 2220
+        }
+      }
+    },
+    {
+      "blockNumber": 21527573,
+      "timestamp": 1735709655,
+      "basefee": 4.595259,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.439879830508474,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.530640682795704,
+          "totalSeconds": 2232
+        },
+        "thirty_day": {
+          "twapValue": 8.530640682795704,
+          "totalSeconds": 2232
+        }
+      }
+    },
+    {
+      "blockNumber": 21527574,
+      "timestamp": 1735709667,
+      "basefee": 5.169666,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.402925525423729,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.509595860962571,
+          "totalSeconds": 2244
+        },
+        "thirty_day": {
+          "twapValue": 8.509595860962571,
+          "totalSeconds": 2244
+        }
+      }
+    },
+    {
+      "blockNumber": 21527575,
+      "timestamp": 1735709679,
+      "basefee": 5.815874,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.36135193220339,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.491830276595751,
+          "totalSeconds": 2256
+        },
+        "thirty_day": {
+          "twapValue": 8.491830276595751,
+          "totalSeconds": 2256
+        }
+      }
+    },
+    {
+      "blockNumber": 21527576,
+      "timestamp": 1735709691,
+      "basefee": 5.08889,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.326830694915254,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.477671777777783,
+          "totalSeconds": 2268
+        },
+        "thirty_day": {
+          "twapValue": 8.477671777777783,
+          "totalSeconds": 2268
+        }
+      }
+    },
+    {
+      "blockNumber": 21527577,
+      "timestamp": 1735709703,
+      "basefee": 4.98964,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.296624610169491,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.459836084210531,
+          "totalSeconds": 2280
+        },
+        "thirty_day": {
+          "twapValue": 8.459836084210531,
+          "totalSeconds": 2280
+        }
+      }
+    },
+    {
+      "blockNumber": 21527578,
+      "timestamp": 1735709715,
+      "basefee": 4.585977,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.279293627118643,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.441667518324612,
+          "totalSeconds": 2292
+        },
+        "thirty_day": {
+          "twapValue": 8.441667518324612,
+          "totalSeconds": 2292
+        }
+      }
+    },
+    {
+      "blockNumber": 21527579,
+      "timestamp": 1735709727,
+      "basefee": 5.159224,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.24892827118644,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.421585796875005,
+          "totalSeconds": 2304
+        },
+        "thirty_day": {
+          "twapValue": 8.421585796875005,
+          "totalSeconds": 2304
+        }
+      }
+    },
+    {
+      "blockNumber": 21527580,
+      "timestamp": 1735709739,
+      "basefee": 5.449411,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.214767237288136,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.404682367875653,
+          "totalSeconds": 2316
+        },
+        "thirty_day": {
+          "twapValue": 8.404682367875653,
+          "totalSeconds": 2316
+        }
+      }
+    },
+    {
+      "blockNumber": 21527581,
+      "timestamp": 1735709751,
+      "basefee": 6.130587,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.174270627118645,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.389449010309283,
+          "totalSeconds": 2328
+        },
+        "thirty_day": {
+          "twapValue": 8.389449010309283,
+          "totalSeconds": 2328
+        }
+      }
+    },
+    {
+      "blockNumber": 21527582,
+      "timestamp": 1735709763,
+      "basefee": 6.668862,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.150139864406781,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.377865102564108,
+          "totalSeconds": 2340
+        },
+        "thirty_day": {
+          "twapValue": 8.377865102564108,
+          "totalSeconds": 2340
+        }
+      }
+    },
+    {
+      "blockNumber": 21527583,
+      "timestamp": 1735709775,
+      "basefee": 6.153925,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.151137288135594,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.369145698979597,
+          "totalSeconds": 2352
+        },
+        "thirty_day": {
+          "twapValue": 8.369145698979597,
+          "totalSeconds": 2352
+        }
+      }
+    },
+    {
+      "blockNumber": 21527584,
+      "timestamp": 1735709787,
+      "basefee": 5.384684,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.129402694915255,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.357900923857873,
+          "totalSeconds": 2364
+        },
+        "thirty_day": {
+          "twapValue": 8.357900923857873,
+          "totalSeconds": 2364
+        }
+      }
+    },
+    {
+      "blockNumber": 21527585,
+      "timestamp": 1735709799,
+      "basefee": 4.711599,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.0794350338983065,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.342884676767682,
+          "totalSeconds": 2376
+        },
+        "thirty_day": {
+          "twapValue": 8.342884676767682,
+          "totalSeconds": 2376
+        }
+      }
+    },
+    {
+      "blockNumber": 21527586,
+      "timestamp": 1735709811,
+      "basefee": 4.673917,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.035713338983051,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.324637010050255,
+          "totalSeconds": 2388
+        },
+        "thirty_day": {
+          "twapValue": 8.324637010050255,
+          "totalSeconds": 2388
+        }
+      }
+    },
+    {
+      "blockNumber": 21527587,
+      "timestamp": 1735709823,
+      "basefee": 4.755481,
+      "states": {
+        "twelve_min": {
+          "twapValue": 6.006800372881356,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.306383410000004,
+          "totalSeconds": 2400
+        },
+        "thirty_day": {
+          "twapValue": 8.306383410000004,
+          "totalSeconds": 2400
+        }
+      }
+    },
+    {
+      "blockNumber": 21527588,
+      "timestamp": 1735709835,
+      "basefee": 4.748869,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.965753355932204,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.288717228855727,
+          "totalSeconds": 2412
+        },
+        "thirty_day": {
+          "twapValue": 8.288717228855727,
+          "totalSeconds": 2412
+        }
+      }
+    },
+    {
+      "blockNumber": 21527589,
+      "timestamp": 1735709847,
+      "basefee": 4.699876,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.939800322033899,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.271193227722778,
+          "totalSeconds": 2424
+        },
+        "thirty_day": {
+          "twapValue": 8.271193227722778,
+          "totalSeconds": 2424
+        }
+      }
+    },
+    {
+      "blockNumber": 21527590,
+      "timestamp": 1735709859,
+      "basefee": 4.112391,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.899711610169492,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.253600532019709,
+          "totalSeconds": 2436
+        },
+        "thirty_day": {
+          "twapValue": 8.253600532019709,
+          "totalSeconds": 2436
+        }
+      }
+    },
+    {
+      "blockNumber": 21527591,
+      "timestamp": 1735709871,
+      "basefee": 4.62644,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.836688915254238,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.233300485294123,
+          "totalSeconds": 2448
+        },
+        "thirty_day": {
+          "twapValue": 8.233300485294123,
+          "totalSeconds": 2448
+        }
+      }
+    },
+    {
+      "blockNumber": 21527592,
+      "timestamp": 1735709883,
+      "basefee": 5.204745,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.798969440677967,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.215706043902443,
+          "totalSeconds": 2460
+        },
+        "thirty_day": {
+          "twapValue": 8.215706043902443,
+          "totalSeconds": 2460
+        }
+      }
+    },
+    {
+      "blockNumber": 21527593,
+      "timestamp": 1735709895,
+      "basefee": 5.832734,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.785568457627119,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.201089728155345,
+          "totalSeconds": 2472
+        },
+        "thirty_day": {
+          "twapValue": 8.201089728155345,
+          "totalSeconds": 2472
+        }
+      }
+    },
+    {
+      "blockNumber": 21527594,
+      "timestamp": 1735709907,
+      "basefee": 5.715959,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.795513474576271,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.18964839613527,
+          "totalSeconds": 2484
+        },
+        "thirty_day": {
+          "twapValue": 8.18964839613527,
+          "totalSeconds": 2484
+        }
+      }
+    },
+    {
+      "blockNumber": 21527595,
+      "timestamp": 1735709919,
+      "basefee": 6.430454,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.792364898305085,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.177755658653851,
+          "totalSeconds": 2496
+        },
+        "thirty_day": {
+          "twapValue": 8.177755658653851,
+          "totalSeconds": 2496
+        }
+      }
+    },
+    {
+      "blockNumber": 21527596,
+      "timestamp": 1735709931,
+      "basefee": 6.470464,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.788822745762713,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.169395363636369,
+          "totalSeconds": 2508
+        },
+        "thirty_day": {
+          "twapValue": 8.169395363636369,
+          "totalSeconds": 2508
+        }
+      }
+    },
+    {
+      "blockNumber": 21527597,
+      "timestamp": 1735709943,
+      "basefee": 5.661656,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.771892118644068,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.161305214285719,
+          "totalSeconds": 2520
+        },
+        "thirty_day": {
+          "twapValue": 8.161305214285719,
+          "totalSeconds": 2520
+        }
+      }
+    },
+    {
+      "blockNumber": 21527598,
+      "timestamp": 1735709955,
+      "basefee": 6.369363,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.757077813559323,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.149458535545028,
+          "totalSeconds": 2532
+        },
+        "thirty_day": {
+          "twapValue": 8.149458535545028,
+          "totalSeconds": 2532
+        }
+      }
+    },
+    {
+      "blockNumber": 21527599,
+      "timestamp": 1735709967,
+      "basefee": 5.573193,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.768105355932203,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.141061858490572,
+          "totalSeconds": 2544
+        },
+        "thirty_day": {
+          "twapValue": 8.141061858490572,
+          "totalSeconds": 2544
+        }
+      }
+    },
+    {
+      "blockNumber": 21527600,
+      "timestamp": 1735709979,
+      "basefee": 5.193392,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.753522525423729,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.12900613615024,
+          "totalSeconds": 2556
+        },
+        "thirty_day": {
+          "twapValue": 8.12900613615024,
+          "totalSeconds": 2556
+        }
+      }
+    },
+    {
+      "blockNumber": 21527601,
+      "timestamp": 1735709991,
+      "basefee": 5.842566,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.718871932203391,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.115288313084116,
+          "totalSeconds": 2568
+        },
+        "thirty_day": {
+          "twapValue": 8.115288313084116,
+          "totalSeconds": 2568
+        }
+      }
+    },
+    {
+      "blockNumber": 21527602,
+      "timestamp": 1735710003,
+      "basefee": 6.29726,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.710558559322035,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.104717511627912,
+          "totalSeconds": 2580
+        },
+        "thirty_day": {
+          "twapValue": 8.104717511627912,
+          "totalSeconds": 2580
+        }
+      }
+    },
+    {
+      "blockNumber": 21527603,
+      "timestamp": 1735710015,
+      "basefee": 5.510102,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.705435881355933,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.096349652777782,
+          "totalSeconds": 2592
+        },
+        "thirty_day": {
+          "twapValue": 8.096349652777782,
+          "totalSeconds": 2592
+        }
+      }
+    },
+    {
+      "blockNumber": 21527604,
+      "timestamp": 1735710027,
+      "basefee": 5.130539,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.70095352542373,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.084431460829498,
+          "totalSeconds": 2604
+        },
+        "thirty_day": {
+          "twapValue": 8.084431460829498,
+          "totalSeconds": 2604
+        }
+      }
+    },
+    {
+      "blockNumber": 21527605,
+      "timestamp": 1735710039,
+      "basefee": 4.489222,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.6778036610169496,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.070881495412848,
+          "totalSeconds": 2616
+        },
+        "thirty_day": {
+          "twapValue": 8.070881495412848,
+          "totalSeconds": 2616
+        }
+      }
+    },
+    {
+      "blockNumber": 21527606,
+      "timestamp": 1735710051,
+      "basefee": 5.050375,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.630020491525425,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.054526885844753,
+          "totalSeconds": 2628
+        },
+        "thirty_day": {
+          "twapValue": 8.054526885844753,
+          "totalSeconds": 2628
+        }
+      }
+    },
+    {
+      "blockNumber": 21527607,
+      "timestamp": 1735710063,
+      "basefee": 5.496746,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.576264423728814,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.040871650000003,
+          "totalSeconds": 2640
+        },
+        "thirty_day": {
+          "twapValue": 8.040871650000003,
+          "totalSeconds": 2640
+        }
+      }
+    },
+    {
+      "blockNumber": 21527608,
+      "timestamp": 1735710075,
+      "basefee": 6.183839,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.534159694915255,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.029359769230775,
+          "totalSeconds": 2652
+        },
+        "thirty_day": {
+          "twapValue": 8.029359769230775,
+          "totalSeconds": 2652
+        }
+      }
+    },
+    {
+      "blockNumber": 21527609,
+      "timestamp": 1735710087,
+      "basefee": 5.410859,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.520609355932204,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.021046612612617,
+          "totalSeconds": 2664
+        },
+        "thirty_day": {
+          "twapValue": 8.021046612612617,
+          "totalSeconds": 2664
+        }
+      }
+    },
+    {
+      "blockNumber": 21527610,
+      "timestamp": 1735710099,
+      "basefee": 5.760308,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.483274457627119,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 8.009341735426013,
+          "totalSeconds": 2676
+        },
+        "thirty_day": {
+          "twapValue": 8.009341735426013,
+          "totalSeconds": 2676
+        }
+      }
+    },
+    {
+      "blockNumber": 21527611,
+      "timestamp": 1735710111,
+      "basefee": 6.480347,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.44830193220339,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.999301406250003,
+          "totalSeconds": 2688
+        },
+        "thirty_day": {
+          "twapValue": 7.999301406250003,
+          "totalSeconds": 2688
+        }
+      }
+    },
+    {
+      "blockNumber": 21527612,
+      "timestamp": 1735710123,
+      "basefee": 5.670304,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.44210906779661,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.992550497777781,
+          "totalSeconds": 2700
+        },
+        "thirty_day": {
+          "twapValue": 7.992550497777781,
+          "totalSeconds": 2700
+        }
+      }
+    },
+    {
+      "blockNumber": 21527613,
+      "timestamp": 1735710135,
+      "basefee": 6.379092,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.425529118644068,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.982275070796463,
+          "totalSeconds": 2712
+        },
+        "thirty_day": {
+          "twapValue": 7.982275070796463,
+          "totalSeconds": 2712
+        }
+      }
+    },
+    {
+      "blockNumber": 21527614,
+      "timestamp": 1735710147,
+      "basefee": 5.581705,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.435048372881356,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.975212590308374,
+          "totalSeconds": 2724
+        },
+        "thirty_day": {
+          "twapValue": 7.975212590308374,
+          "totalSeconds": 2724
+        }
+      }
+    },
+    {
+      "blockNumber": 21527615,
+      "timestamp": 1735710159,
+      "basefee": 4.883992,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.443377711864407,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.964714750000003,
+          "totalSeconds": 2736
+        },
+        "thirty_day": {
+          "twapValue": 7.964714750000003,
+          "totalSeconds": 2736
+        }
+      }
+    },
+    {
+      "blockNumber": 21527616,
+      "timestamp": 1735710171,
+      "basefee": 4.273493,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.450665881355932,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.951261812227077,
+          "totalSeconds": 2748
+        },
+        "thirty_day": {
+          "twapValue": 7.951261812227077,
+          "totalSeconds": 2748
+        }
+      }
+    },
+    {
+      "blockNumber": 21527617,
+      "timestamp": 1735710183,
+      "basefee": 3.969131,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.438438322033898,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.935271513043482,
+          "totalSeconds": 2760
+        },
+        "thirty_day": {
+          "twapValue": 7.935271513043482,
+          "totalSeconds": 2760
+        }
+      }
+    },
+    {
+      "blockNumber": 21527618,
+      "timestamp": 1735710195,
+      "basefee": 4.465272,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.410469627118643,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.918102073593078,
+          "totalSeconds": 2772
+        },
+        "thirty_day": {
+          "twapValue": 7.918102073593078,
+          "totalSeconds": 2772
+        }
+      }
+    },
+    {
+      "blockNumber": 21527619,
+      "timestamp": 1735710207,
+      "basefee": 3.907113,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.379004830508473,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.903219185344832,
+          "totalSeconds": 2784
+        },
+        "thirty_day": {
+          "twapValue": 7.903219185344832,
+          "totalSeconds": 2784
+        }
+      }
+    },
+    {
+      "blockNumber": 21527620,
+      "timestamp": 1735710219,
+      "basefee": 3.909694,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.35147313559322,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.886068515021463,
+          "totalSeconds": 2796
+        },
+        "thirty_day": {
+          "twapValue": 7.886068515021463,
+          "totalSeconds": 2796
+        }
+      }
+    },
+    {
+      "blockNumber": 21527621,
+      "timestamp": 1735710231,
+      "basefee": 4.398406,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.331982067796609,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.869075461538465,
+          "totalSeconds": 2808
+        },
+        "thirty_day": {
+          "twapValue": 7.869075461538465,
+          "totalSeconds": 2808
+        }
+      }
+    },
+    {
+      "blockNumber": 21527622,
+      "timestamp": 1735710243,
+      "basefee": 4.948207,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.327663644067795,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.854306655319152,
+          "totalSeconds": 2820
+        },
+        "thirty_day": {
+          "twapValue": 7.854306655319152,
+          "totalSeconds": 2820
+        }
+      }
+    },
+    {
+      "blockNumber": 21527623,
+      "timestamp": 1735710255,
+      "basefee": 4.366293,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.322805423728812,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.841992673728817,
+          "totalSeconds": 2832
+        },
+        "thirty_day": {
+          "twapValue": 7.841992673728817,
+          "totalSeconds": 2832
+        }
+      }
+    },
+    {
+      "blockNumber": 21527624,
+      "timestamp": 1735710267,
+      "basefee": 3.820506,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.315322406779659,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.827327274261607,
+          "totalSeconds": 2844
+        },
+        "thirty_day": {
+          "twapValue": 7.827327274261607,
+          "totalSeconds": 2844
+        }
+      }
+    },
+    {
+      "blockNumber": 21527625,
+      "timestamp": 1735710279,
+      "basefee": 4.298069,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.288402762711862,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.810491890756306,
+          "totalSeconds": 2856
+        },
+        "thirty_day": {
+          "twapValue": 7.810491890756306,
+          "totalSeconds": 2856
+        }
+      }
+    },
+    {
+      "blockNumber": 21527626,
+      "timestamp": 1735710291,
+      "basefee": 4.835328,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.260320355932202,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.79579556066946,
+          "totalSeconds": 2868
+        },
+        "thirty_day": {
+          "twapValue": 7.79579556066946,
+          "totalSeconds": 2868
+        }
+      }
+    },
+    {
+      "blockNumber": 21527627,
+      "timestamp": 1735710303,
+      "basefee": 5.439744,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.2313989830508465,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.783460279166671,
+          "totalSeconds": 2880
+        },
+        "thirty_day": {
+          "twapValue": 7.783460279166671,
+          "totalSeconds": 2880
+        }
+      }
+    },
+    {
+      "blockNumber": 21527628,
+      "timestamp": 1735710315,
+      "basefee": 6.119712,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.226581457627117,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.773735315352702,
+          "totalSeconds": 2892
+        },
+        "thirty_day": {
+          "twapValue": 7.773735315352702,
+          "totalSeconds": 2892
+        }
+      }
+    },
+    {
+      "blockNumber": 21527629,
+      "timestamp": 1735710327,
+      "basefee": 5.62037,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.245415881355931,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.7669005082644675,
+          "totalSeconds": 2904
+        },
+        "thirty_day": {
+          "twapValue": 7.7669005082644675,
+          "totalSeconds": 2904
+        }
+      }
+    },
+    {
+      "blockNumber": 21527630,
+      "timestamp": 1735710339,
+      "basefee": 4.917824,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.250251220338982,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.75806704938272,
+          "totalSeconds": 2916
+        },
+        "thirty_day": {
+          "twapValue": 7.75806704938272,
+          "totalSeconds": 2916
+        }
+      }
+    },
+    {
+      "blockNumber": 21527631,
+      "timestamp": 1735710351,
+      "basefee": 5.532552,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.231875847457626,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.746426709016398,
+          "totalSeconds": 2928
+        },
+        "thirty_day": {
+          "twapValue": 7.746426709016398,
+          "totalSeconds": 2928
+        }
+      }
+    },
+    {
+      "blockNumber": 21527632,
+      "timestamp": 1735710363,
+      "basefee": 4.840983,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.236635627118643,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.7373904857142906,
+          "totalSeconds": 2940
+        },
+        "thirty_day": {
+          "twapValue": 7.7373904857142906,
+          "totalSeconds": 2940
+        }
+      }
+    },
+    {
+      "blockNumber": 21527633,
+      "timestamp": 1735710375,
+      "basefee": 4.888483,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.240800440677965,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.72561647154472,
+          "totalSeconds": 2952
+        },
+        "thirty_day": {
+          "twapValue": 7.72561647154472,
+          "totalSeconds": 2952
+        }
+      }
+    },
+    {
+      "blockNumber": 21527634,
+      "timestamp": 1735710387,
+      "basefee": 5.499543,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.236034627118643,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.71413010121458,
+          "totalSeconds": 2964
+        },
+        "thirty_day": {
+          "twapValue": 7.71413010121458,
+          "totalSeconds": 2964
+        }
+      }
+    },
+    {
+      "blockNumber": 21527635,
+      "timestamp": 1735710399,
+      "basefee": 4.8121,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.230673084745763,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.705200314516134,
+          "totalSeconds": 2976
+        },
+        "thirty_day": {
+          "twapValue": 7.705200314516134,
+          "totalSeconds": 2976
+        }
+      }
+    },
+    {
+      "blockNumber": 21527636,
+      "timestamp": 1735710411,
+      "basefee": 4.210587,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.225981728813559,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.693581437751009,
+          "totalSeconds": 2988
+        },
+        "thirty_day": {
+          "twapValue": 7.693581437751009,
+          "totalSeconds": 2988
+        }
+      }
+    },
+    {
+      "blockNumber": 21527637,
+      "timestamp": 1735710423,
+      "basefee": 4.644224,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.212777440677965,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.679649460000004,
+          "totalSeconds": 3000
+        },
+        "thirty_day": {
+          "twapValue": 7.679649460000004,
+          "totalSeconds": 3000
+        }
+      }
+    },
+    {
+      "blockNumber": 21527638,
+      "timestamp": 1735710435,
+      "basefee": 4.145756,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.2137646779661,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.667556131474107,
+          "totalSeconds": 3012
+        },
+        "thirty_day": {
+          "twapValue": 7.667556131474107,
+          "totalSeconds": 3012
+        }
+      }
+    },
+    {
+      "blockNumber": 21527639,
+      "timestamp": 1735710447,
+      "basefee": 4.663976,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.196587254237287,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.6535807341269875,
+          "totalSeconds": 3024
+        },
+        "thirty_day": {
+          "twapValue": 7.6535807341269875,
+          "totalSeconds": 3024
+        }
+      }
+    },
+    {
+      "blockNumber": 21527640,
+      "timestamp": 1735710459,
+      "basefee": 5.246973,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.183274796610169,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.64176411462451,
+          "totalSeconds": 3036
+        },
+        "thirty_day": {
+          "twapValue": 7.64176411462451,
+          "totalSeconds": 3036
+        }
+      }
+    },
+    {
+      "blockNumber": 21527641,
+      "timestamp": 1735710471,
+      "basefee": 4.71536,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.168298288135592,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.63233580314961,
+          "totalSeconds": 3048
+        },
+        "thirty_day": {
+          "twapValue": 7.63233580314961,
+          "totalSeconds": 3048
+        }
+      }
+    },
+    {
+      "blockNumber": 21527642,
+      "timestamp": 1735710483,
+      "basefee": 4.636644,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.135188084745762,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.620896682352946,
+          "totalSeconds": 3060
+        },
+        "thirty_day": {
+          "twapValue": 7.620896682352946,
+          "totalSeconds": 3060
+        }
+      }
+    },
+    {
+      "blockNumber": 21527643,
+      "timestamp": 1735710495,
+      "basefee": 5.05876,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.109471457627118,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.609239445312504,
+          "totalSeconds": 3072
+        },
+        "thirty_day": {
+          "twapValue": 7.609239445312504,
+          "totalSeconds": 3072
+        }
+      }
+    },
+    {
+      "blockNumber": 21527644,
+      "timestamp": 1735710507,
+      "basefee": 4.426415,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.103947322033897,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.599315400778213,
+          "totalSeconds": 3084
+        },
+        "thirty_day": {
+          "twapValue": 7.599315400778213,
+          "totalSeconds": 3084
+        }
+      }
+    },
+    {
+      "blockNumber": 21527645,
+      "timestamp": 1735710519,
+      "basefee": 4.979717,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.099113694915253,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.587017337209305,
+          "totalSeconds": 3096
+        },
+        "thirty_day": {
+          "twapValue": 7.587017337209305,
+          "totalSeconds": 3096
+        }
+      }
+    },
+    {
+      "blockNumber": 21527646,
+      "timestamp": 1735710531,
+      "basefee": 4.440324,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.104296745762711,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.576950540540543,
+          "totalSeconds": 3108
+        },
+        "thirty_day": {
+          "twapValue": 7.576950540540543,
+          "totalSeconds": 3108
+        }
+      }
+    },
+    {
+      "blockNumber": 21527647,
+      "timestamp": 1735710543,
+      "basefee": 4.995365,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.098955101694915,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.564886592307696,
+          "totalSeconds": 3120
+        },
+        "thirty_day": {
+          "twapValue": 7.564886592307696,
+          "totalSeconds": 3120
+        }
+      }
+    },
+    {
+      "blockNumber": 21527648,
+      "timestamp": 1735710555,
+      "basefee": 4.370944,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.103133,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.55504168199234,
+          "totalSeconds": 3132
+        },
+        "thirty_day": {
+          "twapValue": 7.55504168199234,
+          "totalSeconds": 3132
+        }
+      }
+    },
+    {
+      "blockNumber": 21527649,
+      "timestamp": 1735710567,
+      "basefee": 4.917312,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.097557881355932,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.542888637404583,
+          "totalSeconds": 3144
+        },
+        "thirty_day": {
+          "twapValue": 7.542888637404583,
+          "totalSeconds": 3144
+        }
+      }
+    },
+    {
+      "blockNumber": 21527650,
+      "timestamp": 1735710579,
+      "basefee": 5.531976,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.111200610169493,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.532905456273767,
+          "totalSeconds": 3156
+        },
+        "thirty_day": {
+          "twapValue": 7.532905456273767,
+          "totalSeconds": 3156
+        }
+      }
+    },
+    {
+      "blockNumber": 21527651,
+      "timestamp": 1735710591,
+      "basefee": 6.223473,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.1265486779661025,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.525326178030305,
+          "totalSeconds": 3168
+        },
+        "thirty_day": {
+          "twapValue": 7.525326178030305,
+          "totalSeconds": 3168
+        }
+      }
+    },
+    {
+      "blockNumber": 21527652,
+      "timestamp": 1735710603,
+      "basefee": 5.445539,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.143815254237289,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.520413524528304,
+          "totalSeconds": 3180
+        },
+        "thirty_day": {
+          "twapValue": 7.520413524528304,
+          "totalSeconds": 3180
+        }
+      }
+    },
+    {
+      "blockNumber": 21527653,
+      "timestamp": 1735710615,
+      "basefee": 6.126231,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.137252627118645,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.512613244360905,
+          "totalSeconds": 3192
+        },
+        "thirty_day": {
+          "twapValue": 7.512613244360905,
+          "totalSeconds": 3192
+        }
+      }
+    },
+    {
+      "blockNumber": 21527654,
+      "timestamp": 1735710627,
+      "basefee": 6.866645,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.144206389830509,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.507420801498129,
+          "totalSeconds": 3204
+        },
+        "thirty_day": {
+          "twapValue": 7.507420801498129,
+          "totalSeconds": 3204
+        }
+      }
+    },
+    {
+      "blockNumber": 21527655,
+      "timestamp": 1735710639,
+      "basefee": 6.355885,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.151599457627119,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.505029847014927,
+          "totalSeconds": 3216
+        },
+        "thirty_day": {
+          "twapValue": 7.505029847014927,
+          "totalSeconds": 3216
+        }
+      }
+    },
+    {
+      "blockNumber": 21527656,
+      "timestamp": 1735710651,
+      "basefee": 5.561399,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.1496574406779665,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.500757933085503,
+          "totalSeconds": 3228
+        },
+        "thirty_day": {
+          "twapValue": 7.500757933085503,
+          "totalSeconds": 3228
+        }
+      }
+    },
+    {
+      "blockNumber": 21527657,
+      "timestamp": 1735710663,
+      "basefee": 5.164475,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.147958169491526,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.493575122222223,
+          "totalSeconds": 3240
+        },
+        "thirty_day": {
+          "twapValue": 7.493575122222223,
+          "totalSeconds": 3240
+        }
+      }
+    },
+    {
+      "blockNumber": 21527658,
+      "timestamp": 1735710675,
+      "basefee": 4.550425,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.127536338983051,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.484980656826569,
+          "totalSeconds": 3252
+        },
+        "thirty_day": {
+          "twapValue": 7.484980656826569,
+          "totalSeconds": 3252
+        }
+      }
+    },
+    {
+      "blockNumber": 21527659,
+      "timestamp": 1735710687,
+      "basefee": 4.735841,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.110201288135594,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.474191849264707,
+          "totalSeconds": 3264
+        },
+        "thirty_day": {
+          "twapValue": 7.474191849264707,
+          "totalSeconds": 3264
+        }
+      }
+    },
+    {
+      "blockNumber": 21527660,
+      "timestamp": 1735710699,
+      "basefee": 4.209599,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.102446186440678,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.464161260073261,
+          "totalSeconds": 3276
+        },
+        "thirty_day": {
+          "twapValue": 7.464161260073261,
+          "totalSeconds": 3276
+        }
+      }
+    },
+    {
+      "blockNumber": 21527661,
+      "timestamp": 1735710711,
+      "basefee": 4.735799,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.074768779661017,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.45228329562044,
+          "totalSeconds": 3288
+        },
+        "thirty_day": {
+          "twapValue": 7.45228329562044,
+          "totalSeconds": 3288
+        }
+      }
+    },
+    {
+      "blockNumber": 21527662,
+      "timestamp": 1735710723,
+      "basefee": 5.006275,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.048303338983052,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.442405170909092,
+          "totalSeconds": 3300
+        },
+        "thirty_day": {
+          "twapValue": 7.442405170909092,
+          "totalSeconds": 3300
+        }
+      }
+    },
+    {
+      "blockNumber": 21527663,
+      "timestamp": 1735710735,
+      "basefee": 5.632059,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.039763898305085,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.4335786123188425,
+          "totalSeconds": 3312
+        },
+        "thirty_day": {
+          "twapValue": 7.4335786123188425,
+          "totalSeconds": 3312
+        }
+      }
+    },
+    {
+      "blockNumber": 21527664,
+      "timestamp": 1735710747,
+      "basefee": 5.286231,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.0482642372881354,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.427074931407944,
+          "totalSeconds": 3324
+        },
+        "thirty_day": {
+          "twapValue": 7.427074931407944,
+          "totalSeconds": 3324
+        }
+      }
+    },
+    {
+      "blockNumber": 21527665,
+      "timestamp": 1735710759,
+      "basefee": 5.94701,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.061772864406779,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.419374053956836,
+          "totalSeconds": 3336
+        },
+        "thirty_day": {
+          "twapValue": 7.419374053956836,
+          "totalSeconds": 3336
+        }
+      }
+    },
+    {
+      "blockNumber": 21527666,
+      "timestamp": 1735710771,
+      "basefee": 5.304999,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.07697006779661,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.414096763440861,
+          "totalSeconds": 3348
+        },
+        "thirty_day": {
+          "twapValue": 7.414096763440861,
+          "totalSeconds": 3348
+        }
+      }
+    },
+    {
+      "blockNumber": 21527667,
+      "timestamp": 1735710783,
+      "basefee": 4.641874,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.073720118644069,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.406564271428572,
+          "totalSeconds": 3360
+        },
+        "thirty_day": {
+          "twapValue": 7.406564271428572,
+          "totalSeconds": 3360
+        }
+      }
+    },
+    {
+      "blockNumber": 21527668,
+      "timestamp": 1735710795,
+      "basefee": 5.222108,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.047585118644068,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.396725516014235,
+          "totalSeconds": 3372
+        },
+        "thirty_day": {
+          "twapValue": 7.396725516014235,
+          "totalSeconds": 3372
+        }
+      }
+    },
+    {
+      "blockNumber": 21527669,
+      "timestamp": 1735710807,
+      "basefee": 5.681849,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.0443859491525425,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.389014106382979,
+          "totalSeconds": 3384
+        },
+        "thirty_day": {
+          "twapValue": 7.389014106382979,
+          "totalSeconds": 3384
+        }
+      }
+    },
+    {
+      "blockNumber": 21527670,
+      "timestamp": 1735710819,
+      "basefee": 4.971618,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.04305613559322,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.382981720848057,
+          "totalSeconds": 3396
+        },
+        "thirty_day": {
+          "twapValue": 7.382981720848057,
+          "totalSeconds": 3396
+        }
+      }
+    },
+    {
+      "blockNumber": 21527671,
+      "timestamp": 1735710831,
+      "basefee": 4.350166,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.017484457627119,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.374491003521126,
+          "totalSeconds": 3408
+        },
+        "thirty_day": {
+          "twapValue": 7.374491003521126,
+          "totalSeconds": 3408
+        }
+      }
+    },
+    {
+      "blockNumber": 21527672,
+      "timestamp": 1735710843,
+      "basefee": 3.806395,
+      "states": {
+        "twelve_min": {
+          "twapValue": 4.995109237288135,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.363879336842104,
+          "totalSeconds": 3420
+        },
+        "thirty_day": {
+          "twapValue": 7.363879336842104,
+          "totalSeconds": 3420
+        }
+      }
+    },
+    {
+      "blockNumber": 21527673,
+      "timestamp": 1735710855,
+      "basefee": 4.282194,
+      "states": {
+        "twelve_min": {
+          "twapValue": 4.95150420338983,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.351440580419579,
+          "totalSeconds": 3432
+        },
+        "thirty_day": {
+          "twapValue": 7.351440580419579,
+          "totalSeconds": 3432
+        }
+      }
+    },
+    {
+      "blockNumber": 21527674,
+      "timestamp": 1735710867,
+      "basefee": 4.817468,
+      "states": {
+        "twelve_min": {
+          "twapValue": 4.929478593220339,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.340746341463413,
+          "totalSeconds": 3444
+        },
+        "thirty_day": {
+          "twapValue": 7.340746341463413,
+          "totalSeconds": 3444
+        }
+      }
+    },
+    {
+      "blockNumber": 21527675,
+      "timestamp": 1735710879,
+      "basefee": 5.419651,
+      "states": {
+        "twelve_min": {
+          "twapValue": 4.92835106779661,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.331984958333332,
+          "totalSeconds": 3456
+        },
+        "thirty_day": {
+          "twapValue": 7.331984958333332,
+          "totalSeconds": 3456
+        }
+      }
+    },
+    {
+      "blockNumber": 21527676,
+      "timestamp": 1735710891,
+      "basefee": 5.314428,
+      "states": {
+        "twelve_min": {
+          "twapValue": 4.947777474576271,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.325367885813146,
+          "totalSeconds": 3468
+        },
+        "thirty_day": {
+          "twapValue": 7.325367885813146,
+          "totalSeconds": 3468
+        }
+      }
+    },
+    {
+      "blockNumber": 21527677,
+      "timestamp": 1735710903,
+      "basefee": 4.650125,
+      "states": {
+        "twelve_min": {
+          "twapValue": 4.970579118644067,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.318433610344825,
+          "totalSeconds": 3480
+        },
+        "thirty_day": {
+          "twapValue": 7.318433610344825,
+          "totalSeconds": 3480
+        }
+      }
+    },
+    {
+      "blockNumber": 21527678,
+      "timestamp": 1735710915,
+      "basefee": 5.231391,
+      "states": {
+        "twelve_min": {
+          "twapValue": 4.973712220338982,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.309264164948452,
+          "totalSeconds": 3492
+        },
+        "thirty_day": {
+          "twapValue": 7.309264164948452,
+          "totalSeconds": 3492
+        }
+      }
+    },
+    {
+      "blockNumber": 21527679,
+      "timestamp": 1735710927,
+      "basefee": 5.885315,
+      "states": {
+        "twelve_min": {
+          "twapValue": 4.996157610169491,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.302148160958902,
+          "totalSeconds": 3504
+        },
+        "thirty_day": {
+          "twapValue": 7.302148160958902,
+          "totalSeconds": 3504
+        }
+      }
+    },
+    {
+      "blockNumber": 21527680,
+      "timestamp": 1735710939,
+      "basefee": 5.149651,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.029642711864406,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.2973125529010225,
+          "totalSeconds": 3516
+        },
+        "thirty_day": {
+          "twapValue": 7.2973125529010225,
+          "totalSeconds": 3516
+        }
+      }
+    },
+    {
+      "blockNumber": 21527681,
+      "timestamp": 1735710951,
+      "basefee": 5.793357,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.042375677966101,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.2900075816326515,
+          "totalSeconds": 3528
+        },
+        "thirty_day": {
+          "twapValue": 7.2900075816326515,
+          "totalSeconds": 3528
+        }
+      }
+    },
+    {
+      "blockNumber": 21527682,
+      "timestamp": 1735710963,
+      "basefee": 6.517527,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.0567002542372865,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.284934189830507,
+          "totalSeconds": 3540
+        },
+        "thirty_day": {
+          "twapValue": 7.284934189830507,
+          "totalSeconds": 3540
+        }
+      }
+    },
+    {
+      "blockNumber": 21527683,
+      "timestamp": 1735710975,
+      "basefee": 5.702836,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.093161847457626,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.282341597972971,
+          "totalSeconds": 3552
+        },
+        "thirty_day": {
+          "twapValue": 7.282341597972971,
+          "totalSeconds": 3552
+        }
+      }
+    },
+    {
+      "blockNumber": 21527684,
+      "timestamp": 1735710987,
+      "basefee": 5.509165,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.125065745762711,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.277023397306396,
+          "totalSeconds": 3564
+        },
+        "thirty_day": {
+          "twapValue": 7.277023397306396,
+          "totalSeconds": 3564
+        }
+      }
+    },
+    {
+      "blockNumber": 21527685,
+      "timestamp": 1735710999,
+      "basefee": 4.820519,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.145592796610169,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.27109098657718,
+          "totalSeconds": 3576
+        },
+        "thirty_day": {
+          "twapValue": 7.27109098657718,
+          "totalSeconds": 3576
+        }
+      }
+    },
+    {
+      "blockNumber": 21527686,
+      "timestamp": 1735711011,
+      "basefee": 5.423084,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.145341796610169,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.262895093645484,
+          "totalSeconds": 3588
+        },
+        "thirty_day": {
+          "twapValue": 7.262895093645484,
+          "totalSeconds": 3588
+        }
+      }
+    },
+    {
+      "blockNumber": 21527687,
+      "timestamp": 1735711023,
+      "basefee": 6.10097,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.145059423728813,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.256762389999999,
+          "totalSeconds": 3600
+        },
+        "thirty_day": {
+          "twapValue": 7.256762389999999,
+          "totalSeconds": 3600
+        }
+      }
+    },
+    {
+      "blockNumber": 21527688,
+      "timestamp": 1735711035,
+      "basefee": 5.338349,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.144741762711865,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.252922548172756,
+          "totalSeconds": 3612
+        },
+        "thirty_day": {
+          "twapValue": 7.252922548172756,
+          "totalSeconds": 3612
+        }
+      }
+    },
+    {
+      "blockNumber": 21527689,
+      "timestamp": 1735711047,
+      "basefee": 6.005643,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.139961745762712,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.246582900662251,
+          "totalSeconds": 3624
+        },
+        "thirty_day": {
+          "twapValue": 7.246582900662251,
+          "totalSeconds": 3624
+        }
+      }
+    },
+    {
+      "blockNumber": 21527690,
+      "timestamp": 1735711059,
+      "basefee": 5.254938,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.158399355932203,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.242487389438943,
+          "totalSeconds": 3636
+        },
+        "thirty_day": {
+          "twapValue": 7.242487389438943,
+          "totalSeconds": 3636
+        }
+      }
+    },
+    {
+      "blockNumber": 21527691,
+      "timestamp": 1735711071,
+      "basefee": 4.598071,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.153694033898305,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.235949398026315,
+          "totalSeconds": 3648
+        },
+        "thirty_day": {
+          "twapValue": 7.235949398026315,
+          "totalSeconds": 3648
+        }
+      }
+    },
+    {
+      "blockNumber": 21527692,
+      "timestamp": 1735711083,
+      "basefee": 4.571293,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.149576881355933,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.227300616393442,
+          "totalSeconds": 3660
+        },
+        "thirty_day": {
+          "twapValue": 7.227300616393442,
+          "totalSeconds": 3660
+        }
+      }
+    },
+    {
+      "blockNumber": 21527693,
+      "timestamp": 1735711095,
+      "basefee": 5.142705,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.144200779661017,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.218620852941176,
+          "totalSeconds": 3672
+        },
+        "thirty_day": {
+          "twapValue": 7.218620852941176,
+          "totalSeconds": 3672
+        }
+      }
+    },
+    {
+      "blockNumber": 21527694,
+      "timestamp": 1735711107,
+      "basefee": 4.499867,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.138152677966103,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.211858912052116,
+          "totalSeconds": 3684
+        },
+        "thirty_day": {
+          "twapValue": 7.211858912052116,
+          "totalSeconds": 3684
+        }
+      }
+    },
+    {
+      "blockNumber": 21527695,
+      "timestamp": 1735711119,
+      "basefee": 5.06235,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.1328605932203395,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.2030537435064925,
+          "totalSeconds": 3696
+        },
+        "thirty_day": {
+          "twapValue": 7.2030537435064925,
+          "totalSeconds": 3696
+        }
+      }
+    },
+    {
+      "blockNumber": 21527696,
+      "timestamp": 1735711131,
+      "basefee": 5.429458,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.147297254237288,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.1961258996763755,
+          "totalSeconds": 3708
+        },
+        "thirty_day": {
+          "twapValue": 7.1961258996763755,
+          "totalSeconds": 3708
+        }
+      }
+    },
+    {
+      "blockNumber": 21527697,
+      "timestamp": 1735711143,
+      "basefee": 6.10814,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.1606063050847455,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.190426970967741,
+          "totalSeconds": 3720
+        },
+        "thirty_day": {
+          "twapValue": 7.190426970967741,
+          "totalSeconds": 3720
+        }
+      }
+    },
+    {
+      "blockNumber": 21527698,
+      "timestamp": 1735711155,
+      "basefee": 6.871657,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.193867050847459,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.186946948553055,
+          "totalSeconds": 3732
+        },
+        "thirty_day": {
+          "twapValue": 7.186946948553055,
+          "totalSeconds": 3732
+        }
+      }
+    },
+    {
+      "blockNumber": 21527699,
+      "timestamp": 1735711167,
+      "basefee": 6.457183,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.231285372881357,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.185936403846154,
+          "totalSeconds": 3744
+        },
+        "thirty_day": {
+          "twapValue": 7.185936403846154,
+          "totalSeconds": 3744
+        }
+      }
+    },
+    {
+      "blockNumber": 21527700,
+      "timestamp": 1735711179,
+      "basefee": 6.844364,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.251797406779661,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.183608118210863,
+          "totalSeconds": 3756
+        },
+        "thirty_day": {
+          "twapValue": 7.183608118210863,
+          "totalSeconds": 3756
+        }
+      }
+    },
+    {
+      "blockNumber": 21527701,
+      "timestamp": 1735711191,
+      "basefee": 5.988818,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.287882220338983,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.182527722929936,
+          "totalSeconds": 3768
+        },
+        "thirty_day": {
+          "twapValue": 7.182527722929936,
+          "totalSeconds": 3768
+        }
+      }
+    },
+    {
+      "blockNumber": 21527702,
+      "timestamp": 1735711203,
+      "basefee": 6.73742,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.310800423728814,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.178738168253968,
+          "totalSeconds": 3780
+        },
+        "thirty_day": {
+          "twapValue": 7.178738168253968,
+          "totalSeconds": 3780
+        }
+      }
+    },
+    {
+      "blockNumber": 21527703,
+      "timestamp": 1735711215,
+      "basefee": 5.895243,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.339252288135594,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.177341591772152,
+          "totalSeconds": 3792
+        },
+        "thirty_day": {
+          "twapValue": 7.177341591772152,
+          "totalSeconds": 3792
+        }
+      }
+    },
+    {
+      "blockNumber": 21527704,
+      "timestamp": 1735711227,
+      "basefee": 6.076961,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.364147677966104,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.173297116719243,
+          "totalSeconds": 3804
+        },
+        "thirty_day": {
+          "twapValue": 7.173297116719243,
+          "totalSeconds": 3804
+        }
+      }
+    },
+    {
+      "blockNumber": 21527705,
+      "timestamp": 1735711239,
+      "basefee": 6.836581,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.382745033898306,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.169849518867925,
+          "totalSeconds": 3816
+        },
+        "thirty_day": {
+          "twapValue": 7.169849518867925,
+          "totalSeconds": 3816
+        }
+      }
+    },
+    {
+      "blockNumber": 21527706,
+      "timestamp": 1735711251,
+      "basefee": 5.982008,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.4233595593220345,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.168804789968652,
+          "totalSeconds": 3828
+        },
+        "thirty_day": {
+          "twapValue": 7.168804789968652,
+          "totalSeconds": 3828
+        }
+      }
+    },
+    {
+      "blockNumber": 21527707,
+      "timestamp": 1735711263,
+      "basefee": 5.281702,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.440082322033899,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.16509605,
+          "totalSeconds": 3840
+        },
+        "thirty_day": {
+          "twapValue": 7.16509605,
+          "totalSeconds": 3840
+        }
+      }
+    },
+    {
+      "blockNumber": 21527708,
+      "timestamp": 1735711275,
+      "basefee": 5.941915,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.455518898305085,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.159228778816199,
+          "totalSeconds": 3852
+        },
+        "thirty_day": {
+          "twapValue": 7.159228778816199,
+          "totalSeconds": 3852
+        }
+      }
+    },
+    {
+      "blockNumber": 21527709,
+      "timestamp": 1735711287,
+      "basefee": 6.684654,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.472885050847458,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.155448301242235,
+          "totalSeconds": 3864
+        },
+        "thirty_day": {
+          "twapValue": 7.155448301242235,
+          "totalSeconds": 3864
+        }
+      }
+    },
+    {
+      "blockNumber": 21527710,
+      "timestamp": 1735711299,
+      "basefee": 5.849072,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.492421966101694,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.15399073374613,
+          "totalSeconds": 3876
+        },
+        "thirty_day": {
+          "twapValue": 7.15399073374613,
+          "totalSeconds": 3876
+        }
+      }
+    },
+    {
+      "blockNumber": 21527711,
+      "timestamp": 1735711311,
+      "basefee": 6.21448,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.486076186440677,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.149963206790122,
+          "totalSeconds": 3888
+        },
+        "thirty_day": {
+          "twapValue": 7.149963206790122,
+          "totalSeconds": 3888
+        }
+      }
+    },
+    {
+      "blockNumber": 21527712,
+      "timestamp": 1735711323,
+      "basefee": 5.43767,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.499109084745763,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.147084796923076,
+          "totalSeconds": 3900
+        },
+        "thirty_day": {
+          "twapValue": 7.147084796923076,
+          "totalSeconds": 3900
+        }
+      }
+    },
+    {
+      "blockNumber": 21527713,
+      "timestamp": 1735711335,
+      "basefee": 5.170573,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.487438559322033,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.141841193251532,
+          "totalSeconds": 3912
+        },
+        "thirty_day": {
+          "twapValue": 7.141841193251532,
+          "totalSeconds": 3912
+        }
+      }
+    },
+    {
+      "blockNumber": 21527714,
+      "timestamp": 1735711347,
+      "basefee": 5.349314,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.458691576271185,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.135812850152904,
+          "totalSeconds": 3924
+        },
+        "thirty_day": {
+          "twapValue": 7.135812850152904,
+          "totalSeconds": 3924
+        }
+      }
+    },
+    {
+      "blockNumber": 21527715,
+      "timestamp": 1735711359,
+      "basefee": 6.017978,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.441631050847457,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.130366207317072,
+          "totalSeconds": 3936
+        },
+        "thirty_day": {
+          "twapValue": 7.130366207317072,
+          "totalSeconds": 3936
+        }
+      }
+    },
+    {
+      "blockNumber": 21527716,
+      "timestamp": 1735711371,
+      "basefee": 6.770225,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.449369677966101,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.126985088145895,
+          "totalSeconds": 3948
+        },
+        "thirty_day": {
+          "twapValue": 7.126985088145895,
+          "totalSeconds": 3948
+        }
+      }
+    },
+    {
+      "blockNumber": 21527717,
+      "timestamp": 1735711383,
+      "basefee": 5.923947,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.476585779661017,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.125903996969695,
+          "totalSeconds": 3960
+        },
+        "thirty_day": {
+          "twapValue": 7.125903996969695,
+          "totalSeconds": 3960
+        }
+      }
+    },
+    {
+      "blockNumber": 21527718,
+      "timestamp": 1735711395,
+      "basefee": 6.66444,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.49986581355932,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.122272706948639,
+          "totalSeconds": 3972
+        },
+        "thirty_day": {
+          "twapValue": 7.122272706948639,
+          "totalSeconds": 3972
+        }
+      }
+    },
+    {
+      "blockNumber": 21527719,
+      "timestamp": 1735711407,
+      "basefee": 5.831385,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.532553932203388,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.120893692771082,
+          "totalSeconds": 3984
+        },
+        "thirty_day": {
+          "twapValue": 7.120893692771082,
+          "totalSeconds": 3984
+        }
+      }
+    },
+    {
+      "blockNumber": 21527720,
+      "timestamp": 1735711419,
+      "basefee": 5.622702,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.560041830508474,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.117021294294292,
+          "totalSeconds": 3996
+        },
+        "thirty_day": {
+          "twapValue": 7.117021294294292,
+          "totalSeconds": 3996
+        }
+      }
+    },
+    {
+      "blockNumber": 21527721,
+      "timestamp": 1735711431,
+      "basefee": 6.32554,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.575074084745761,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.112547284431136,
+          "totalSeconds": 4008
+        },
+        "thirty_day": {
+          "twapValue": 7.112547284431136,
+          "totalSeconds": 4008
+        }
+      }
+    },
+    {
+      "blockNumber": 21527722,
+      "timestamp": 1735711443,
+      "basefee": 5.534847,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.597434508474575,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.110198008955223,
+          "totalSeconds": 4020
+        },
+        "thirty_day": {
+          "twapValue": 7.110198008955223,
+          "totalSeconds": 4020
+        }
+      }
+    },
+    {
+      "blockNumber": 21527723,
+      "timestamp": 1735711455,
+      "basefee": 5.801572,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.595786847457626,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.105509464285713,
+          "totalSeconds": 4032
+        },
+        "thirty_day": {
+          "twapValue": 7.105509464285713,
+          "totalSeconds": 4032
+        }
+      }
+    },
+    {
+      "blockNumber": 21527724,
+      "timestamp": 1735711467,
+      "basefee": 6.228719,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.604521440677965,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.1016402136498495,
+          "totalSeconds": 4044
+        },
+        "thirty_day": {
+          "twapValue": 7.1016402136498495,
+          "totalSeconds": 4044
+        }
+      }
+    },
+    {
+      "blockNumber": 21527725,
+      "timestamp": 1735711479,
+      "basefee": 5.450129,
+      "states": {
+        "twelve_min": {
+          "twapValue": 5.609296169491524,
+          "totalSeconds": 708
+        },
+        "three_hour": {
+          "twapValue": 7.099057606508874,
+          "totalSeconds": 4056
+        },
+        "thirty_day": {
+          "twapValue": 7.099057606508874,
+          "totalSeconds": 4056
+        }
+      }
+    }
+  ]
+}
