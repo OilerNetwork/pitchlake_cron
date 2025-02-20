@@ -287,7 +287,7 @@ export class GasDataService {
 
     const query = `
       INSERT INTO blocks (block_number, timestamp, basefee, is_confirmed)
-      VALUES ($1, $2, $3, false)
+      VALUES ($1, $2, $3, true)
       ON CONFLICT (block_number) 
       DO UPDATE SET 
         basefee = $3,
