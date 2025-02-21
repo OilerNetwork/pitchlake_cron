@@ -93,11 +93,11 @@ export class GasDataService {
       VALUES ($1, $2, $3, $4, $5, $6, true)
       ON CONFLICT ON CONSTRAINT twap_state_window_type_is_confirmed_key
       DO UPDATE SET 
-        weighted_sum = $2,
-        total_seconds = $3,
-        twap_value = $4,
-        last_block_number = $5,
-        last_block_timestamp = $6
+        weighted_sum = EXCLUDED.weighted_sum,
+        total_seconds = EXCLUDED.total_seconds,
+        twap_value = EXCLUDED.twap_value,
+        last_block_number = EXCLUDED.last_block_number,
+        last_block_timestamp = EXCLUDED.last_block_timestamp
     `;
 
     try {
@@ -290,7 +290,7 @@ export class GasDataService {
       VALUES ($1, $2, $3, true)
       ON CONFLICT (block_number) 
       DO UPDATE SET 
-        basefee = $3,
+        basefee = EXCLUDED.basefee,
         is_confirmed = true
     `;
 
@@ -337,12 +337,6 @@ export class GasDataService {
     if (!blockData?.length) return;
 
     try {
-      if (process.env.USE_DEMO_DATA !== 'true') {
-        await this.pitchlakeClient?.query("BEGIN");
-        // First store the new blocks
-        await this.storeNewBlocks(blockData);
-      }
-
       // Sort blocks by timestamp and remove any blocks with undefined basefee
       const sortedBlocks = [...blockData]
         .filter(block => block.blockNumber != null && block.basefee != null)
@@ -356,165 +350,116 @@ export class GasDataService {
       const oldestTimestamp = sortedBlocks[0].timestamp;
       const newestTimestamp = sortedBlocks[sortedBlocks.length - 1].timestamp;
 
-      // Fetch all necessary data
-      const [states, relevantBlocks] = await Promise.all([
-        Promise.all(
-          this.WINDOW_CONFIGS.map((config) => this.getTWAPState(config.type))
-        ),
-        this.fetchRelevantBlocks(oldestTimestamp, newestTimestamp),
-      ]);
-
-      if (relevantBlocks.length === 0) {
-        console.log("No relevant blocks found for TWAP calculation");
-        return;
-      }
-
+      // Initialize state once at the start
+      const states = await Promise.all(
+        this.WINDOW_CONFIGS.map((config) => this.getTWAPState(config.type))
+      );
       let currentState = this.initializeTWAPState(states);
-      
-      // For demo mode: store all block TWAPs
-      const blockTWAPs: {
-        block_number: number;
-        timestamp: number;
-        basefee: number;
-        twelve_min_twap: number;
-        three_hour_twap: number;
-        thirty_day_twap: number;
-      }[] = [];
 
-      // Process each block
+      // Process each block in its own transaction
       for (const currentBlock of sortedBlocks) {
-        // Skip TWAP updates for the latest block
-        const isLatestBlock = !relevantBlocks.some(
-          (block) => block.timestamp > currentBlock.timestamp
-        );
-        if (isLatestBlock) {
-          console.log(`Skipping latest block ${currentBlock.blockNumber} for TWAP updates`);
+        try {
+          if (process.env.USE_DEMO_DATA !== 'true') {
+            await this.pitchlakeClient?.query("BEGIN");
+            
+            // Store the new block first
+            await this.storeNewBlocks([currentBlock]);
+          }
+
+          // Fetch relevant blocks for TWAP calculation
+          const relevantBlocks = await this.fetchRelevantBlocks(
+            oldestTimestamp,
+            currentBlock.timestamp
+          );
+
+          if (relevantBlocks.length === 0) {
+            console.log(`No relevant blocks found for block ${currentBlock.blockNumber}`);
+            if (process.env.USE_DEMO_DATA !== 'true') {
+              await this.pitchlakeClient?.query("ROLLBACK");
+            }
+            continue;
+          }
+
+          // Only skip if this is the absolute latest block in our batch AND it's the last block we have
+          const isLastBlockInBatch = currentBlock.blockNumber === sortedBlocks[sortedBlocks.length - 1].blockNumber;
+          const hasNextBlock = await this.checkForNextBlock(currentBlock.blockNumber);
+          const isLatestBlock = isLastBlockInBatch && !hasNextBlock;
+
+          if (isLatestBlock) {
+            console.log(`Skipping latest block ${currentBlock.blockNumber} for TWAP updates`);
+            if (process.env.USE_DEMO_DATA !== 'true') {
+              await this.pitchlakeClient?.query("ROLLBACK");
+            }
+            continue;
+          }
+
+          // Update TWAPs for each time window
+          this.WINDOW_CONFIGS.forEach((config) => {
+            currentState[config.stateKey] = this.calculateTWAP(
+              currentState[config.stateKey],
+              config.duration,
+              currentBlock.timestamp - config.duration,
+              currentBlock,
+              relevantBlocks
+            );
+          });
+
+          if (process.env.USE_DEMO_DATA === 'true') {
+            // Handle demo mode
+            const blockTWAPData = {
+              block_number: currentBlock.blockNumber!,
+              timestamp: currentBlock.timestamp,
+              basefee: currentBlock.basefee!,
+              twelve_min_twap: currentState.twelveminTwap.twapValue,
+              three_hour_twap: currentState.threeHourTwap.twapValue,
+              thirty_day_twap: currentState.thirtyDayTwap.twapValue
+            };
+            console.log(`Demo Mode - Processed block ${blockTWAPData.block_number}`);
+          } else {
+            // Update block TWAPs
+            await this.updateBlockTWAPs(
+              currentBlock.blockNumber!,
+              currentState.twelveminTwap.twapValue,
+              currentState.threeHourTwap.twapValue,
+              currentState.thirtyDayTwap.twapValue
+            );
+
+            // Save the updated state for each window type
+            await Promise.all(
+              this.WINDOW_CONFIGS.map((config) =>
+                this.saveTWAPState(config.type, currentState[config.stateKey])
+              )
+            );
+
+            // Commit the transaction for this block
+            await this.pitchlakeClient?.query("COMMIT");
+            console.log(`Successfully processed block ${currentBlock.blockNumber}`);
+          }
+        } catch (error) {
+          console.error(`Error processing block ${currentBlock.blockNumber}:`, error);
+          if (process.env.USE_DEMO_DATA !== 'true') {
+            await this.pitchlakeClient?.query("ROLLBACK");
+          }
+          // Continue with the next block instead of throwing
           continue;
-        }
-
-        // Update TWAPs for each time window
-        this.WINDOW_CONFIGS.forEach((config) => {
-          currentState[config.stateKey] = this.calculateTWAP(
-            currentState[config.stateKey],
-            config.duration,
-            currentBlock.timestamp - config.duration,
-            currentBlock,
-            relevantBlocks
-          );
-        });
-
-        const blockTWAPData = {
-          block_number: currentBlock.blockNumber!,
-          timestamp: currentBlock.timestamp,
-          basefee: currentBlock.basefee!,
-          twelve_min_twap: currentState.twelveminTwap.twapValue,
-          three_hour_twap: currentState.threeHourTwap.twapValue,
-          thirty_day_twap: currentState.thirtyDayTwap.twapValue
-        };
-
-        if (process.env.USE_DEMO_DATA === 'true') {
-          blockTWAPs.push(blockTWAPData);
-        } else {
-          await this.updateBlockTWAPs(
-            blockTWAPData.block_number,
-            blockTWAPData.twelve_min_twap,
-            blockTWAPData.three_hour_twap,
-            blockTWAPData.thirty_day_twap
-          );
         }
       }
 
       if (process.env.USE_DEMO_DATA === 'true') {
-        // Save detailed block TWAPs to file
-        const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-        const outputPath = path.join(process.cwd(), 'demo_outputs', `twap_calculations_${timestamp}.json`);
-        
-        const output = {
-          metadata: {
-            totalBlocks: blockTWAPs.length,
-            timeRange: {
-              start: oldestTimestamp,
-              end: newestTimestamp
-            }
-          },
-          twap_state: Object.fromEntries(
-            this.WINDOW_CONFIGS.map(config => [
-              config.type,
-              {
-                window_type: config.type,
-                weighted_sum: currentState[config.stateKey].weightedSum,
-                total_seconds: currentState[config.stateKey].totalSeconds,
-                twap_value: currentState[config.stateKey].twapValue,
-                last_block_number: currentState[config.stateKey].lastBlockNumber,
-                last_block_timestamp: currentState[config.stateKey].lastBlockTimestamp,
-              }
-            ])
-          ),
-          blocks: blockTWAPs
-        };
-
-        fs.writeFileSync(outputPath, JSON.stringify(output, null, 2));
-        console.log(`Demo Mode - Saved TWAP calculations to ${outputPath}`);
-        
-        // Also log final states to console as before
+        // Log final states to console for demo mode
         console.log('Demo Mode - Final TWAP States:');
         this.WINDOW_CONFIGS.forEach(config => {
           console.log(`${config.type}:`, currentState[config.stateKey]);
         });
-      } else {
-        // Save final states to database
-        await Promise.all(
-          this.WINDOW_CONFIGS.map((config) =>
-            this.saveTWAPState(config.type, currentState[config.stateKey])
-          )
-        );
-        await this.pitchlakeClient?.query("COMMIT");
       }
     } catch (error) {
-      if (process.env.USE_DEMO_DATA !== 'true') {
-        await this.pitchlakeClient?.query("ROLLBACK");
-      }
-      console.error("Error in getTWAPs transaction:", error);
+      console.error("Error in getTWAPs:", error);
       throw error;
     }
   }
 
-  private async getNewBlocks(
-    lastProcessedBlock: number
-  ): Promise<FormattedBlockData[]> {
-    console.log("TRIED")
-    if (process.env.USE_DEMO_DATA === 'true') {
-      // Filter demo blocks based on lastProcessedTimestamp
-      return demoBlocks
-        .filter(block => block.blockNumber > lastProcessedBlock)
-        .sort((a, b) => a.timestamp - b.timestamp);
-    }
-
-    const query = `
-      SELECT number, timestamp, base_fee_per_gas
-      FROM blockheaders 
-      WHERE number > $1
-      AND base_fee_per_gas IS NOT NULL
-      ORDER BY number ASC
-      LIMIT 300
-    `;
-
-    const result = await this.fossilClient?.query(query, [lastProcessedBlock]);
-    
-
-    console.log("RESULT",result)
-    if (!result && process.env.USE_DEMO_DATA !== 'true') {
-      throw new Error('Failed to fetch new blocks');
-    }
-
-    return (result?.rows || []).map((row) => ({
-      blockNumber: row.number,
-      timestamp: Number(row.timestamp),
-      basefee: row.base_fee_per_gas ? Number(row.base_fee_per_gas) : undefined,
-    }));
-  }
   public async updateTWAPs(): Promise<void> {
-    console.log("REACHED HERE")
+    console.log("Starting TWAP updates");
     if (process.env.USE_DEMO_DATA !== 'true') {
       this.fossilClient = new Client({
         connectionString: process.env.FOSSIL_DB_CONNECTION_STRING,
@@ -529,37 +474,110 @@ export class GasDataService {
       });
       await this.pitchlakeClient.connect();
     }
+
     try {
       if (process.env.USE_DEMO_DATA === 'true') {
         console.log('Running in demo mode with sample data');
-      }
-
-      // Get the last processed confirmed block from any TWAP state
-      const lastState =
-        process.env.USE_DEMO_DATA === "true"
-          ? undefined
-          : await this.getTWAPState("twelve_min");
-      const lastProcessedBlock = lastState?.lastBlockNumber || 0;
-
-      // Get new blocks since last processed
-      console.log("REACHED HERE 2")
-      const newBlocks =
-        process.env.USE_DEMO_DATA === "true"
-          ? demoBlocks
-          : await this.getNewBlocks(lastProcessedBlock);
-
-      if (newBlocks.length === 0) {
-        console.log("No new blocks to process");
+        const newBlocks = demoBlocks;
+        await this.getTWAPs(newBlocks);
         return;
       }
 
-      // Process everything in a single transaction
-      await this.getTWAPs(newBlocks);
-      console.log(`Processed ${newBlocks.length} blocks for TWAP updates`);
+      const BATCH_SIZE = 1000;
+      let hasMoreBlocks = true;
+
+      // Get last processed block from TWAP state or use initial block from env
+      const lastState = await this.getTWAPState("twelve_min");
+      let currentLastBlock: number;
+      
+      if (lastState?.lastBlockNumber) {
+        currentLastBlock = lastState.lastBlockNumber;
+        console.log("Resuming from last processed block:", currentLastBlock);
+      } else {
+        const initialBlock = process.env.INITIAL_BLOCK_NUMBER ? parseInt(process.env.INITIAL_BLOCK_NUMBER) : 0;
+        currentLastBlock = initialBlock;
+        console.log("No TWAP state found. Starting from initial block:", initialBlock);
+      }
+
+      while (hasMoreBlocks) {
+        // Fetch next batch of blocks
+        const query = `
+          SELECT number, timestamp, base_fee_per_gas
+          FROM blockheaders 
+          WHERE number > $1
+          AND base_fee_per_gas IS NOT NULL
+          ORDER BY number ASC
+          LIMIT $2
+        `;
+
+        const result = await this.fossilClient?.query(query, [currentLastBlock, BATCH_SIZE]);
+        
+        if (!result || result.rows.length === 0) {
+          console.log("No more blocks to process");
+          hasMoreBlocks = false;
+          break;
+        }
+
+        const blocks = result.rows.map((row) => ({
+          blockNumber: row.number,
+          timestamp: Number(row.timestamp),
+          basefee: row.base_fee_per_gas ? Number(row.base_fee_per_gas) : undefined,
+        }));
+
+        console.log(`Processing batch of ${blocks.length} blocks starting from ${blocks[0].blockNumber}`);
+
+        // Process this batch of blocks
+        await this.getTWAPs(blocks);
+
+        // Update the last processed block for the next iteration
+        currentLastBlock = blocks[blocks.length - 1].blockNumber;
+        console.log(`Completed processing batch. Last block: ${currentLastBlock}`);
+
+        // If we got fewer blocks than the batch size, we've reached the end
+        if (blocks.length < BATCH_SIZE) {
+          console.log("Reached end of blocks");
+          hasMoreBlocks = false;
+        }
+      }
+
+      console.log("Completed all TWAP updates");
     } catch (error) {
       console.error("Error updating TWAPs:", error);
       throw error;
+    } finally {
+      await this.cleanup();
     }
+  }
+
+  private async getNewBlocks(
+    lastProcessedBlock: number
+  ): Promise<FormattedBlockData[]> {
+    if (process.env.USE_DEMO_DATA === 'true') {
+      return demoBlocks
+        .filter(block => block.blockNumber > lastProcessedBlock)
+        .sort((a, b) => a.timestamp - b.timestamp);
+    }
+
+    const query = `
+      SELECT number, timestamp, base_fee_per_gas
+      FROM blockheaders 
+      WHERE number > $1
+      AND base_fee_per_gas IS NOT NULL
+      ORDER BY number ASC
+      LIMIT 1000
+    `;
+
+    const result = await this.fossilClient?.query(query, [lastProcessedBlock]);
+    
+    if (!result) {
+      throw new Error('Failed to fetch new blocks');
+    }
+
+    return result.rows.map((row) => ({
+      blockNumber: row.number,
+      timestamp: Number(row.timestamp),
+      basefee: row.base_fee_per_gas ? Number(row.base_fee_per_gas) : undefined,
+    }));
   }
 
   public async cleanup(): Promise<void> {
@@ -567,5 +585,23 @@ export class GasDataService {
       await this.fossilClient?.end();
       await this.pitchlakeClient?.end();
     }
+  }
+
+  private async checkForNextBlock(blockNumber: number): Promise<boolean> {
+    if (process.env.USE_DEMO_DATA === 'true') {
+      const nextBlock = demoBlocks.find(block => block.blockNumber > blockNumber);
+      return !!nextBlock;
+    }
+
+    const query = `
+      SELECT 1
+      FROM blockheaders 
+      WHERE number > $1
+      AND base_fee_per_gas IS NOT NULL
+      LIMIT 1
+    `;
+
+    const result = await this.fossilClient?.query(query, [blockNumber]);
+    return !!(result?.rows.length);
   }
 }
