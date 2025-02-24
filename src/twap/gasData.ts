@@ -22,7 +22,16 @@ export class GasDataService {
   private pitchlakeClient?: Client;
 
   constructor() {
-  
+    this.fossilClient = new Client({
+      connectionString: process.env.FOSSIL_DB_CONNECTION_STRING,
+      ssl: {
+        rejectUnauthorized: false
+      }
+    });
+    this.pitchlakeClient = new Client({
+      connectionString: process.env.PITCHLAKE_DB_CONNECTION_STRING,
+      ssl: false
+    });
   }
 
   private readonly WINDOW_CONFIGS = [
@@ -257,7 +266,7 @@ export class GasDataService {
   private initializeTWAPState(
     states: (TWAPState | null)[]
   ): TWAPStateContainer {
-    return {
+      return {
       twelveminTwap: states[0] || {
         weightedSum: 0,
         totalSeconds: 0,
@@ -461,18 +470,14 @@ export class GasDataService {
   public async updateTWAPs(): Promise<void> {
     console.log("Starting TWAP updates");
     if (process.env.USE_DEMO_DATA !== 'true') {
-      this.fossilClient = new Client({
-        connectionString: process.env.FOSSIL_DB_CONNECTION_STRING,
-        ssl: {
-          rejectUnauthorized: false
-        }
-      });
-      await this.fossilClient.connect();
-      this.pitchlakeClient = new Client({
-        connectionString: process.env.PITCHLAKE_DB_CONNECTION_STRING,
-        ssl: false
-      });
-      await this.pitchlakeClient.connect();
+      
+      try {
+        await this.fossilClient?.connect();
+        await this.pitchlakeClient?.connect();
+      } catch (error) {
+        console.error("Error connecting to fossil or pitchlake:", error);
+        throw error;
+      }
     }
 
     try {
