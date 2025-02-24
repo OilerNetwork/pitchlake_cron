@@ -20,6 +20,7 @@ export const TWAP_RANGES = {
 export class GasDataService {
   private fossilClient?: Client;
   private pitchlakeClient?: Client;
+  private static readonly STORE_BLOCKS_STATEMENT = 'store_blocks';
 
   constructor() {
     this.fossilClient = new Client({
@@ -294,24 +295,44 @@ export class GasDataService {
   private async storeNewBlocks(blocks: FormattedBlockData[]): Promise<void> {
     if (!blocks.length) return;
 
+    const blockNumbers = blocks.map(b => b.blockNumber!);
+    const timestamps = blocks.map(b => b.timestamp);
+    const basefees = blocks.map(b => b.basefee!);
+
+    console.log("Creating and executing prepared statement...");
+
+    // Create and execute the prepared statement in one go
     const query = `
+      WITH new_blocks AS (
+        SELECT unnest($1::int[]) as block_number,
+               unnest($2::int[]) as timestamp,
+               unnest($3::numeric[]) as basefee
+      )
       INSERT INTO blocks (block_number, timestamp, basefee, is_confirmed)
-      VALUES ($1, $2, $3, true)
+      SELECT block_number, timestamp, basefee, true
+      FROM new_blocks
       ON CONFLICT (block_number) 
       DO UPDATE SET 
         basefee = EXCLUDED.basefee,
         is_confirmed = true
     `;
 
-    await Promise.all(
-      blocks.map((block) =>
-        this.pitchlakeClient?.query(query, [
-          block.blockNumber,
-          block.timestamp,
-          block.basefee,
-        ])
-      )
-    );
+    try {
+      const result = await this.pitchlakeClient?.query(query, [
+        blockNumbers,
+        timestamps,
+        basefees
+      ]);
+      console.log("Store blocks result:", result);
+    } catch (error) {
+      console.error("Error storing blocks:", error);
+      throw error;
+    }
+  }
+
+  private async initializePreparedStatements(): Promise<void> {
+    // This method is no longer needed
+    console.log("Prepared statements initialization skipped - using direct query");
   }
 
   private async updateBlockTWAPs(
@@ -358,6 +379,23 @@ export class GasDataService {
 
       const oldestTimestamp = sortedBlocks[0].timestamp;
       const newestTimestamp = sortedBlocks[sortedBlocks.length - 1].timestamp;
+      const startBlock = sortedBlocks[0].blockNumber;
+      const endBlock = sortedBlocks[sortedBlocks.length - 1].blockNumber;
+
+      // Check if the last block in batch has a next block
+      const isLastBlockInBatch = sortedBlocks[sortedBlocks.length - 1].blockNumber;
+      const hasNextBlock = await this.checkForNextBlock(isLastBlockInBatch);
+      const shouldSkipLastBlock = !hasNextBlock;
+
+      // Get the blocks to process (exclude last block if it's the latest)
+      const blocksToProcess = shouldSkipLastBlock ? 
+        sortedBlocks.slice(0, -1) : 
+        sortedBlocks;
+
+      if (blocksToProcess.length === 0) {
+        console.log("No blocks to process after filtering out latest block");
+        return;
+      }
 
       // Initialize state once at the start
       const states = await Promise.all(
@@ -365,43 +403,38 @@ export class GasDataService {
       );
       let currentState = this.initializeTWAPState(states);
 
-      // Process each block in its own transaction
-      for (const currentBlock of sortedBlocks) {
-        try {
+      if (process.env.USE_DEMO_DATA !== 'true') {
+        await this.pitchlakeClient?.query("BEGIN");
+      }
+
+      try {
+        // Store all new blocks in a single operation
+        await this.storeNewBlocks(blocksToProcess);
+
+        // Fetch all relevant blocks once for the entire batch
+        const relevantBlocks = await this.fetchRelevantBlocks(
+          oldestTimestamp,
+          newestTimestamp
+        );
+
+        if (relevantBlocks.length === 0) {
+          console.log(`No relevant blocks found for batch`);
           if (process.env.USE_DEMO_DATA !== 'true') {
-            await this.pitchlakeClient?.query("BEGIN");
-            
-            // Store the new block first
-            await this.storeNewBlocks([currentBlock]);
+            await this.pitchlakeClient?.query("ROLLBACK");
           }
+          return;
+        }
 
-          // Fetch relevant blocks for TWAP calculation
-          const relevantBlocks = await this.fetchRelevantBlocks(
-            oldestTimestamp,
-            currentBlock.timestamp
-          );
+        // Calculate TWAPs for all blocks
+        const blockTWAPs: { 
+          blockNumber: number, 
+          twelveminTwap: number,
+          threeHourTwap: number,
+          thirtyDayTwap: number 
+        }[] = [];
 
-          if (relevantBlocks.length === 0) {
-            console.log(`No relevant blocks found for block ${currentBlock.blockNumber}`);
-            if (process.env.USE_DEMO_DATA !== 'true') {
-              await this.pitchlakeClient?.query("ROLLBACK");
-            }
-            continue;
-          }
-
-          // Only skip if this is the absolute latest block in our batch AND it's the last block we have
-          const isLastBlockInBatch = currentBlock.blockNumber === sortedBlocks[sortedBlocks.length - 1].blockNumber;
-          const hasNextBlock = await this.checkForNextBlock(currentBlock.blockNumber);
-          const isLatestBlock = isLastBlockInBatch && !hasNextBlock;
-
-          if (isLatestBlock) {
-            console.log(`Skipping latest block ${currentBlock.blockNumber} for TWAP updates`);
-            if (process.env.USE_DEMO_DATA !== 'true') {
-              await this.pitchlakeClient?.query("ROLLBACK");
-            }
-            continue;
-          }
-
+        // Process each block's TWAPs
+        for (const currentBlock of blocksToProcess) {
           // Update TWAPs for each time window
           this.WINDOW_CONFIGS.forEach((config) => {
             currentState[config.stateKey] = this.calculateTWAP(
@@ -413,45 +446,60 @@ export class GasDataService {
             );
           });
 
-          if (process.env.USE_DEMO_DATA === 'true') {
-            // Handle demo mode
-            const blockTWAPData = {
-              block_number: currentBlock.blockNumber!,
-              timestamp: currentBlock.timestamp,
-              basefee: currentBlock.basefee!,
-              twelve_min_twap: currentState.twelveminTwap.twapValue,
-              three_hour_twap: currentState.threeHourTwap.twapValue,
-              thirty_day_twap: currentState.thirtyDayTwap.twapValue
-            };
-            console.log(`Demo Mode - Processed block ${blockTWAPData.block_number}`);
-          } else {
-            // Update block TWAPs
-            await this.updateBlockTWAPs(
-              currentBlock.blockNumber!,
-              currentState.twelveminTwap.twapValue,
-              currentState.threeHourTwap.twapValue,
-              currentState.thirtyDayTwap.twapValue
-            );
-
-            // Save the updated state for each window type
-            await Promise.all(
-              this.WINDOW_CONFIGS.map((config) =>
-                this.saveTWAPState(config.type, currentState[config.stateKey])
-              )
-            );
-
-            // Commit the transaction for this block
-            await this.pitchlakeClient?.query("COMMIT");
-            console.log(`Successfully processed block ${currentBlock.blockNumber}`);
-          }
-        } catch (error) {
-          console.error(`Error processing block ${currentBlock.blockNumber}:`, error);
-          if (process.env.USE_DEMO_DATA !== 'true') {
-            await this.pitchlakeClient?.query("ROLLBACK");
-          }
-          // Continue with the next block instead of throwing
-          continue;
+          blockTWAPs.push({
+            blockNumber: currentBlock.blockNumber!,
+            twelveminTwap: currentState.twelveminTwap.twapValue,
+            threeHourTwap: currentState.threeHourTwap.twapValue,
+            thirtyDayTwap: currentState.thirtyDayTwap.twapValue
+          });
         }
+
+        if (process.env.USE_DEMO_DATA === 'true') {
+          // Handle demo mode
+          blockTWAPs.forEach(twap => {
+            console.log(`Demo Mode - Processed block ${twap.blockNumber}`);
+          });
+        } else {
+          // Batch update all block TWAPs
+          const updatePromises = blockTWAPs.map(twap =>
+            this.updateBlockTWAPs(
+              twap.blockNumber,
+              twap.twelveminTwap,
+              twap.threeHourTwap,
+              twap.thirtyDayTwap
+            )
+          );
+          await Promise.all(updatePromises);
+
+          // Save the final state for each window type at the end of the batch
+          await Promise.all(
+            this.WINDOW_CONFIGS.map((config) =>
+              this.saveTWAPState(config.type, currentState[config.stateKey])
+            )
+          );
+
+          // Commit the transaction for the entire batch
+          await this.pitchlakeClient?.query("COMMIT");
+          
+          // Send NOTIFY for the batch
+          await this.pitchlakeClient?.query(`
+            SELECT pg_notify(
+              'confirmed_insert',
+              $1::text
+            )
+          `, [JSON.stringify({
+            start_block: startBlock,
+            end_block: endBlock
+          })]);
+
+          console.log(`Successfully processed batch of ${blocksToProcess.length} blocks (${startBlock} to ${endBlock})`);
+        }
+      } catch (error) {
+        console.error(`Error processing batch:`, error);
+        if (process.env.USE_DEMO_DATA !== 'true') {
+          await this.pitchlakeClient?.query("ROLLBACK");
+        }
+        throw error;
       }
 
       if (process.env.USE_DEMO_DATA === 'true') {
@@ -470,10 +518,10 @@ export class GasDataService {
   public async updateTWAPs(): Promise<void> {
     console.log("Starting TWAP updates");
     if (process.env.USE_DEMO_DATA !== 'true') {
-      
       try {
         await this.fossilClient?.connect();
         await this.pitchlakeClient?.connect();
+        await this.initializePreparedStatements();
       } catch (error) {
         console.error("Error connecting to fossil or pitchlake:", error);
         throw error;
