@@ -7,8 +7,6 @@ import {
   BlockWithNextTimestamp,
   TWAPStateContainer,
 } from "../types";
-import * as fs from "fs";
-import * as path from "path";
 
 // Time ranges in seconds
 export const TWAP_RANGES = {
@@ -20,9 +18,8 @@ export const TWAP_RANGES = {
 export class GasDataService {
   private fossilClient?: Client;
   private pitchlakeClient?: Client;
-  private static readonly STORE_BLOCKS_STATEMENT = 'store_blocks';
 
-  constructor() {
+  private async createClients() {
     this.fossilClient = new Client({
       connectionString: process.env.FOSSIL_DB_CONNECTION_STRING,
       ssl: {
@@ -33,6 +30,9 @@ export class GasDataService {
       connectionString: process.env.PITCHLAKE_DB_CONNECTION_STRING,
       ssl: false
     });
+
+    await this.fossilClient.connect();
+    await this.pitchlakeClient.connect();
   }
 
   private readonly WINDOW_CONFIGS = [
@@ -323,7 +323,6 @@ export class GasDataService {
         timestamps,
         basefees
       ]);
-      console.log("Store blocks result:", result);
     } catch (error) {
       console.error("Error storing blocks:", error);
       throw error;
@@ -379,8 +378,8 @@ export class GasDataService {
 
       const oldestTimestamp = sortedBlocks[0].timestamp;
       const newestTimestamp = sortedBlocks[sortedBlocks.length - 1].timestamp;
-      const startBlock = sortedBlocks[0].blockNumber;
-      const endBlock = sortedBlocks[sortedBlocks.length - 1].blockNumber;
+      const startTimestamp = sortedBlocks[0].timestamp;
+      const endTimestamp = sortedBlocks[sortedBlocks.length - 1].timestamp;
 
       // Check if the last block in batch has a next block
       const isLastBlockInBatch = sortedBlocks[sortedBlocks.length - 1].blockNumber;
@@ -488,11 +487,11 @@ export class GasDataService {
               $1::text
             )
           `, [JSON.stringify({
-            start_block: startBlock,
-            end_block: endBlock
+            start_timestamp: startTimestamp,
+            end_timestamp: endTimestamp
           })]);
 
-          console.log(`Successfully processed batch of ${blocksToProcess.length} blocks (${startBlock} to ${endBlock})`);
+          console.log(`Successfully processed batch of ${blocksToProcess.length} blocks (${startTimestamp} to ${endTimestamp})`);
         }
       } catch (error) {
         console.error(`Error processing batch:`, error);
@@ -519,11 +518,10 @@ export class GasDataService {
     console.log("Starting TWAP updates");
     if (process.env.USE_DEMO_DATA !== 'true') {
       try {
-        await this.fossilClient?.connect();
-        await this.pitchlakeClient?.connect();
-        await this.initializePreparedStatements();
+        await this.createClients();
       } catch (error) {
         console.error("Error connecting to fossil or pitchlake:", error);
+        await this.cleanup();
         throw error;
       }
     }

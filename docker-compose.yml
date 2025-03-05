@@ -1,13 +1,24 @@
+version: '3.8'
+
 services:
-  state-transition-cron:
+  twap-service:
     build: .
     environment:
-      - STARKNET_RPC=${STARKNET_RPC}
-      - STARKNET_PRIVATE_KEY=${STARKNET_PRIVATE_KEY}
-      - STARKNET_ACCOUNT_ADDRESS=${STARKNET_ACCOUNT_ADDRESS}
-      - VAULT_ADDRESS=${VAULT_ADDRESS}
-      - FOSSIL_API_KEY=${FOSSIL_API_KEY}
-      - FOSSIL_API_URL=${FOSSIL_API_URL}
-    volumes:
-      - ./logs:/var/log/cron
-    restart: always 
+      FOSSIL_DB_CONNECTION_STRING: ${FOSSIL_DB_CONNECTION_STRING}
+      PITCHLAKE_DB_CONNECTION_STRING: ${PITCHLAKE_DB_CONNECTION_STRING}
+      INITIAL_BLOCK_NUMBER: ${INITIAL_BLOCK_NUMBER}
+      USE_DEMO_DATA: ${USE_DEMO_DATA:-false}
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    healthcheck:
+      test: ["CMD", "node", "-e", "console.log('Health check')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  postgres_data: 

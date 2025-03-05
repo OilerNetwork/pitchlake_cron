@@ -5,8 +5,8 @@ BEGIN
     PERFORM pg_notify(
         'confirmed_insert',
         json_build_object(
-            'start_block', TG_ARGV[0],
-            'end_block', TG_ARGV[1]
+            'start_timestamp', TG_ARGV[0],
+            'end_timestamp', TG_ARGV[1]
         )::text
     );
     RETURN NEW;
@@ -19,9 +19,7 @@ RETURNS trigger AS $$
 BEGIN
     PERFORM pg_notify(
         'unconfirmed_insert',
-        json_build_object(
-            'block_number', NEW.block_number
-        )::text
+        row_to_json(NEW)::text
     );
     RETURN NEW;
 END;
