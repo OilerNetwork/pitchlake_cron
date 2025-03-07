@@ -556,7 +556,6 @@ export class GasDataService {
           SELECT number, timestamp, base_fee_per_gas
           FROM blockheaders 
           WHERE number > $1
-          AND base_fee_per_gas IS NOT NULL
           ORDER BY number ASC
           LIMIT $2
         `;
@@ -568,6 +567,7 @@ export class GasDataService {
           hasMoreBlocks = false;
           break;
         }
+        console.log("RESULT", result.rows);
 
         const blocks = result.rows.map((row) => ({
           blockNumber: row.number,
