@@ -9,7 +9,7 @@ async function main() {
     console.log('Starting TWAP cron service...');
     
     // Schedule the job to run every 20 seconds
-    cron.schedule('*/20 * * * * *', async () => {
+    cron.schedule('*/5 * * * *', async () => {
       console.log(`\nRunning TWAP update job at ${new Date().toISOString()}`);
       try {
         await service.updateTWAPs();
