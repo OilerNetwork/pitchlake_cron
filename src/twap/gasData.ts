@@ -28,7 +28,9 @@ export class GasDataService {
     });
     this.pitchlakeClient = new Client({
       connectionString: process.env.PITCHLAKE_DB_CONNECTION_STRING,
-      ssl: false
+      ssl: {
+        rejectUnauthorized: false
+      }
     });
 
     await this.fossilClient.connect();
