@@ -10,7 +10,7 @@ async function main() {
     console.log('Starting TWAP cron service...');
     
     // Schedule the job to run every 20 seconds
-    cron.schedule(process.env.CRON_SCHEDULE || '*/20 * * * *', async () => {
+    cron.schedule(process.env.CRON_SCHEDULE || '*/5 * * * * *', async () => {
       if (isJobRunning) {
         console.log(`Previous job is still running at ${new Date().toISOString()}, skipping this run`);
         return;
